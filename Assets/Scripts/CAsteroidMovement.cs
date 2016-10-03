@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
-public class CAsteroidMovement : MonoBehaviour {
-
+public class CAsteroidMovement : MonoBehaviour
+{
     public float m_fLinearSpeed;
     public float m_fRotationalSpeed;
 
