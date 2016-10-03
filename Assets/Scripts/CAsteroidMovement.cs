@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using UnityEditor;
+using UnityEngine;
 
 public class CAsteroidMovement : MonoBehaviour
 {
@@ -10,8 +11,8 @@ public class CAsteroidMovement : MonoBehaviour
         // Find target
         GameObject tTarget = GameObject.FindGameObjectWithTag(KConstants.PlanetTag);
 
-        // Set velocities
-        var tRigidbody = GetComponent<Rigidbody>();
+		// Set velocities
+		var tRigidbody = GetComponent<Rigidbody>();
         tRigidbody.angularVelocity = Random.insideUnitSphere * m_fRotationalSpeed;
         tRigidbody.velocity = m_fLinearSpeed * (tTarget.transform.position - transform.position).normalized;
     }
