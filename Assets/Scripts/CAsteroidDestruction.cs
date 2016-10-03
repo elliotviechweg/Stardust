@@ -18,8 +18,7 @@ public class CAsteroidDestruction : MonoBehaviour
 	
 	private void OnMouseDown()
 	{
-		// Give points
-		Debug.Log("Player received " + m_iPointsAwarded + " points");
+		CScoreEventReceiver.IncreaseScore(m_iPointsAwarded);
 		DestroySelf();
 	}
 
