@@ -2,18 +2,35 @@
 
 public class CScoreController : MonoBehaviour
 {
-	public CScoreCounterController m_tScoreCounterController;
+	public static CScoreController Instance
+	{
+		get
+		{
+			return m_tInstance;
+		}
+	}
+	private static CScoreController m_tInstance = null;
 
+	public float Score
+	{
+		get
+		{
+			return m_fScore;
+		}
+	}
 	private float m_fScore;
 
-	public float GetScore()
-	{
-		return m_fScore;
-	}
+	public CScoreCounterController m_tScoreCounterController;
 
-	private void Start()
+	public CScoreController()
 	{
-		CScoreEventReceiver.SetScoreCounter(this);
+		if (m_tInstance != null)
+		{
+			Destroy(this);
+		}
+
+		m_tInstance = this;
+		
 		m_fScore = 0;
 	}
 

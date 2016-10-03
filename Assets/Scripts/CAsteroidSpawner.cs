@@ -20,7 +20,7 @@ public class CAsteroidSpawner : MonoBehaviour
 		m_fLevelTimer = m_fTotalLevelTime;
 		m_fMaxSpawnAngleRadians = m_fMaxSpawnAngleDegrees * Mathf.Deg2Rad;
 		
-		Random.InitState(System.DateTime.Now.Millisecond);
+		Random.seed = System.DateTime.Now.Millisecond;
 	}
 
 	private void Update()

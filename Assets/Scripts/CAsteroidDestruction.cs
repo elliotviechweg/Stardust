@@ -18,7 +18,14 @@ public class CAsteroidDestruction : MonoBehaviour
 	
 	private void OnMouseDown()
 	{
-		CScoreEventReceiver.IncreaseScore(m_iPointsAwarded);
+		CScoreController tScoreController = CScoreController.Instance;
+
+		Debug.Assert(tScoreController != null, "CAsteroidDestruction::OnMouseDown: Score Controller hasn't been initialized");
+		if (tScoreController != null)
+		{
+			CScoreController.Instance.IncreaseScore(m_iPointsAwarded);
+		}
+
 		DestroySelf();
 	}
 
