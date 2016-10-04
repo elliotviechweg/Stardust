@@ -17,7 +17,7 @@ public class CAsteroidDestruction : MonoBehaviour
 		DestroySelf();
     }
 	
-	private void OnMouseDown()
+	private void OnTouchDown()
 	{
 		CScoreController tScoreController = CScoreController.Instance;
 
@@ -29,7 +29,7 @@ public class CAsteroidDestruction : MonoBehaviour
 
 		DestroySelf();
 	}
-
+	
 	private void DestroySelf()
 	{
 		Destroy(this.gameObject);
