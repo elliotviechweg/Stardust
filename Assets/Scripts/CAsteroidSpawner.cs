@@ -33,7 +33,7 @@ public class CAsteroidSpawner : MonoBehaviour
 			m_fSpawnTimer -= Time.deltaTime;
 			if (m_fSpawnTimer <= 0)
 			{
-				m_tAsteroidFactory.SpawnAsteroid(GenerateSpawnPosition());
+				m_tAsteroidFactory.SpawnAsteroid(GenerateSpawnPosition(), m_tPlanet.position);
 				m_fSpawnTimer += m_fSpawnDelay;
 			}
 		}

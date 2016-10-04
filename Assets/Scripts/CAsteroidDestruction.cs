@@ -7,11 +7,12 @@ public class CAsteroidDestruction : MonoBehaviour
 
 	private void OnCollisionEnter(Collision i_tCollision)
 	{
-		// Do damage to the planet if we hit it
-        if (i_tCollision.gameObject.tag == KConstants.PlanetTag)
-        {
+		// If we hit something with health, do damage to it
+		CHealth tHealth = i_tCollision.gameObject.GetComponent<CHealth>();
+		if (tHealth != null)
+		{
 			i_tCollision.gameObject.GetComponent<CHealth>().DoDamage(m_fDamageDealt);
-        }
+		}
 
 		DestroySelf();
     }
