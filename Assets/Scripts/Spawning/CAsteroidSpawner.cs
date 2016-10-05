@@ -49,7 +49,7 @@ public class CAsteroidSpawner : MonoBehaviour
 		float fYPosition = m_fSpawnDistance * Mathf.Sin(fAngle);
 		
 		// Decide whether spawn position is on the left or the right
-		if (Random.Range(0, 1) == 0)
+		if (Random.Range(0, 2) == 0)
 		{
 			fXPosition = -fXPosition;
 		}
