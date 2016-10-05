@@ -4,7 +4,7 @@ public class CAsteroidSpawner : MonoBehaviour
 {
 	public float m_fSpawnDelay;
 	public float m_fStartDelay;
-	public float m_fTotalLevelTime;
+	public float m_fTotalSpawningTime;
 	public float m_fSpawnDistance;
 	public float m_fMaxSpawnAngleDegrees;
 	public CAsteroidFactory m_tAsteroidFactory;
@@ -17,7 +17,7 @@ public class CAsteroidSpawner : MonoBehaviour
 	private void Start()
 	{
 		m_fSpawnTimer = m_fStartDelay;
-		m_fLevelTimer = m_fTotalLevelTime;
+		m_fLevelTimer = m_fTotalSpawningTime;
 		m_fMaxSpawnAngleRadians = m_fMaxSpawnAngleDegrees * Mathf.Deg2Rad;
 		
 		Random.seed = System.DateTime.Now.Millisecond;
@@ -49,7 +49,7 @@ public class CAsteroidSpawner : MonoBehaviour
 		float fYPosition = m_fSpawnDistance * Mathf.Sin(fAngle);
 		
 		// Decide whether spawn position is on the left or the right
-		if (Random.Range(-1.0f, 1.0f) < 0)
+		if (Random.Range(0, 1) == 0)
 		{
 			fXPosition = -fXPosition;
 		}
