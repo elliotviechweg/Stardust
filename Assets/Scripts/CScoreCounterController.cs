@@ -7,15 +7,19 @@ public class CScoreCounterController : MonoBehaviour
 
 	private Text m_tText;
 	private CScoreController m_tScoreController;
-	
+
 	private void Start()
 	{
 		m_tText = GetComponent<Text>();
 		m_tScoreController = CScoreController.Instance;
-		UpdateText();
 	}
 
-	public void UpdateText()
+	private void Update()
+	{
+		UpdateText();
+	}
+	
+	private void UpdateText()
 	{
 		Debug.Assert(m_tScoreController != null, "CScoreCounterController::UpdateText: Score Controller hasn't been initialized");
 
@@ -26,4 +30,5 @@ public class CScoreCounterController : MonoBehaviour
 		}
 		m_tText.text = sOutputText;
 	}
+
 }

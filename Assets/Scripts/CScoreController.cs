@@ -20,8 +20,6 @@ public class CScoreController : MonoBehaviour
 	}
 	private float m_fScore;
 
-	public CScoreCounterController m_tScoreCounterController;
-
 	public CScoreController()
 	{
 		if (m_tInstance != null)
@@ -37,9 +35,5 @@ public class CScoreController : MonoBehaviour
 	public void IncreaseScore(float i_fScoreValue)
 	{
 		m_fScore += i_fScoreValue;
-		if (m_tScoreCounterController != null)
-		{
-			m_tScoreCounterController.UpdateText();
-		}
 	}
 }

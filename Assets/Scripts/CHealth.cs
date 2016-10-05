@@ -2,9 +2,27 @@
 
 public class CHealth : MonoBehaviour
 {
-	public float m_fMaxHealth;
-	public CHealthBarController m_tHealthBarController;
+	public float MaxHealth
+	{
+		get
+		{
+			return m_fMaxHealth;
+		}
+		set
+		{
+			m_fMaxHealth = value;
+		}
+	}
+	[SerializeField]
+	private float m_fMaxHealth;
 
+	public float CurrentHealth
+	{
+		get
+		{
+			return m_fCurrentHealth;
+		}
+	}
 	private float m_fCurrentHealth;
 
 	public void DoDamage(float i_fDamageTaken)
@@ -14,11 +32,6 @@ public class CHealth : MonoBehaviour
 		{
 			m_fCurrentHealth = 0;
 			// Planet destroyed
-		}
-
-		if (m_tHealthBarController != null)
-		{
-			m_tHealthBarController.UpdateValue(m_fCurrentHealth / m_fMaxHealth);
 		}
 	}
 
