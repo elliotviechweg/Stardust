@@ -6,6 +6,7 @@ public class CAsteroidSpawner : MonoBehaviour
 	public float m_fStartDelay;
 	public float m_fTotalSpawningTime;
 	public float m_fSpawnDistance;
+	public float m_fZOffset;
 	public float m_fMaxSpawnAngleDegrees;
 	public CAsteroidFactory m_tAsteroidFactory;
 	public Transform m_tPlanet;
@@ -55,7 +56,7 @@ public class CAsteroidSpawner : MonoBehaviour
 		}
 
 		// Spawn position is always offset from planet position
-		Vector3 vSpawnOffset = new Vector3(fXPosition, 0, fYPosition);
+		Vector3 vSpawnOffset = new Vector3(fXPosition, fYPosition, m_fZOffset);
 
 		return m_tPlanet.position + vSpawnOffset;
 	}
