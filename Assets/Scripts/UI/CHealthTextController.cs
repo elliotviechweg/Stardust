@@ -17,7 +17,7 @@ public class CHealthTextController : MonoBehaviour {
 		UpdateValue(m_tHealth.CurrentHealth.ToString());
 	}
 
-	public void UpdateValue(string i_sNewValueString)
+	private void UpdateValue(string i_sNewValueString)
 	{
 		m_tHealthText.text = i_sNewValueString;
 	}
