@@ -17,7 +17,7 @@ public class CHealthBarController : MonoBehaviour
 		UpdateValue(m_tHealth.CurrentHealth / m_tHealth.MaxHealth);
 	}
 	
-	public void UpdateValue (float i_fNewValue)
+	private void UpdateValue (float i_fNewValue)
 	{
 		m_tHealthBar.value = i_fNewValue;
 	}
