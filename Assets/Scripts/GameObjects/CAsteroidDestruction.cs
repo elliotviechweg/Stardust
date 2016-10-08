@@ -33,7 +33,9 @@ public class CAsteroidDestruction : MonoBehaviour
 	
 	private void DestroySelf()
 	{
+		// Create explosion VFX
 		Instantiate(m_tExplosionVFX, transform.position, new Quaternion(0, 0, 0, 0));
+
 		Destroy(gameObject);
 	}
 }
