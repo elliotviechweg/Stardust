@@ -4,6 +4,7 @@ public class CAsteroidDestruction : MonoBehaviour
 {
 	public float m_fDamageDealt;
 	public int m_iPointsAwarded;
+	public GameObject m_tExplosionVFX;
 
 	private void OnCollisionEnter(Collision i_tCollision)
 	{
@@ -32,7 +33,7 @@ public class CAsteroidDestruction : MonoBehaviour
 	
 	private void DestroySelf()
 	{
+		Instantiate(m_tExplosionVFX, transform.position, new Quaternion(0, 0, 0, 0));
 		Destroy(this.gameObject);
-		// Play VFX
 	}
 }

@@ -6,8 +6,7 @@ public class CAsteroidFactory : MonoBehaviour
 
 	public void SpawnAsteroid(Vector3 i_vPosition, Vector3 i_vTarget)
 	{
-		GameObject tNewAsteroid = Instantiate(m_tAsteroidPrefab);
-		tNewAsteroid.transform.position = i_vPosition;
+		GameObject tNewAsteroid = (GameObject)Instantiate(m_tAsteroidPrefab, i_vPosition, new Quaternion(0,0,0,0));
 		tNewAsteroid.GetComponent<CAsteroidMovement>().MoveTowardsTarget(i_vTarget);
 	}
 
