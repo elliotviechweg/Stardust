@@ -7,11 +7,11 @@ public class CPlanetSpin : MonoBehaviour
 
     void Start()
     {
-
+		// TODO: use rigidbody.angularVelocity here instead of constant update calls
     }
 
     void Update()
     {
-        transform.Rotate(0, -Time.deltaTime * m_fRotationalSpeed, 0 );
+        transform.Rotate(0, -Time.deltaTime * m_fRotationalSpeed, 0);
     }
 }
