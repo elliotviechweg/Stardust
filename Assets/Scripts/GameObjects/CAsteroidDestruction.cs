@@ -16,7 +16,10 @@ public class CAsteroidDestruction : MonoBehaviour
 			i_tCollision.gameObject.GetComponent<CHealth>().DoDamage(m_fDamageDealt);
 		}
 
-		DestroySelf(m_tImpactVFX);
+		// TODO: Use point of collision to set the rotation of the vfx
+		Quaternion tVFXRotation = new Quaternion(0, 0, 0, 0);
+
+		DestroySelf(m_tImpactVFX, tVFXRotation);
     }
 	
 	private void OnTouchDown()
@@ -29,13 +32,13 @@ public class CAsteroidDestruction : MonoBehaviour
 			CScoreController.Instance.IncreaseScore(m_iPointsAwarded);
 		}
 
-		DestroySelf(m_tExplosionVFX);
+		DestroySelf(m_tExplosionVFX, transform.rotation);
 	}
 	
-	private void DestroySelf(GameObject i_tVFXObject)
+	private void DestroySelf(GameObject i_tVFXObject, Quaternion i_tVFXRotation)
 	{
-		// Create explosion VFX
-		Instantiate(i_tVFXObject, transform.position, new Quaternion(0, 0, 0, 0));
+		// Create VFX
+		Instantiate(i_tVFXObject, transform.position, i_tVFXRotation);
 
 		Destroy(gameObject);
 	}
