@@ -13,6 +13,7 @@ ModelImporter:
     4300002: ShockwaveSpike.000
     4300004: Planet.Clouds.002
     4300006: DustShockwave
+    4300008: SpikeShockwave
   materials:
     importMaterials: 1
     materialName: 0

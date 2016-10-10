@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 3f9218aacaab45943801df8a803cd8aa
-timeCreated: 1475584206
+guid: 8a7e410a1355d5b4dbd99cd07c4697a6
+timeCreated: 1476104925
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -9,8 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Asteroid_002
-    4300002: Asteroid_003
+    4300000: MeshDustShockwave
   materials:
     importMaterials: 1
     materialName: 0
