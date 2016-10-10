@@ -16,8 +16,8 @@ public class CAsteroidDestruction : MonoBehaviour
 			i_tCollision.gameObject.GetComponent<CHealth>().DoDamage(m_fDamageDealt);
 		}
 
-		// TODO: Use point of collision to set the rotation of the vfx
-		Quaternion tVFXRotation = new Quaternion(0, 0, 0, 0);
+		// Set vfx rotation to be pointing at the first point of contact
+		Quaternion tVFXRotation = Quaternion.LookRotation(i_tCollision.contacts[0].normal);
 
 		DestroySelf(m_tImpactVFX, tVFXRotation);
     }
