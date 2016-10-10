@@ -3,8 +3,8 @@
 public class CPlanetSpin : MonoBehaviour
 {
     public float m_fRotationalSpeed;
-
-    void Update()
+	
+    private void Update()
     {
         transform.Rotate(0, -Time.deltaTime * m_fRotationalSpeed, 0);
     }
