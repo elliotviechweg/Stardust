@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class CHealthTextController : MonoBehaviour {
-
+public class CHealthTextController : MonoBehaviour
+{
 	public CHealth m_tHealth;
 
 	private Text m_tHealthText;
@@ -14,11 +14,11 @@ public class CHealthTextController : MonoBehaviour {
 
 	private void Update()
 	{
-		UpdateValue(m_tHealth.CurrentHealth.ToString());
+		UpdateValue(m_tHealth.CurrentHealth);
 	}
 
-	private void UpdateValue(string i_sNewValueString)
+	private void UpdateValue(float i_fNewValueString)
 	{
-		m_tHealthText.text = i_sNewValueString;
+		m_tHealthText.text = ((int)i_fNewValueString).ToString();
 	}
 }
