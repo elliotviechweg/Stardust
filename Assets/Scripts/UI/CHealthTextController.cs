@@ -14,10 +14,10 @@ public class CHealthTextController : MonoBehaviour
 
 	private void Update()
 	{
-		UpdateText(m_tHealth.CurrentHealth);
+		UpdateValue(m_tHealth.CurrentHealth);
 	}
 
-	private void UpdateText(float i_fNewValueString)
+	private void UpdateValue(float i_fNewValueString)
 	{
 		m_tHealthText.text = ((int)i_fNewValueString).ToString();
 	}

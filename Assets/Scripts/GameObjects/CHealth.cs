@@ -31,6 +31,7 @@ public class CHealth : MonoBehaviour
 		if (m_fCurrentHealth <= 0)
 		{
 			m_fCurrentHealth = 0;
+			// Planet destroyed
 		}
 	}
 

@@ -14,10 +14,10 @@ public class CLevelTimerTextController : MonoBehaviour
 
 	private void Update()
 	{
-		UpdateText(m_tLevelTimerController.LevelTimer);
+		UpdateValue(m_tLevelTimerController.LevelTimer);
 	}
 
-	private void UpdateText(float i_fNewValueString)
+	private void UpdateValue(float i_fNewValueString)
 	{
 		m_tLevelTimerText.text = ((int)i_fNewValueString).ToString();
 	}
