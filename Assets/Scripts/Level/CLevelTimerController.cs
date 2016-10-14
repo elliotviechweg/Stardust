@@ -21,6 +21,11 @@ public class CLevelTimerController : MonoBehaviour
 	}
 	private float m_fLevelTimer;
 
+	public bool TimerFinished()
+	{
+		return m_fLevelTimer <= 0;
+	}
+
 	private void Start()
 	{
 		m_fLevelTimer = m_fTotalLevelTime;

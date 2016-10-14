@@ -35,6 +35,11 @@ public class CHealth : MonoBehaviour
 		}
 	}
 
+	public bool IsDead()
+	{
+		return m_fCurrentHealth <= 0;
+	}
+	
 	private void Start()
 	{
 		m_fCurrentHealth = m_fMaxHealth;
