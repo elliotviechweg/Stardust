@@ -7,19 +7,22 @@ public class CAsteroidSpawner : MonoBehaviour
 	public float m_fTotalSpawningTime;
 	public float m_fSpawnDistance;
 	public float m_fZOffset;
-	public float m_fMaxSpawnAngleDegrees;
+
+	public float m_fTopRightMaxSpawnAngleDegrees;
+	public float m_fTopLeftMaxSpawnAngleDegrees;
+	public float m_fBottomLeftMaxSpawnAngleDegrees;
+	public float m_fBottomRightMaxSpawnAngleDegrees;
+
 	public CAsteroidFactory m_tAsteroidFactory;
 	public Transform m_tPlanet;
 
 	private float m_fSpawnTimer;
 	private float m_fLevelTimer;
-	private float m_fMaxSpawnAngleRadians;
 
 	private void Start()
 	{
 		m_fSpawnTimer = m_fStartDelay;
 		m_fLevelTimer = m_fTotalSpawningTime;
-		m_fMaxSpawnAngleRadians = m_fMaxSpawnAngleDegrees * Mathf.Deg2Rad;
 		
 		Random.InitState(System.DateTime.Now.Millisecond);
 	}
@@ -42,22 +45,59 @@ public class CAsteroidSpawner : MonoBehaviour
 
 	private Vector3 GenerateSpawnPosition()
 	{
-		// Generates random spawn position a given distance away from the planet
+		// Generate random spawn position a given distance away from the planet
+				
+		// Decide which quadarant to use
+		EQuadrant eQuadrant = CQuadrant.GetRandomQuadrant();
 
-		// Generate angle from horizontal, then convert to cartesian coordinates
-		float fAngle = m_fMaxSpawnAngleRadians * Random.Range(-1.0f, 1.0f);
+		// Set angle of approach for asteroid
+		float fAngle = 0;
+		switch (eQuadrant)
+		{
+			case EQuadrant.TopRight:
+				fAngle = Random.Range(0.0f, 1.0f) * m_fTopRightMaxSpawnAngleDegrees * Mathf.Deg2Rad;
+				break;
+			case EQuadrant.TopLeft:
+				fAngle = Mathf.PI - (Random.Range(0.0f, 1.0f) * m_fTopLeftMaxSpawnAngleDegrees * Mathf.Deg2Rad);
+				break;
+			case EQuadrant.BottomLeft:
+				fAngle = Mathf.PI + (Random.Range(0.0f, 1.0f) * m_fBottomLeftMaxSpawnAngleDegrees * Mathf.Deg2Rad);
+				break;
+			case EQuadrant.BottomRight:
+				fAngle = 2 * Mathf.PI - (Random.Range(0.0f, 1.0f) * m_fBottomRightMaxSpawnAngleDegrees * Mathf.Deg2Rad);
+				break;
+		}
+
+		// Convert angle to cartesian coordinates
 		float fXPosition = m_fSpawnDistance * Mathf.Cos(fAngle);
 		float fYPosition = m_fSpawnDistance * Mathf.Sin(fAngle);
-		
-		// Decide whether spawn position is on the left or the right
-		if (Random.Range(0, 2) == 0)
-		{
-			fXPosition = -fXPosition;
-		}
 
 		// Spawn position is always offset from planet position
 		Vector3 vSpawnOffset = new Vector3(fXPosition, fYPosition, m_fZOffset);
 
 		return m_tPlanet.position + vSpawnOffset;
+	}
+}
+
+public enum EQuadrant
+{
+	TopRight,
+	TopLeft,
+	BottomLeft,
+	BottomRight,
+
+	Noof
+}
+
+public static class CQuadrant
+{
+	public static EQuadrant GetRandomQuadrant()
+	{
+		return IntToQuadrant(Random.Range(0, (int)EQuadrant.Noof));
+	}
+
+	private static EQuadrant IntToQuadrant(int i_iQuadrantInt)
+	{
+		return (EQuadrant)i_iQuadrantInt;
 	}
 }
