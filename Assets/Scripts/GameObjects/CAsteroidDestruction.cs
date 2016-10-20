@@ -24,15 +24,30 @@ public class CAsteroidDestruction : MonoBehaviour
 	
 	private void OnTouchDown()
 	{
+		DestroyByPlayer();
+	}
+
+	private void DestroyByMine()
+	{
+		IncreaseScore();
+		DestroySelf(m_tExplosionVFX, transform.rotation);
+	}
+
+	private void DestroyByPlayer()
+	{
+		IncreaseScore();
+		DestroySelf(m_tExplosionVFX, transform.rotation);
+	}
+
+	private void IncreaseScore()
+	{
 		CScoreController tScoreController = CScoreController.Instance;
 
 		Debug.Assert(tScoreController != null, "CAsteroidDestruction::OnMouseDown: Score Controller hasn't been initialized");
 		if (tScoreController != null)
 		{
-			CScoreController.Instance.IncreaseScore(m_iPointsAwarded);
+			tScoreController.IncreaseScore(m_iPointsAwarded);
 		}
-
-		DestroySelf(m_tExplosionVFX, transform.rotation);
 	}
 	
 	private void DestroySelf(GameObject i_tVFXObject, Quaternion i_tVFXRotation)
