@@ -5,12 +5,7 @@ public class CLevelLoader : MonoBehaviour
 {
 	public string m_sLevelName;
 
-	private void OnTouchDown ()
-	{
-		LoadLevel();
-	}
-
-	public void LoadLevel()
+	public void OnTouchDown ()
 	{
 		SceneManager.LoadScene(m_sLevelName);
 	}
