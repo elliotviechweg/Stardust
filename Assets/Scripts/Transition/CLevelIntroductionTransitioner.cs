@@ -9,6 +9,8 @@ public class CLevelIntroductionTransitioner : MonoBehaviour
 
 	public Camera m_tCamera;
 	public CLevelLoader m_tLevelLoader;
+	public GameObject m_tLevelSummaryCanvas;
+	public GameObject m_tLevelIntroductionCanvas;
 
 	private Vector3 m_vOriginalCameraPosition;
 	private Vector3 m_vTargetCameraPosition;
@@ -71,6 +73,7 @@ public class CLevelIntroductionTransitioner : MonoBehaviour
 
 	private void Update()
 	{
+		var Timescale = Time.timeScale;
 		if (m_bUpdateCameraPosition)
 		{
 			m_tCamera.transform.position = Vector3.SmoothDamp(m_tCamera.transform.position, m_vTargetCameraPosition, ref m_vCurrentCameraVelocity, 1 / (Time.deltaTime * m_fMaxCameraSpeed));
@@ -101,12 +104,14 @@ public class CLevelIntroductionTransitioner : MonoBehaviour
 		// Otherwise, timer has finished, so check whether the UI needs to be switched
 		else if (m_bSwitchToLevelIntroductionUI)
 		{
-			SwitchToLevelIntroductionUI();
+			SwitchUI();
 		}
 	}
 
-	private void SwitchToLevelIntroductionUI()
+	private void SwitchUI()
 	{
+		m_tLevelSummaryCanvas.SetActive(!m_tLevelSummaryCanvas.activeSelf);
+		m_tLevelIntroductionCanvas.SetActive(!m_tLevelIntroductionCanvas.activeSelf);
 		m_bSwitchToLevelIntroductionUI = false;
 	}
 
