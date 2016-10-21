@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CSceneLoader : MonoBehaviour
+public class CLevelLoader : MonoBehaviour
 {
 	public string m_sLevelName;
 
-	public void OnTouchDown ()
+	public void LoadLevel()
 	{
 		SceneManager.LoadScene(m_sLevelName);
 	}

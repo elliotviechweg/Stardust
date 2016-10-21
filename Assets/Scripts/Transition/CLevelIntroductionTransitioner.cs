@@ -5,8 +5,10 @@ public class CLevelIntroductionTransitioner : MonoBehaviour
 	public float m_fMaxCameraSpeed;
 	public float m_fCameraZoomFactor;
 	public float m_fCameraZoomSpeed;
+	public float m_fWaitForCameraTime;
 
 	public Camera m_tCamera;
+	public CLevelLoader m_tLevelLoader;
 
 	private Vector3 m_vOriginalCameraPosition;
 	private Vector3 m_vTargetCameraPosition;
@@ -15,17 +17,46 @@ public class CLevelIntroductionTransitioner : MonoBehaviour
 	private float m_fOriginalCameraSize;
 	private float m_fTargetCameraSize;
 
+	private float m_fWaitForCameraTimer;
+
 	private bool m_bUpdateCameraPosition;
 	private bool m_bUpdateCameraZoom;
 
-	private float m_fEpsilon = 0.001f;
+	private bool m_bTransitionRequested;
+	private bool m_bSwitchToLevelIntroductionUI;
+
+	private const float m_fEpsilon = 0.001f;
 
 	public void OnTouchDown()
 	{
-		CentreCameraOnSelf();
-		ZoomCamera();
+		// Start level if we are ready
+		if (ReadyToStartLevel())
+		{
+			m_tLevelLoader.LoadLevel();
+		}
+		// Transition to Level Introduction screen if first tap
+		else if (!m_bTransitionRequested)
+		{
+			TransitionToLevelIntroduction();
+		}
 	}
 
+	private bool ReadyToStartLevel()
+	{
+		// If the player has asked to transition to the Level Introduction,
+		// and the wait for camera timer is over, the player can start the level
+		return (m_bTransitionRequested && (m_fWaitForCameraTimer <= 0));
+	}
+
+	private void TransitionToLevelIntroduction()
+	{
+		CentreCameraOnSelf();
+		ZoomCamera();
+		m_fWaitForCameraTimer = m_fWaitForCameraTime;
+		m_bTransitionRequested = true;
+		m_bSwitchToLevelIntroductionUI = true;
+	}
+	
 	private void CentreCameraOnSelf()
 	{
 		m_vTargetCameraPosition = m_vOriginalCameraPosition + transform.position;
@@ -61,6 +92,22 @@ public class CLevelIntroductionTransitioner : MonoBehaviour
 				m_bUpdateCameraZoom = false;
 			}
 		}
+
+		// If timer is going, decrement it
+		if (m_fWaitForCameraTimer > 0)
+		{
+			m_fWaitForCameraTimer -= Time.deltaTime;
+		}
+		// Otherwise, timer has finished, so check whether the UI needs to be switched
+		else if (m_bSwitchToLevelIntroductionUI)
+		{
+			SwitchToLevelIntroductionUI();
+		}
+	}
+
+	private void SwitchToLevelIntroductionUI()
+	{
+		m_bSwitchToLevelIntroductionUI = false;
 	}
 
 	private void Start()
@@ -72,5 +119,10 @@ public class CLevelIntroductionTransitioner : MonoBehaviour
 		m_fOriginalCameraSize = m_tCamera.orthographicSize;
 		m_fTargetCameraSize = m_fOriginalCameraSize;
 		m_bUpdateCameraZoom = false;
+
+		m_fWaitForCameraTimer = 0;
+
+		m_bTransitionRequested = false;
+		m_bSwitchToLevelIntroductionUI = false;
 	}
 }
