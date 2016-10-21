@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class CResultsController : MonoBehaviour
+public class CResultsTransitioner : MonoBehaviour
 {
 	public CLevelTimerController m_tLevelTimerController;
 	public CHealth m_tPlanetHealth;

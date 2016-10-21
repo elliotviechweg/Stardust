@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CLevelLoader : MonoBehaviour
+public class CSceneLoader : MonoBehaviour
 {
 	public string m_sLevelName;
 
