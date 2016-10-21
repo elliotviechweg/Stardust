@@ -19,7 +19,7 @@ public class CMineFactory : MonoBehaviour
 		m_tMinePrefab = (GameObject)Resources.Load("Prefabs/Mine");
 
 		// Get Mine radius
-		float fMineRadius = -1;
+		m_fMineRadius = -1;
 		SphereCollider[] tColliders = m_tMinePrefab.GetComponents<SphereCollider>();
 		foreach (SphereCollider tCollider in tColliders)
 		{
@@ -29,6 +29,6 @@ public class CMineFactory : MonoBehaviour
 				break;
 			}
 		}
-		Debug.Assert(fMineRadius >= 0, "CMineFactory::Start: Object collider not found");
+		Debug.Assert(m_fMineRadius >= 0, "CMineFactory::Start: Object collider not found");
 	}
 }
