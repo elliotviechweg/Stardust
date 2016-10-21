@@ -7,6 +7,15 @@ public class CAsteroidDestruction : MonoBehaviour
 	public GameObject m_tExplosionVFX;
 	public GameObject m_tImpactVFX;
 
+    private CResultsTransitioner m_tLevelResultTransitioner;
+
+    void Start()
+    {
+        // Cache the level result transitioner for this level so it doesn't need to looked up on each tap
+        m_tLevelResultTransitioner = FindObjectOfType<CResultsTransitioner>();
+        Debug.Assert(m_tLevelResultTransitioner != null);
+    }
+
 	private void OnCollisionEnter(Collision i_tCollision)
 	{
 		// If we hit something with health, do damage to it
@@ -24,6 +33,12 @@ public class CAsteroidDestruction : MonoBehaviour
 	
 	private void OnTouchDown()
 	{
+        // If the level results transitioner has transitioner consider the level over and ignore the input
+        if (m_tLevelResultTransitioner.HasTransitioned)
+        {
+            return;
+        }
+
 		DestroyByPlayer();
 	}
 

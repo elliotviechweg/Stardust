@@ -10,6 +10,11 @@ public class CResultsTransitioner : MonoBehaviour
 	public CTimeController m_tTimeController;
 
 	private bool m_bHasTransitioned = false;
+
+    public bool HasTransitioned
+    {
+        get { return m_bHasTransitioned; }
+    }
 	
 	private void Update ()
 	{
