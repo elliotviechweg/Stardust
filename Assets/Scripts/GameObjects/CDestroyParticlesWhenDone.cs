@@ -2,14 +2,10 @@
 
 public class CDestroyParticlesWhenDone : MonoBehaviour
 {
+	// Internally used member variables
 	private ParticleSystem m_tParticleSystem;
-
-	private void Start()
-	{
-		m_tParticleSystem = GetComponent<ParticleSystem>();
-	}
-
-	public void Update()
+	
+	private void Update()
 	{
 		if (m_tParticleSystem)
 		{
@@ -18,5 +14,10 @@ public class CDestroyParticlesWhenDone : MonoBehaviour
 				Destroy(gameObject);
 			}
 		}
+	}
+
+	private void Start()
+	{
+		m_tParticleSystem = GetComponent<ParticleSystem>();
 	}
 }

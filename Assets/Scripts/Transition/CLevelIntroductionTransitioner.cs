@@ -2,20 +2,31 @@
 
 public class CLevelIntroductionTransitioner : MonoBehaviour
 {
-	public float m_fMaxCameraSpeed;
-	public float m_fCameraZoomFactor;
-	public float m_fCameraZoomSpeed;
-	public float m_fWaitForCameraTime;
+	// Variables set in editor
+	[SerializeField]
+	private float m_fMaxCameraSpeed;
+	[SerializeField]
+	private float m_fCameraZoomFactor;
+	[SerializeField]
+	private float m_fCameraZoomSpeed;
+	[SerializeField]
+	private float m_fWaitForCameraTime;
 
-	public Camera m_tCamera;
-	public CLevelLoader m_tLevelLoader;
-	public GameObject m_tLevelSummaryCanvas;
-	public GameObject m_tLevelIntroductionCanvas;
+	// Components assigned in editor
+	[SerializeField]
+	private Camera m_tCamera;
+	[SerializeField]
+	private CLevelLoader m_tLevelLoader;
+	[SerializeField]
+	private GameObject m_tLevelSummaryCanvas;
+	[SerializeField]
+	private GameObject m_tLevelIntroductionCanvas;
 
+	// Internally used member variables
 	private Vector3 m_vOriginalCameraPosition;
 	private Vector3 m_vTargetCameraPosition;
 	private Vector3 m_vCurrentCameraVelocity;
-
+	
 	private float m_fOriginalCameraSize;
 	private float m_fTargetCameraSize;
 
@@ -27,6 +38,7 @@ public class CLevelIntroductionTransitioner : MonoBehaviour
 	private bool m_bTransitionRequested;
 	private bool m_bSwitchToLevelIntroductionUI;
 
+	// Constants
 	private const float m_fEpsilon = 0.001f;
 
 	public void OnTouchDown()
@@ -52,9 +64,14 @@ public class CLevelIntroductionTransitioner : MonoBehaviour
 
 	private void TransitionToLevelIntroduction()
 	{
+		// Make changes to camera
 		CentreCameraOnSelf();
 		ZoomCamera();
+
+		// Set timer to wait for camera movement
 		m_fWaitForCameraTimer = m_fWaitForCameraTime;
+
+		// Set flags
 		m_bTransitionRequested = true;
 		m_bSwitchToLevelIntroductionUI = true;
 	}

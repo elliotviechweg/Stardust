@@ -3,10 +3,15 @@ using UnityEngine;
 
 public class CMineSpawner : MonoBehaviour
 {
-	public List<Vector3> m_vSpawnPositions;
+	// Variables set in editor
+	[SerializeField]
+	private List<Vector3> m_vSpawnPositions;
 
-	public CMineFactory m_tMineFactory;
-	public Transform m_tPlanet;
+	// Components assigned in editor
+	[SerializeField]
+	private CMineFactory m_tMineFactory;
+	[SerializeField]
+	private Transform m_tPlanet;
 		
 	public void SpawnMines()
 	{

@@ -3,8 +3,11 @@ using UnityEngine.UI;
 
 public class CScoreCounterController : MonoBehaviour
 {
-	public string m_sInitialText;
+	// Variables set in editor
+	[SerializeField]
+	private string m_sInitialText;
 
+	// Internally used member variables
 	private Text m_tText;
 	private CScoreController m_tScoreController;
 

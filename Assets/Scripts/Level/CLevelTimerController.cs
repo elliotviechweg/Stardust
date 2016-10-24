@@ -2,6 +2,7 @@
 
 public class CLevelTimerController : MonoBehaviour
 {
+	// Properties
 	public float TotalLevelTime
 	{
 		get
@@ -26,11 +27,6 @@ public class CLevelTimerController : MonoBehaviour
 		return m_fLevelTimer <= 0;
 	}
 
-	private void Start()
-	{
-		m_fLevelTimer = m_fTotalLevelTime;
-	}
-
 	private void Update()
 	{
 		// Reduce timer
@@ -39,5 +35,10 @@ public class CLevelTimerController : MonoBehaviour
 		{
 			m_fLevelTimer = 0;
 		}
+	}
+
+	private void Start()
+	{
+		m_fLevelTimer = m_fTotalLevelTime;
 	}
 }

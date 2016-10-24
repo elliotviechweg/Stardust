@@ -2,8 +2,11 @@
 
 public class CAsteroidMovement : MonoBehaviour
 {
-    public float m_fLinearSpeed;
-    public float m_fRotationalSpeed;
+	// Variables set in editor
+	[SerializeField]
+    private float m_fLinearSpeed;
+	[SerializeField]
+    private float m_fRotationalSpeed;
 
 	public void MoveTowardsTarget(Vector3 i_vTarget)
 	{

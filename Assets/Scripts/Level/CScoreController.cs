@@ -2,6 +2,7 @@
 
 public class CScoreController : MonoBehaviour
 {
+	// Properties
 	public static CScoreController Instance
 	{
 		get
@@ -19,6 +20,11 @@ public class CScoreController : MonoBehaviour
 		}
 	}
 	private float m_fScore;
+	
+	public void IncreaseScore(float i_fScoreValue)
+	{
+		m_fScore += i_fScoreValue;
+	}
 
 	public CScoreController()
 	{
@@ -28,12 +34,10 @@ public class CScoreController : MonoBehaviour
 		}
 
 		m_tInstance = this;
-		
-		m_fScore = 0;
 	}
 
-	public void IncreaseScore(float i_fScoreValue)
+	private void Start()
 	{
-		m_fScore += i_fScoreValue;
+		m_fScore = 0;
 	}
 }

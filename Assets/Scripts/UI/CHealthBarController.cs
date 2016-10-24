@@ -3,8 +3,11 @@ using UnityEngine.UI;
 
 public class CHealthBarController : MonoBehaviour
 {
-	public CHealth m_tHealth;
-
+	// Components assigned in editor
+	[SerializeField]
+	private CHealth m_tHealth;
+	
+	// Internally used member variables
 	private Slider m_tHealthBar; 
 
 	private void Start ()

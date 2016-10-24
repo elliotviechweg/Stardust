@@ -2,6 +2,7 @@
 
 public class CAsteroidFactory : MonoBehaviour
 {
+	// Internally used member variables
 	private GameObject m_tAsteroidPrefab;
 
 	public void SpawnAsteroid(Vector3 i_vPosition, Vector3 i_vTarget)

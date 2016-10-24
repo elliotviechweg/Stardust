@@ -3,7 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class CLevelLoader : MonoBehaviour
 {
-	public string m_sLevelName;
+	// Variables set in editor
+	[SerializeField]
+	private string m_sLevelName;
 
 	public void LoadLevel()
 	{

@@ -2,6 +2,7 @@
 
 public class CHealth : MonoBehaviour
 {
+	// Properties
 	public float MaxHealth
 	{
 		get

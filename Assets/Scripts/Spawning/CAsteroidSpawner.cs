@@ -2,30 +2,36 @@
 
 public class CAsteroidSpawner : MonoBehaviour
 {
-	public float m_fSpawnDelay;
-	public float m_fStartDelay;
-	public float m_fTotalSpawningTime;
-	public float m_fSpawnDistance;
-	public float m_fZOffset;
+	// Variables set in editor
+	[SerializeField]
+	private float m_fSpawnDelay;
+	[SerializeField]
+	private float m_fStartDelay;
+	[SerializeField]
+	private float m_fTotalSpawningTime;
+	[SerializeField]
+	private float m_fSpawnDistance;
+	[SerializeField]
+	private float m_fZOffset;
 
-	public float m_fTopRightMaxSpawnAngleDegrees;
-	public float m_fTopLeftMaxSpawnAngleDegrees;
-	public float m_fBottomLeftMaxSpawnAngleDegrees;
-	public float m_fBottomRightMaxSpawnAngleDegrees;
+	[SerializeField]
+	private float m_fTopRightMaxSpawnAngleDegrees;
+	[SerializeField]
+	private float m_fTopLeftMaxSpawnAngleDegrees;
+	[SerializeField]
+	private float m_fBottomLeftMaxSpawnAngleDegrees;
+	[SerializeField]
+	private float m_fBottomRightMaxSpawnAngleDegrees;
 
-	public CAsteroidFactory m_tAsteroidFactory;
-	public Transform m_tPlanet;
+	// Components assigned in editor
+	[SerializeField]
+	private CAsteroidFactory m_tAsteroidFactory;
+	[SerializeField]
+	private Transform m_tPlanet;
 
+	// Internally used member variables
 	private float m_fSpawnTimer;
 	private float m_fLevelTimer;
-
-	private void Start()
-	{
-		m_fSpawnTimer = m_fStartDelay;
-		m_fLevelTimer = m_fTotalSpawningTime;
-		
-		Random.InitState(System.DateTime.Now.Millisecond);
-	}
 
 	private void Update()
 	{
@@ -76,6 +82,14 @@ public class CAsteroidSpawner : MonoBehaviour
 		Vector3 vSpawnOffset = new Vector3(fXPosition, fYPosition, m_fZOffset);
 
 		return m_tPlanet.position + vSpawnOffset;
+	}
+
+	private void Start()
+	{
+		m_fSpawnTimer = m_fStartDelay;
+		m_fLevelTimer = m_fTotalSpawningTime;
+
+		Random.InitState(System.DateTime.Now.Millisecond);
 	}
 }
 

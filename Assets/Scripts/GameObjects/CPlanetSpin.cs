@@ -2,7 +2,8 @@
 
 public class CPlanetSpin : MonoBehaviour
 {
-    public float m_fRotationalSpeed;
+	[SerializeField]
+    private float m_fRotationalSpeed;
 	
     private void Update()
     {

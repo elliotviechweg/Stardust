@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class CTimeController : MonoBehaviour
 {
-	private void Start ()
+	private void Start()
 	{
 		Time.timeScale = 1;
 	}

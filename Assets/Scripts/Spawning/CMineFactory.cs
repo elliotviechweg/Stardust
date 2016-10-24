@@ -2,6 +2,7 @@
 
 public class CMineFactory : MonoBehaviour
 {
+	// Internally used member variables
 	private GameObject m_tMinePrefab;
 	private float m_fMineRadius;
 

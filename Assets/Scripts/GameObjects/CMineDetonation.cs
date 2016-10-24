@@ -2,7 +2,9 @@
 
 public class CMineDetonation : MonoBehaviour
 {
-	public float m_fExplosionRadius;
+	// Variables set in editor
+	[SerializeField]
+	private float m_fExplosionRadius;
 
 	private void OnTriggerEnter()
 	{

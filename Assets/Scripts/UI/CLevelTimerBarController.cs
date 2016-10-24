@@ -3,8 +3,11 @@ using UnityEngine.UI;
 
 public class CLevelTimerBarController : MonoBehaviour
 {
-	public CLevelTimerController m_tLevelTimerController;
+	// Components assigned in editor
+	[SerializeField]
+	private CLevelTimerController m_tLevelTimerController;
 
+	// Internally used member variables
 	private Slider m_tLevelTimerBar;
 
 	private void Start()

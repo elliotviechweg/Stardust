@@ -2,19 +2,20 @@
 
 public class CAsteroidDestruction : MonoBehaviour
 {
-	public float m_fDamageDealt;
-	public int m_iPointsAwarded;
-	public GameObject m_tExplosionVFX;
-	public GameObject m_tImpactVFX;
+	// Variables set in editor
+	[SerializeField]
+	private float m_fDamageDealt;
+	[SerializeField]
+	private int m_iPointsAwarded;
 
+	// Components assigned in editor
+	[SerializeField]
+	private GameObject m_tExplosionVFX;
+	[SerializeField]
+	private GameObject m_tImpactVFX;
+
+	// Internally used member variables
     private CResultsTransitioner m_tLevelResultTransitioner;
-
-    void Start()
-    {
-        // Cache the level result transitioner for this level so it doesn't need to looked up on each tap
-        m_tLevelResultTransitioner = FindObjectOfType<CResultsTransitioner>();
-        Debug.Assert(m_tLevelResultTransitioner != null);
-    }
 
 	private void OnCollisionEnter(Collision i_tCollision)
 	{
@@ -71,5 +72,12 @@ public class CAsteroidDestruction : MonoBehaviour
 		Instantiate(i_tVFXObject, transform.position, i_tVFXRotation);
 
 		Destroy(gameObject);
+	}
+
+	private void Start()
+	{
+		// Cache the level result transitioner for this level so it doesn't need to looked up on each tap
+		m_tLevelResultTransitioner = FindObjectOfType<CResultsTransitioner>();
+		Debug.Assert(m_tLevelResultTransitioner != null);
 	}
 }

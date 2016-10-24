@@ -2,11 +2,19 @@
 
 public class CInputManager : MonoBehaviour
 {
-	public float m_fTouchRadius;
-	public float m_fTouchMaxDistance;
-	public Camera m_tCamera;
-	public LayerMask m_tTouchInputMask;
+	// Variables set in editor
+	[SerializeField]
+	private float m_fTouchRadius;
+	[SerializeField]
+	private float m_fTouchMaxDistance;
 
+	// Components assigned in editor
+	[SerializeField]
+	private Camera m_tCamera;
+	[SerializeField]
+	private LayerMask m_tTouchInputMask;
+
+	// Internally used member variables
 	private RaycastHit m_tRaycastHit;
 
 	private void Update ()
