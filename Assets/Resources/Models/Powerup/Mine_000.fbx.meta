@@ -1,0 +1,2193 @@
+fileFormatVersion: 2
+guid: 74ea85d7c808eb14cbfb3e21fd4b0522
+timeCreated: 1477048276
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: AllTreesGroup.000
+    100002: Asteroid_001
+    100004: Asteroid_002
+    100006: Asteroid_003
+    100008: Cube_1_18
+    100010: Cube_2_8
+    100012: Cube_3_4
+    100014: Cube_4_4
+    100016: Cube_5
+    100018: DustShockwave.001
+    100020: Icosphere
+    100022: Icosphere.001
+    100024: Icosphere.002
+    100026: Icosphere.003
+    100028: Icosphere.004
+    100030: Icosphere.005
+    100032: Icosphere.006
+    100034: Icosphere.007
+    100036: Icosphere.008
+    100038: Icosphere.009
+    100040: Icosphere.010
+    100042: MeshDustShockwave
+    100044: MeshShockwave
+    100046: Mine.000
+    100048: //RootNode
+    100050: Mine_Cap1
+    100052: Mine_Ring
+    100054: Panet.Clouds
+    100056: PineTree.000
+    100058: PineTree.001
+    100060: PineTree.002
+    100062: PineTree.003
+    100064: Planet.000
+    100066: Planet.Clouds.000
+    100068: Planet.Clouds.001
+    100070: Planet.Land
+    100072: Planet.Land.000
+    100074: Planet.Land.001
+    100076: Planet.Land.001|PineTree.000|Dupli|104.0.0.0.0.0.0.0.0.0
+    100078: Planet.Land.001|PineTree.000|Dupli|104.0.0.0.0.0.0.0.0.0 1
+    100080: Planet.Land.001|PineTree.000|Dupli|107.0.0.0.0.0.0.0.0.0
+    100082: Planet.Land.001|PineTree.000|Dupli|107.0.0.0.0.0.0.0.0.0 1
+    100084: Planet.Land.001|PineTree.000|Dupli|108.0.0.0.0.0.0.0.0.0
+    100086: Planet.Land.001|PineTree.000|Dupli|108.0.0.0.0.0.0.0.0.0 1
+    100088: Planet.Land.001|PineTree.000|Dupli|11.0.0.0.0.0.0.0.0.0
+    100090: Planet.Land.001|PineTree.000|Dupli|11.0.0.0.0.0.0.0.0.0 1
+    100092: Planet.Land.001|PineTree.000|Dupli|112.0.0.0.0.0.0.0.0.0
+    100094: Planet.Land.001|PineTree.000|Dupli|112.0.0.0.0.0.0.0.0.0 1
+    100096: Planet.Land.001|PineTree.000|Dupli|12.0.0.0.0.0.0.0.0.0
+    100098: Planet.Land.001|PineTree.000|Dupli|12.0.0.0.0.0.0.0.0.0 1
+    100100: Planet.Land.001|PineTree.000|Dupli|120.0.0.0.0.0.0.0.0.0
+    100102: Planet.Land.001|PineTree.000|Dupli|120.0.0.0.0.0.0.0.0.0 1
+    100104: Planet.Land.001|PineTree.000|Dupli|131.0.0.0.0.0.0.0.0.0
+    100106: Planet.Land.001|PineTree.000|Dupli|131.0.0.0.0.0.0.0.0.0 1
+    100108: Planet.Land.001|PineTree.000|Dupli|132.0.0.0.0.0.0.0.0.0
+    100110: Planet.Land.001|PineTree.000|Dupli|132.0.0.0.0.0.0.0.0.0 1
+    100112: Planet.Land.001|PineTree.000|Dupli|133.0.0.0.0.0.0.0.0.0
+    100114: Planet.Land.001|PineTree.000|Dupli|133.0.0.0.0.0.0.0.0.0 1
+    100116: Planet.Land.001|PineTree.000|Dupli|137.0.0.0.0.0.0.0.0.0
+    100118: Planet.Land.001|PineTree.000|Dupli|137.0.0.0.0.0.0.0.0.0 1
+    100120: Planet.Land.001|PineTree.000|Dupli|141.0.0.0.0.0.0.0.0.0
+    100122: Planet.Land.001|PineTree.000|Dupli|141.0.0.0.0.0.0.0.0.0 1
+    100124: Planet.Land.001|PineTree.000|Dupli|145.0.0.0.0.0.0.0.0.0
+    100126: Planet.Land.001|PineTree.000|Dupli|145.0.0.0.0.0.0.0.0.0 1
+    100128: Planet.Land.001|PineTree.000|Dupli|150.0.0.0.0.0.0.0.0.0
+    100130: Planet.Land.001|PineTree.000|Dupli|150.0.0.0.0.0.0.0.0.0 1
+    100132: Planet.Land.001|PineTree.000|Dupli|155.0.0.0.0.0.0.0.0.0
+    100134: Planet.Land.001|PineTree.000|Dupli|155.0.0.0.0.0.0.0.0.0 1
+    100136: Planet.Land.001|PineTree.000|Dupli|156.0.0.0.0.0.0.0.0.0
+    100138: Planet.Land.001|PineTree.000|Dupli|156.0.0.0.0.0.0.0.0.0 1
+    100140: Planet.Land.001|PineTree.000|Dupli|16.0.0.0.0.0.0.0.0.0
+    100142: Planet.Land.001|PineTree.000|Dupli|16.0.0.0.0.0.0.0.0.0 1
+    100144: Planet.Land.001|PineTree.000|Dupli|169.0.0.0.0.0.0.0.0.0
+    100146: Planet.Land.001|PineTree.000|Dupli|169.0.0.0.0.0.0.0.0.0 1
+    100148: Planet.Land.001|PineTree.000|Dupli|171.0.0.0.0.0.0.0.0.0
+    100150: Planet.Land.001|PineTree.000|Dupli|171.0.0.0.0.0.0.0.0.0 1
+    100152: Planet.Land.001|PineTree.000|Dupli|180.0.0.0.0.0.0.0.0.0
+    100154: Planet.Land.001|PineTree.000|Dupli|180.0.0.0.0.0.0.0.0.0 1
+    100156: Planet.Land.001|PineTree.000|Dupli|182.0.0.0.0.0.0.0.0.0
+    100158: Planet.Land.001|PineTree.000|Dupli|182.0.0.0.0.0.0.0.0.0 1
+    100160: Planet.Land.001|PineTree.000|Dupli|184.0.0.0.0.0.0.0.0.0
+    100162: Planet.Land.001|PineTree.000|Dupli|184.0.0.0.0.0.0.0.0.0 1
+    100164: Planet.Land.001|PineTree.000|Dupli|187.0.0.0.0.0.0.0.0.0
+    100166: Planet.Land.001|PineTree.000|Dupli|187.0.0.0.0.0.0.0.0.0 1
+    100168: Planet.Land.001|PineTree.000|Dupli|190.0.0.0.0.0.0.0.0.0
+    100170: Planet.Land.001|PineTree.000|Dupli|192.0.0.0.0.0.0.0.0.0
+    100172: Planet.Land.001|PineTree.000|Dupli|192.0.0.0.0.0.0.0.0.0 1
+    100174: Planet.Land.001|PineTree.000|Dupli|193.0.0.0.0.0.0.0.0.0
+    100176: Planet.Land.001|PineTree.000|Dupli|193.0.0.0.0.0.0.0.0.0 1
+    100178: Planet.Land.001|PineTree.000|Dupli|194.0.0.0.0.0.0.0.0.0
+    100180: Planet.Land.001|PineTree.000|Dupli|194.0.0.0.0.0.0.0.0.0 1
+    100182: Planet.Land.001|PineTree.000|Dupli|197.0.0.0.0.0.0.0.0.0
+    100184: Planet.Land.001|PineTree.000|Dupli|197.0.0.0.0.0.0.0.0.0 1
+    100186: Planet.Land.001|PineTree.000|Dupli|199.0.0.0.0.0.0.0.0.0
+    100188: Planet.Land.001|PineTree.000|Dupli|199.0.0.0.0.0.0.0.0.0 1
+    100190: Planet.Land.001|PineTree.000|Dupli|28.0.0.0.0.0.0.0.0.0
+    100192: Planet.Land.001|PineTree.000|Dupli|28.0.0.0.0.0.0.0.0.0 1
+    100194: Planet.Land.001|PineTree.000|Dupli|30.0.0.0.0.0.0.0.0.0
+    100196: Planet.Land.001|PineTree.000|Dupli|30.0.0.0.0.0.0.0.0.0 1
+    100198: Planet.Land.001|PineTree.000|Dupli|32.0.0.0.0.0.0.0.0.0
+    100200: Planet.Land.001|PineTree.000|Dupli|32.0.0.0.0.0.0.0.0.0 1
+    100202: Planet.Land.001|PineTree.000|Dupli|36.0.0.0.0.0.0.0.0.0
+    100204: Planet.Land.001|PineTree.000|Dupli|36.0.0.0.0.0.0.0.0.0 1
+    100206: Planet.Land.001|PineTree.000|Dupli|40.0.0.0.0.0.0.0.0.0
+    100208: Planet.Land.001|PineTree.000|Dupli|40.0.0.0.0.0.0.0.0.0 1
+    100210: Planet.Land.001|PineTree.000|Dupli|48.0.0.0.0.0.0.0.0.0
+    100212: Planet.Land.001|PineTree.000|Dupli|48.0.0.0.0.0.0.0.0.0 1
+    100214: Planet.Land.001|PineTree.000|Dupli|49.0.0.0.0.0.0.0.0.0
+    100216: Planet.Land.001|PineTree.000|Dupli|49.0.0.0.0.0.0.0.0.0 1
+    100218: Planet.Land.001|PineTree.000|Dupli|59.0.0.0.0.0.0.0.0.0
+    100220: Planet.Land.001|PineTree.000|Dupli|59.0.0.0.0.0.0.0.0.0 1
+    100222: Planet.Land.001|PineTree.000|Dupli|61.0.0.0.0.0.0.0.0.0
+    100224: Planet.Land.001|PineTree.000|Dupli|61.0.0.0.0.0.0.0.0.0 1
+    100226: Planet.Land.001|PineTree.000|Dupli|66.0.0.0.0.0.0.0.0.0
+    100228: Planet.Land.001|PineTree.000|Dupli|66.0.0.0.0.0.0.0.0.0 1
+    100230: Planet.Land.001|PineTree.000|Dupli|70.0.0.0.0.0.0.0.0.0
+    100232: Planet.Land.001|PineTree.000|Dupli|70.0.0.0.0.0.0.0.0.0 1
+    100234: Planet.Land.001|PineTree.000|Dupli|71.0.0.0.0.0.0.0.0.0
+    100236: Planet.Land.001|PineTree.000|Dupli|71.0.0.0.0.0.0.0.0.0 1
+    100238: Planet.Land.001|PineTree.000|Dupli|73.0.0.0.0.0.0.0.0.0
+    100240: Planet.Land.001|PineTree.000|Dupli|73.0.0.0.0.0.0.0.0.0 1
+    100242: Planet.Land.001|PineTree.000|Dupli|74.0.0.0.0.0.0.0.0.0
+    100244: Planet.Land.001|PineTree.000|Dupli|74.0.0.0.0.0.0.0.0.0 1
+    100246: Planet.Land.001|PineTree.000|Dupli|93.0.0.0.0.0.0.0.0.0
+    100248: Planet.Land.001|PineTree.000|Dupli|93.0.0.0.0.0.0.0.0.0 1
+    100250: Planet.Land.001|PineTree.000|Dupli|95.0.0.0.0.0.0.0.0.0
+    100252: Planet.Land.001|PineTree.000|Dupli|95.0.0.0.0.0.0.0.0.0 1
+    100254: Planet.Land.001|PineTree.000|Dupli|97.0.0.0.0.0.0.0.0.0
+    100256: Planet.Land.001|PineTree.000|Dupli|97.0.0.0.0.0.0.0.0.0 1
+    100258: Planet.Land.001|PineTree.001|Dupli|1.0.0.0.0.0.0.0.0.0
+    100260: Planet.Land.001|PineTree.001|Dupli|1.0.0.0.0.0.0.0.0.0 1
+    100262: Planet.Land.001|PineTree.001|Dupli|10.0.0.0.0.0.0.0.0.0
+    100264: Planet.Land.001|PineTree.001|Dupli|10.0.0.0.0.0.0.0.0.0 1
+    100266: Planet.Land.001|PineTree.001|Dupli|111.0.0.0.0.0.0.0.0.0
+    100268: Planet.Land.001|PineTree.001|Dupli|111.0.0.0.0.0.0.0.0.0 1
+    100270: Planet.Land.001|PineTree.001|Dupli|118.0.0.0.0.0.0.0.0.0
+    100272: Planet.Land.001|PineTree.001|Dupli|118.0.0.0.0.0.0.0.0.0 1
+    100274: Planet.Land.001|PineTree.001|Dupli|123.0.0.0.0.0.0.0.0.0
+    100276: Planet.Land.001|PineTree.001|Dupli|123.0.0.0.0.0.0.0.0.0 1
+    100278: Planet.Land.001|PineTree.001|Dupli|125.0.0.0.0.0.0.0.0.0
+    100280: Planet.Land.001|PineTree.001|Dupli|125.0.0.0.0.0.0.0.0.0 1
+    100282: Planet.Land.001|PineTree.001|Dupli|127.0.0.0.0.0.0.0.0.0
+    100284: Planet.Land.001|PineTree.001|Dupli|127.0.0.0.0.0.0.0.0.0 1
+    100286: Planet.Land.001|PineTree.001|Dupli|13.0.0.0.0.0.0.0.0.0
+    100288: Planet.Land.001|PineTree.001|Dupli|13.0.0.0.0.0.0.0.0.0 1
+    100290: Planet.Land.001|PineTree.001|Dupli|135.0.0.0.0.0.0.0.0.0
+    100292: Planet.Land.001|PineTree.001|Dupli|135.0.0.0.0.0.0.0.0.0 1
+    100294: Planet.Land.001|PineTree.001|Dupli|138.0.0.0.0.0.0.0.0.0
+    100296: Planet.Land.001|PineTree.001|Dupli|138.0.0.0.0.0.0.0.0.0 1
+    100298: Planet.Land.001|PineTree.001|Dupli|139.0.0.0.0.0.0.0.0.0
+    100300: Planet.Land.001|PineTree.001|Dupli|139.0.0.0.0.0.0.0.0.0 1
+    100302: Planet.Land.001|PineTree.001|Dupli|140.0.0.0.0.0.0.0.0.0
+    100304: Planet.Land.001|PineTree.001|Dupli|140.0.0.0.0.0.0.0.0.0 1
+    100306: Planet.Land.001|PineTree.001|Dupli|142.0.0.0.0.0.0.0.0.0
+    100308: Planet.Land.001|PineTree.001|Dupli|142.0.0.0.0.0.0.0.0.0 1
+    100310: Planet.Land.001|PineTree.001|Dupli|144.0.0.0.0.0.0.0.0.0
+    100312: Planet.Land.001|PineTree.001|Dupli|144.0.0.0.0.0.0.0.0.0 1
+    100314: Planet.Land.001|PineTree.001|Dupli|147.0.0.0.0.0.0.0.0.0
+    100316: Planet.Land.001|PineTree.001|Dupli|147.0.0.0.0.0.0.0.0.0 1
+    100318: Planet.Land.001|PineTree.001|Dupli|151.0.0.0.0.0.0.0.0.0
+    100320: Planet.Land.001|PineTree.001|Dupli|151.0.0.0.0.0.0.0.0.0 1
+    100322: Planet.Land.001|PineTree.001|Dupli|153.0.0.0.0.0.0.0.0.0
+    100324: Planet.Land.001|PineTree.001|Dupli|153.0.0.0.0.0.0.0.0.0 1
+    100326: Planet.Land.001|PineTree.001|Dupli|160.0.0.0.0.0.0.0.0.0
+    100328: Planet.Land.001|PineTree.001|Dupli|160.0.0.0.0.0.0.0.0.0 1
+    100330: Planet.Land.001|PineTree.001|Dupli|162.0.0.0.0.0.0.0.0.0
+    100332: Planet.Land.001|PineTree.001|Dupli|162.0.0.0.0.0.0.0.0.0 1
+    100334: Planet.Land.001|PineTree.001|Dupli|163.0.0.0.0.0.0.0.0.0
+    100336: Planet.Land.001|PineTree.001|Dupli|163.0.0.0.0.0.0.0.0.0 1
+    100338: Planet.Land.001|PineTree.001|Dupli|165.0.0.0.0.0.0.0.0.0
+    100340: Planet.Land.001|PineTree.001|Dupli|165.0.0.0.0.0.0.0.0.0 1
+    100342: Planet.Land.001|PineTree.001|Dupli|166.0.0.0.0.0.0.0.0.0
+    100344: Planet.Land.001|PineTree.001|Dupli|166.0.0.0.0.0.0.0.0.0 1
+    100346: Planet.Land.001|PineTree.001|Dupli|167.0.0.0.0.0.0.0.0.0
+    100348: Planet.Land.001|PineTree.001|Dupli|167.0.0.0.0.0.0.0.0.0 1
+    100350: Planet.Land.001|PineTree.001|Dupli|168.0.0.0.0.0.0.0.0.0
+    100352: Planet.Land.001|PineTree.001|Dupli|168.0.0.0.0.0.0.0.0.0 1
+    100354: Planet.Land.001|PineTree.001|Dupli|170.0.0.0.0.0.0.0.0.0
+    100356: Planet.Land.001|PineTree.001|Dupli|170.0.0.0.0.0.0.0.0.0 1
+    100358: Planet.Land.001|PineTree.001|Dupli|173.0.0.0.0.0.0.0.0.0
+    100360: Planet.Land.001|PineTree.001|Dupli|173.0.0.0.0.0.0.0.0.0 1
+    100362: Planet.Land.001|PineTree.001|Dupli|176.0.0.0.0.0.0.0.0.0
+    100364: Planet.Land.001|PineTree.001|Dupli|176.0.0.0.0.0.0.0.0.0 1
+    100366: Planet.Land.001|PineTree.001|Dupli|18.0.0.0.0.0.0.0.0.0
+    100368: Planet.Land.001|PineTree.001|Dupli|18.0.0.0.0.0.0.0.0.0 1
+    100370: Planet.Land.001|PineTree.001|Dupli|181.0.0.0.0.0.0.0.0.0
+    100372: Planet.Land.001|PineTree.001|Dupli|181.0.0.0.0.0.0.0.0.0 1
+    100374: Planet.Land.001|PineTree.001|Dupli|183.0.0.0.0.0.0.0.0.0
+    100376: Planet.Land.001|PineTree.001|Dupli|183.0.0.0.0.0.0.0.0.0 1
+    100378: Planet.Land.001|PineTree.001|Dupli|185.0.0.0.0.0.0.0.0.0
+    100380: Planet.Land.001|PineTree.001|Dupli|185.0.0.0.0.0.0.0.0.0 1
+    100382: Planet.Land.001|PineTree.001|Dupli|27.0.0.0.0.0.0.0.0.0
+    100384: Planet.Land.001|PineTree.001|Dupli|27.0.0.0.0.0.0.0.0.0 1
+    100386: Planet.Land.001|PineTree.001|Dupli|33.0.0.0.0.0.0.0.0.0
+    100388: Planet.Land.001|PineTree.001|Dupli|33.0.0.0.0.0.0.0.0.0 1
+    100390: Planet.Land.001|PineTree.001|Dupli|35.0.0.0.0.0.0.0.0.0
+    100392: Planet.Land.001|PineTree.001|Dupli|35.0.0.0.0.0.0.0.0.0 1
+    100394: Planet.Land.001|PineTree.001|Dupli|38.0.0.0.0.0.0.0.0.0
+    100396: Planet.Land.001|PineTree.001|Dupli|38.0.0.0.0.0.0.0.0.0 1
+    100398: Planet.Land.001|PineTree.001|Dupli|39.0.0.0.0.0.0.0.0.0
+    100400: Planet.Land.001|PineTree.001|Dupli|39.0.0.0.0.0.0.0.0.0 1
+    100402: Planet.Land.001|PineTree.001|Dupli|4.0.0.0.0.0.0.0.0.0
+    100404: Planet.Land.001|PineTree.001|Dupli|4.0.0.0.0.0.0.0.0.0 1
+    100406: Planet.Land.001|PineTree.001|Dupli|41.0.0.0.0.0.0.0.0.0
+    100408: Planet.Land.001|PineTree.001|Dupli|41.0.0.0.0.0.0.0.0.0 1
+    100410: Planet.Land.001|PineTree.001|Dupli|52.0.0.0.0.0.0.0.0.0
+    100412: Planet.Land.001|PineTree.001|Dupli|52.0.0.0.0.0.0.0.0.0 1
+    100414: Planet.Land.001|PineTree.001|Dupli|56.0.0.0.0.0.0.0.0.0
+    100416: Planet.Land.001|PineTree.001|Dupli|56.0.0.0.0.0.0.0.0.0 1
+    100418: Planet.Land.001|PineTree.001|Dupli|57.0.0.0.0.0.0.0.0.0
+    100420: Planet.Land.001|PineTree.001|Dupli|57.0.0.0.0.0.0.0.0.0 1
+    100422: Planet.Land.001|PineTree.001|Dupli|60.0.0.0.0.0.0.0.0.0
+    100424: Planet.Land.001|PineTree.001|Dupli|60.0.0.0.0.0.0.0.0.0 1
+    100426: Planet.Land.001|PineTree.001|Dupli|82.0.0.0.0.0.0.0.0.0
+    100428: Planet.Land.001|PineTree.001|Dupli|82.0.0.0.0.0.0.0.0.0 1
+    100430: Planet.Land.001|PineTree.001|Dupli|83.0.0.0.0.0.0.0.0.0
+    100432: Planet.Land.001|PineTree.001|Dupli|83.0.0.0.0.0.0.0.0.0 1
+    100434: Planet.Land.001|PineTree.001|Dupli|84.0.0.0.0.0.0.0.0.0
+    100436: Planet.Land.001|PineTree.001|Dupli|84.0.0.0.0.0.0.0.0.0 1
+    100438: Planet.Land.001|PineTree.001|Dupli|85.0.0.0.0.0.0.0.0.0
+    100440: Planet.Land.001|PineTree.001|Dupli|85.0.0.0.0.0.0.0.0.0 1
+    100442: Planet.Land.001|PineTree.001|Dupli|86.0.0.0.0.0.0.0.0.0
+    100444: Planet.Land.001|PineTree.001|Dupli|86.0.0.0.0.0.0.0.0.0 1
+    100446: Planet.Land.001|PineTree.001|Dupli|9.0.0.0.0.0.0.0.0.0
+    100448: Planet.Land.001|PineTree.001|Dupli|9.0.0.0.0.0.0.0.0.0 1
+    100450: Planet.Land.001|PineTree.001|Dupli|92.0.0.0.0.0.0.0.0.0
+    100452: Planet.Land.001|PineTree.001|Dupli|92.0.0.0.0.0.0.0.0.0 1
+    100454: Planet.Land.001|PineTree.001|Dupli|94.0.0.0.0.0.0.0.0.0
+    100456: Planet.Land.001|PineTree.001|Dupli|94.0.0.0.0.0.0.0.0.0 1
+    100458: Planet.Land.001|PineTree.001|Dupli|99.0.0.0.0.0.0.0.0.0
+    100460: Planet.Land.001|PineTree.001|Dupli|99.0.0.0.0.0.0.0.0.0 1
+    100462: Planet.Land.001|PineTree.002|Dupli|0.0.0.0.0.0.0.0.0.0
+    100464: Planet.Land.001|PineTree.002|Dupli|0.0.0.0.0.0.0.0.0.0 1
+    100466: Planet.Land.001|PineTree.002|Dupli|102.0.0.0.0.0.0.0.0.0
+    100468: Planet.Land.001|PineTree.002|Dupli|102.0.0.0.0.0.0.0.0.0 1
+    100470: Planet.Land.001|PineTree.002|Dupli|106.0.0.0.0.0.0.0.0.0
+    100472: Planet.Land.001|PineTree.002|Dupli|106.0.0.0.0.0.0.0.0.0 1
+    100474: Planet.Land.001|PineTree.002|Dupli|109.0.0.0.0.0.0.0.0.0
+    100476: Planet.Land.001|PineTree.002|Dupli|109.0.0.0.0.0.0.0.0.0 1
+    100478: Planet.Land.001|PineTree.002|Dupli|110.0.0.0.0.0.0.0.0.0
+    100480: Planet.Land.001|PineTree.002|Dupli|110.0.0.0.0.0.0.0.0.0 1
+    100482: Planet.Land.001|PineTree.002|Dupli|115.0.0.0.0.0.0.0.0.0
+    100484: Planet.Land.001|PineTree.002|Dupli|115.0.0.0.0.0.0.0.0.0 1
+    100486: Planet.Land.001|PineTree.002|Dupli|116.0.0.0.0.0.0.0.0.0
+    100488: Planet.Land.001|PineTree.002|Dupli|116.0.0.0.0.0.0.0.0.0 1
+    100490: Planet.Land.001|PineTree.002|Dupli|117.0.0.0.0.0.0.0.0.0
+    100492: Planet.Land.001|PineTree.002|Dupli|117.0.0.0.0.0.0.0.0.0 1
+    100494: Planet.Land.001|PineTree.002|Dupli|121.0.0.0.0.0.0.0.0.0
+    100496: Planet.Land.001|PineTree.002|Dupli|121.0.0.0.0.0.0.0.0.0 1
+    100498: Planet.Land.001|PineTree.002|Dupli|124.0.0.0.0.0.0.0.0.0
+    100500: Planet.Land.001|PineTree.002|Dupli|124.0.0.0.0.0.0.0.0.0 1
+    100502: Planet.Land.001|PineTree.002|Dupli|128.0.0.0.0.0.0.0.0.0
+    100504: Planet.Land.001|PineTree.002|Dupli|128.0.0.0.0.0.0.0.0.0 1
+    100506: Planet.Land.001|PineTree.002|Dupli|130.0.0.0.0.0.0.0.0.0
+    100508: Planet.Land.001|PineTree.002|Dupli|130.0.0.0.0.0.0.0.0.0 1
+    100510: Planet.Land.001|PineTree.002|Dupli|136.0.0.0.0.0.0.0.0.0
+    100512: Planet.Land.001|PineTree.002|Dupli|136.0.0.0.0.0.0.0.0.0 1
+    100514: Planet.Land.001|PineTree.002|Dupli|14.0.0.0.0.0.0.0.0.0
+    100516: Planet.Land.001|PineTree.002|Dupli|14.0.0.0.0.0.0.0.0.0 1
+    100518: Planet.Land.001|PineTree.002|Dupli|148.0.0.0.0.0.0.0.0.0
+    100520: Planet.Land.001|PineTree.002|Dupli|148.0.0.0.0.0.0.0.0.0 1
+    100522: Planet.Land.001|PineTree.002|Dupli|15.0.0.0.0.0.0.0.0.0
+    100524: Planet.Land.001|PineTree.002|Dupli|15.0.0.0.0.0.0.0.0.0 1
+    100526: Planet.Land.001|PineTree.002|Dupli|157.0.0.0.0.0.0.0.0.0
+    100528: Planet.Land.001|PineTree.002|Dupli|157.0.0.0.0.0.0.0.0.0 1
+    100530: Planet.Land.001|PineTree.002|Dupli|159.0.0.0.0.0.0.0.0.0
+    100532: Planet.Land.001|PineTree.002|Dupli|159.0.0.0.0.0.0.0.0.0 1
+    100534: Planet.Land.001|PineTree.002|Dupli|172.0.0.0.0.0.0.0.0.0
+    100536: Planet.Land.001|PineTree.002|Dupli|172.0.0.0.0.0.0.0.0.0 1
+    100538: Planet.Land.001|PineTree.002|Dupli|174.0.0.0.0.0.0.0.0.0
+    100540: Planet.Land.001|PineTree.002|Dupli|174.0.0.0.0.0.0.0.0.0 1
+    100542: Planet.Land.001|PineTree.002|Dupli|177.0.0.0.0.0.0.0.0.0
+    100544: Planet.Land.001|PineTree.002|Dupli|177.0.0.0.0.0.0.0.0.0 1
+    100546: Planet.Land.001|PineTree.002|Dupli|186.0.0.0.0.0.0.0.0.0
+    100548: Planet.Land.001|PineTree.002|Dupli|186.0.0.0.0.0.0.0.0.0 1
+    100550: Planet.Land.001|PineTree.002|Dupli|188.0.0.0.0.0.0.0.0.0
+    100552: Planet.Land.001|PineTree.002|Dupli|188.0.0.0.0.0.0.0.0.0 1
+    100554: Planet.Land.001|PineTree.002|Dupli|189.0.0.0.0.0.0.0.0.0
+    100556: Planet.Land.001|PineTree.002|Dupli|189.0.0.0.0.0.0.0.0.0 1
+    100558: Planet.Land.001|PineTree.002|Dupli|195.0.0.0.0.0.0.0.0.0
+    100560: Planet.Land.001|PineTree.002|Dupli|195.0.0.0.0.0.0.0.0.0 1
+    100562: Planet.Land.001|PineTree.002|Dupli|196.0.0.0.0.0.0.0.0.0
+    100564: Planet.Land.001|PineTree.002|Dupli|196.0.0.0.0.0.0.0.0.0 1
+    100566: Planet.Land.001|PineTree.002|Dupli|198.0.0.0.0.0.0.0.0.0
+    100568: Planet.Land.001|PineTree.002|Dupli|198.0.0.0.0.0.0.0.0.0 1
+    100570: Planet.Land.001|PineTree.002|Dupli|2.0.0.0.0.0.0.0.0.0
+    100572: Planet.Land.001|PineTree.002|Dupli|2.0.0.0.0.0.0.0.0.0 1
+    100574: Planet.Land.001|PineTree.002|Dupli|20.0.0.0.0.0.0.0.0.0
+    100576: Planet.Land.001|PineTree.002|Dupli|20.0.0.0.0.0.0.0.0.0 1
+    100578: Planet.Land.001|PineTree.002|Dupli|24.0.0.0.0.0.0.0.0.0
+    100580: Planet.Land.001|PineTree.002|Dupli|24.0.0.0.0.0.0.0.0.0 1
+    100582: Planet.Land.001|PineTree.002|Dupli|26.0.0.0.0.0.0.0.0.0
+    100584: Planet.Land.001|PineTree.002|Dupli|26.0.0.0.0.0.0.0.0.0 1
+    100586: Planet.Land.001|PineTree.002|Dupli|31.0.0.0.0.0.0.0.0.0
+    100588: Planet.Land.001|PineTree.002|Dupli|31.0.0.0.0.0.0.0.0.0 1
+    100590: Planet.Land.001|PineTree.002|Dupli|34.0.0.0.0.0.0.0.0.0
+    100592: Planet.Land.001|PineTree.002|Dupli|34.0.0.0.0.0.0.0.0.0 1
+    100594: Planet.Land.001|PineTree.002|Dupli|42.0.0.0.0.0.0.0.0.0
+    100596: Planet.Land.001|PineTree.002|Dupli|42.0.0.0.0.0.0.0.0.0 1
+    100598: Planet.Land.001|PineTree.002|Dupli|44.0.0.0.0.0.0.0.0.0
+    100600: Planet.Land.001|PineTree.002|Dupli|44.0.0.0.0.0.0.0.0.0 1
+    100602: Planet.Land.001|PineTree.002|Dupli|45.0.0.0.0.0.0.0.0.0
+    100604: Planet.Land.001|PineTree.002|Dupli|45.0.0.0.0.0.0.0.0.0 1
+    100606: Planet.Land.001|PineTree.002|Dupli|47.0.0.0.0.0.0.0.0.0
+    100608: Planet.Land.001|PineTree.002|Dupli|47.0.0.0.0.0.0.0.0.0 1
+    100610: Planet.Land.001|PineTree.002|Dupli|5.0.0.0.0.0.0.0.0.0
+    100612: Planet.Land.001|PineTree.002|Dupli|5.0.0.0.0.0.0.0.0.0 1
+    100614: Planet.Land.001|PineTree.002|Dupli|50.0.0.0.0.0.0.0.0.0
+    100616: Planet.Land.001|PineTree.002|Dupli|50.0.0.0.0.0.0.0.0.0 1
+    100618: Planet.Land.001|PineTree.002|Dupli|53.0.0.0.0.0.0.0.0.0
+    100620: Planet.Land.001|PineTree.002|Dupli|53.0.0.0.0.0.0.0.0.0 1
+    100622: Planet.Land.001|PineTree.002|Dupli|54.0.0.0.0.0.0.0.0.0
+    100624: Planet.Land.001|PineTree.002|Dupli|54.0.0.0.0.0.0.0.0.0 1
+    100626: Planet.Land.001|PineTree.002|Dupli|55.0.0.0.0.0.0.0.0.0
+    100628: Planet.Land.001|PineTree.002|Dupli|55.0.0.0.0.0.0.0.0.0 1
+    100630: Planet.Land.001|PineTree.002|Dupli|62.0.0.0.0.0.0.0.0.0
+    100632: Planet.Land.001|PineTree.002|Dupli|62.0.0.0.0.0.0.0.0.0 1
+    100634: Planet.Land.001|PineTree.002|Dupli|63.0.0.0.0.0.0.0.0.0
+    100636: Planet.Land.001|PineTree.002|Dupli|63.0.0.0.0.0.0.0.0.0 1
+    100638: Planet.Land.001|PineTree.002|Dupli|64.0.0.0.0.0.0.0.0.0
+    100640: Planet.Land.001|PineTree.002|Dupli|64.0.0.0.0.0.0.0.0.0 1
+    100642: Planet.Land.001|PineTree.002|Dupli|65.0.0.0.0.0.0.0.0.0
+    100644: Planet.Land.001|PineTree.002|Dupli|65.0.0.0.0.0.0.0.0.0 1
+    100646: Planet.Land.001|PineTree.002|Dupli|68.0.0.0.0.0.0.0.0.0
+    100648: Planet.Land.001|PineTree.002|Dupli|69.0.0.0.0.0.0.0.0.0
+    100650: Planet.Land.001|PineTree.002|Dupli|69.0.0.0.0.0.0.0.0.0 1
+    100652: Planet.Land.001|PineTree.002|Dupli|7.0.0.0.0.0.0.0.0.0
+    100654: Planet.Land.001|PineTree.002|Dupli|7.0.0.0.0.0.0.0.0.0 1
+    100656: Planet.Land.001|PineTree.002|Dupli|72.0.0.0.0.0.0.0.0.0
+    100658: Planet.Land.001|PineTree.002|Dupli|72.0.0.0.0.0.0.0.0.0 1
+    100660: Planet.Land.001|PineTree.002|Dupli|76.0.0.0.0.0.0.0.0.0
+    100662: Planet.Land.001|PineTree.002|Dupli|76.0.0.0.0.0.0.0.0.0 1
+    100664: Planet.Land.001|PineTree.002|Dupli|79.0.0.0.0.0.0.0.0.0
+    100666: Planet.Land.001|PineTree.002|Dupli|79.0.0.0.0.0.0.0.0.0 1
+    100668: Planet.Land.001|PineTree.002|Dupli|8.0.0.0.0.0.0.0.0.0
+    100670: Planet.Land.001|PineTree.002|Dupli|8.0.0.0.0.0.0.0.0.0 1
+    100672: Planet.Land.001|PineTree.002|Dupli|81.0.0.0.0.0.0.0.0.0
+    100674: Planet.Land.001|PineTree.002|Dupli|81.0.0.0.0.0.0.0.0.0 1
+    100676: Planet.Land.001|PineTree.002|Dupli|98.0.0.0.0.0.0.0.0.0
+    100678: Planet.Land.001|PineTree.002|Dupli|98.0.0.0.0.0.0.0.0.0 1
+    100680: Planet.Land.001|PineTree.003|Dupli|100.0.0.0.0.0.0.0.0.0
+    100682: Planet.Land.001|PineTree.003|Dupli|100.0.0.0.0.0.0.0.0.0 1
+    100684: Planet.Land.001|PineTree.003|Dupli|101.0.0.0.0.0.0.0.0.0
+    100686: Planet.Land.001|PineTree.003|Dupli|101.0.0.0.0.0.0.0.0.0 1
+    100688: Planet.Land.001|PineTree.003|Dupli|103.0.0.0.0.0.0.0.0.0
+    100690: Planet.Land.001|PineTree.003|Dupli|103.0.0.0.0.0.0.0.0.0 1
+    100692: Planet.Land.001|PineTree.003|Dupli|105.0.0.0.0.0.0.0.0.0
+    100694: Planet.Land.001|PineTree.003|Dupli|105.0.0.0.0.0.0.0.0.0 1
+    100696: Planet.Land.001|PineTree.003|Dupli|113.0.0.0.0.0.0.0.0.0
+    100698: Planet.Land.001|PineTree.003|Dupli|113.0.0.0.0.0.0.0.0.0 1
+    100700: Planet.Land.001|PineTree.003|Dupli|114.0.0.0.0.0.0.0.0.0
+    100702: Planet.Land.001|PineTree.003|Dupli|114.0.0.0.0.0.0.0.0.0 1
+    100704: Planet.Land.001|PineTree.003|Dupli|119.0.0.0.0.0.0.0.0.0
+    100706: Planet.Land.001|PineTree.003|Dupli|119.0.0.0.0.0.0.0.0.0 1
+    100708: Planet.Land.001|PineTree.003|Dupli|122.0.0.0.0.0.0.0.0.0
+    100710: Planet.Land.001|PineTree.003|Dupli|122.0.0.0.0.0.0.0.0.0 1
+    100712: Planet.Land.001|PineTree.003|Dupli|126.0.0.0.0.0.0.0.0.0
+    100714: Planet.Land.001|PineTree.003|Dupli|126.0.0.0.0.0.0.0.0.0 1
+    100716: Planet.Land.001|PineTree.003|Dupli|129.0.0.0.0.0.0.0.0.0
+    100718: Planet.Land.001|PineTree.003|Dupli|129.0.0.0.0.0.0.0.0.0 1
+    100720: Planet.Land.001|PineTree.003|Dupli|134.0.0.0.0.0.0.0.0.0
+    100722: Planet.Land.001|PineTree.003|Dupli|134.0.0.0.0.0.0.0.0.0 1
+    100724: Planet.Land.001|PineTree.003|Dupli|143.0.0.0.0.0.0.0.0.0
+    100726: Planet.Land.001|PineTree.003|Dupli|143.0.0.0.0.0.0.0.0.0 1
+    100728: Planet.Land.001|PineTree.003|Dupli|146.0.0.0.0.0.0.0.0.0
+    100730: Planet.Land.001|PineTree.003|Dupli|146.0.0.0.0.0.0.0.0.0 1
+    100732: Planet.Land.001|PineTree.003|Dupli|149.0.0.0.0.0.0.0.0.0
+    100734: Planet.Land.001|PineTree.003|Dupli|149.0.0.0.0.0.0.0.0.0 1
+    100736: Planet.Land.001|PineTree.003|Dupli|152.0.0.0.0.0.0.0.0.0
+    100738: Planet.Land.001|PineTree.003|Dupli|152.0.0.0.0.0.0.0.0.0 1
+    100740: Planet.Land.001|PineTree.003|Dupli|154.0.0.0.0.0.0.0.0.0
+    100742: Planet.Land.001|PineTree.003|Dupli|154.0.0.0.0.0.0.0.0.0 1
+    100744: Planet.Land.001|PineTree.003|Dupli|158.0.0.0.0.0.0.0.0.0
+    100746: Planet.Land.001|PineTree.003|Dupli|158.0.0.0.0.0.0.0.0.0 1
+    100748: Planet.Land.001|PineTree.003|Dupli|161.0.0.0.0.0.0.0.0.0
+    100750: Planet.Land.001|PineTree.003|Dupli|161.0.0.0.0.0.0.0.0.0 1
+    100752: Planet.Land.001|PineTree.003|Dupli|164.0.0.0.0.0.0.0.0.0
+    100754: Planet.Land.001|PineTree.003|Dupli|164.0.0.0.0.0.0.0.0.0 1
+    100756: Planet.Land.001|PineTree.003|Dupli|17.0.0.0.0.0.0.0.0.0
+    100758: Planet.Land.001|PineTree.003|Dupli|17.0.0.0.0.0.0.0.0.0 1
+    100760: Planet.Land.001|PineTree.003|Dupli|175.0.0.0.0.0.0.0.0.0
+    100762: Planet.Land.001|PineTree.003|Dupli|175.0.0.0.0.0.0.0.0.0 1
+    100764: Planet.Land.001|PineTree.003|Dupli|178.0.0.0.0.0.0.0.0.0
+    100766: Planet.Land.001|PineTree.003|Dupli|178.0.0.0.0.0.0.0.0.0 1
+    100768: Planet.Land.001|PineTree.003|Dupli|179.0.0.0.0.0.0.0.0.0
+    100770: Planet.Land.001|PineTree.003|Dupli|179.0.0.0.0.0.0.0.0.0 1
+    100772: Planet.Land.001|PineTree.003|Dupli|19.0.0.0.0.0.0.0.0.0
+    100774: Planet.Land.001|PineTree.003|Dupli|19.0.0.0.0.0.0.0.0.0 1
+    100776: Planet.Land.001|PineTree.003|Dupli|191.0.0.0.0.0.0.0.0.0
+    100778: Planet.Land.001|PineTree.003|Dupli|191.0.0.0.0.0.0.0.0.0 1
+    100780: Planet.Land.001|PineTree.003|Dupli|21.0.0.0.0.0.0.0.0.0
+    100782: Planet.Land.001|PineTree.003|Dupli|21.0.0.0.0.0.0.0.0.0 1
+    100784: Planet.Land.001|PineTree.003|Dupli|22.0.0.0.0.0.0.0.0.0
+    100786: Planet.Land.001|PineTree.003|Dupli|22.0.0.0.0.0.0.0.0.0 1
+    100788: Planet.Land.001|PineTree.003|Dupli|23.0.0.0.0.0.0.0.0.0
+    100790: Planet.Land.001|PineTree.003|Dupli|23.0.0.0.0.0.0.0.0.0 1
+    100792: Planet.Land.001|PineTree.003|Dupli|25.0.0.0.0.0.0.0.0.0
+    100794: Planet.Land.001|PineTree.003|Dupli|25.0.0.0.0.0.0.0.0.0 1
+    100796: Planet.Land.001|PineTree.003|Dupli|29.0.0.0.0.0.0.0.0.0
+    100798: Planet.Land.001|PineTree.003|Dupli|29.0.0.0.0.0.0.0.0.0 1
+    100800: Planet.Land.001|PineTree.003|Dupli|3.0.0.0.0.0.0.0.0.0
+    100802: Planet.Land.001|PineTree.003|Dupli|3.0.0.0.0.0.0.0.0.0 1
+    100804: Planet.Land.001|PineTree.003|Dupli|37.0.0.0.0.0.0.0.0.0
+    100806: Planet.Land.001|PineTree.003|Dupli|37.0.0.0.0.0.0.0.0.0 1
+    100808: Planet.Land.001|PineTree.003|Dupli|43.0.0.0.0.0.0.0.0.0
+    100810: Planet.Land.001|PineTree.003|Dupli|43.0.0.0.0.0.0.0.0.0 1
+    100812: Planet.Land.001|PineTree.003|Dupli|46.0.0.0.0.0.0.0.0.0
+    100814: Planet.Land.001|PineTree.003|Dupli|46.0.0.0.0.0.0.0.0.0 1
+    100816: Planet.Land.001|PineTree.003|Dupli|51.0.0.0.0.0.0.0.0.0
+    100818: Planet.Land.001|PineTree.003|Dupli|51.0.0.0.0.0.0.0.0.0 1
+    100820: Planet.Land.001|PineTree.003|Dupli|58.0.0.0.0.0.0.0.0.0
+    100822: Planet.Land.001|PineTree.003|Dupli|58.0.0.0.0.0.0.0.0.0 1
+    100824: Planet.Land.001|PineTree.003|Dupli|6.0.0.0.0.0.0.0.0.0
+    100826: Planet.Land.001|PineTree.003|Dupli|6.0.0.0.0.0.0.0.0.0 1
+    100828: Planet.Land.001|PineTree.003|Dupli|67.0.0.0.0.0.0.0.0.0
+    100830: Planet.Land.001|PineTree.003|Dupli|67.0.0.0.0.0.0.0.0.0 1
+    100832: Planet.Land.001|PineTree.003|Dupli|75.0.0.0.0.0.0.0.0.0
+    100834: Planet.Land.001|PineTree.003|Dupli|75.0.0.0.0.0.0.0.0.0 1
+    100836: Planet.Land.001|PineTree.003|Dupli|77.0.0.0.0.0.0.0.0.0
+    100838: Planet.Land.001|PineTree.003|Dupli|77.0.0.0.0.0.0.0.0.0 1
+    100840: Planet.Land.001|PineTree.003|Dupli|78.0.0.0.0.0.0.0.0.0
+    100842: Planet.Land.001|PineTree.003|Dupli|78.0.0.0.0.0.0.0.0.0 1
+    100844: Planet.Land.001|PineTree.003|Dupli|80.0.0.0.0.0.0.0.0.0
+    100846: Planet.Land.001|PineTree.003|Dupli|80.0.0.0.0.0.0.0.0.0 1
+    100848: Planet.Land.001|PineTree.003|Dupli|87.0.0.0.0.0.0.0.0.0
+    100850: Planet.Land.001|PineTree.003|Dupli|87.0.0.0.0.0.0.0.0.0 1
+    100852: Planet.Land.001|PineTree.003|Dupli|88.0.0.0.0.0.0.0.0.0
+    100854: Planet.Land.001|PineTree.003|Dupli|88.0.0.0.0.0.0.0.0.0 1
+    100856: Planet.Land.001|PineTree.003|Dupli|89.0.0.0.0.0.0.0.0.0
+    100858: Planet.Land.001|PineTree.003|Dupli|89.0.0.0.0.0.0.0.0.0 1
+    100860: Planet.Land.001|PineTree.003|Dupli|90.0.0.0.0.0.0.0.0.0
+    100862: Planet.Land.001|PineTree.003|Dupli|90.0.0.0.0.0.0.0.0.0 1
+    100864: Planet.Land.001|PineTree.003|Dupli|91.0.0.0.0.0.0.0.0.0
+    100866: Planet.Land.001|PineTree.003|Dupli|91.0.0.0.0.0.0.0.0.0 1
+    100868: Planet.Land.001|PineTree.003|Dupli|96.0.0.0.0.0.0.0.0.0
+    100870: Planet.Land.001|PineTree.003|Dupli|96.0.0.0.0.0.0.0.0.0 1
+    100872: Planet.Land.002
+    100874: Planet.Land|AllTreesGroup.000|Dupli|13.0.0.0.0.0.0.0.0.0
+    100876: Planet.Land|AllTreesGroup.000|Dupli|17.0.0.0.0.0.0.0.0.0
+    100878: Planet.Land|AllTreesGroup.000|Dupli|21.0.0.0.0.0.0.0.0.0
+    100880: Planet.Land|AllTreesGroup.000|Dupli|26.0.0.0.0.0.0.0.0.0
+    100882: Planet.Land|AllTreesGroup.000|Dupli|38.0.0.0.0.0.0.0.0.0
+    100884: Planet.Land|AllTreesGroup.000|Dupli|45.0.0.0.0.0.0.0.0.0
+    100886: Planet.Land|PineTree.000|Dupli|28.0.0.0.0.0.0.0.0.0
+    100888: Planet.Land|PineTree.000|Dupli|29.0.0.0.0.0.0.0.0.0
+    100890: Planet.Land|PineTree.000|Dupli|34.0.0.0.0.0.0.0.0.0
+    100892: Planet.Land|PineTree.000|Dupli|35.0.0.0.0.0.0.0.0.0
+    100894: Planet.Land|PineTree.001|Dupli|0.0.0.0.0.0.0.0.0.0
+    100896: Planet.Land|PineTree.001|Dupli|1.0.0.0.0.0.0.0.0.0
+    100898: Planet.Land|PineTree.001|Dupli|15.0.0.0.0.0.0.0.0.0
+    100900: Planet.Land|PineTree.001|Dupli|8.0.0.0.0.0.0.0.0.0
+    100902: Planet.Land|PineTree.002|Dupli|16.0.0.0.0.0.0.0.0.0
+    100904: Planet.Land|PineTree.002|Dupli|18.0.0.0.0.0.0.0.0.0
+    100906: Planet.Land|PineTree.002|Dupli|23.0.0.0.0.0.0.0.0.0
+    100908: Planet.Land|PineTree.002|Dupli|3.0.0.0.0.0.0.0.0.0
+    100910: Planet.Land|PineTree.002|Dupli|40.0.0.0.0.0.0.0.0.0
+    100912: Planet.Land|PineTree.002|Dupli|44.0.0.0.0.0.0.0.0.0
+    100914: Planet.Land|PineTree.003|Dupli|30.0.0.0.0.0.0.0.0.0
+    100916: Planet.Land|PineTree.003|Dupli|4.0.0.0.0.0.0.0.0.0
+    100918: Planet.Land|RoundTree.000|Dupli|39.0.0.0.0.0.0.0.0.0
+    100920: Planet.Land|RoundTree.001|Dupli|14.0.0.0.0.0.0.0.0.0
+    100922: Planet.Land|RoundTree.001|Dupli|20.0.0.0.0.0.0.0.0.0
+    100924: Planet.Land|RoundTree.001|Dupli|22.0.0.0.0.0.0.0.0.0
+    100926: Planet.Land|RoundTree.001|Dupli|32.0.0.0.0.0.0.0.0.0
+    100928: Planet.Land|RoundTree.001|Dupli|41.0.0.0.0.0.0.0.0.0
+    100930: Planet.Land|RoundTree.001|Dupli|46.0.0.0.0.0.0.0.0.0
+    100932: Planet.Land|RoundTree.001|Dupli|7.0.0.0.0.0.0.0.0.0
+    100934: Planet.Land|RoundTree.002|Dupli|11.0.0.0.0.0.0.0.0.0
+    100936: Planet.Land|RoundTree.002|Dupli|33.0.0.0.0.0.0.0.0.0
+    100938: Planet.Land|RoundTree.002|Dupli|37.0.0.0.0.0.0.0.0.0
+    100940: Planet.Land|RoundTree.002|Dupli|42.0.0.0.0.0.0.0.0.0
+    100942: Planet.Land|RoundTree.003|Dupli|2.0.0.0.0.0.0.0.0.0
+    100944: Planet.Land|RoundTree.003|Dupli|25.0.0.0.0.0.0.0.0.0
+    100946: Planet.Land|RoundTree.003|Dupli|27.0.0.0.0.0.0.0.0.0
+    100948: Planet.Land|RoundTree.003|Dupli|36.0.0.0.0.0.0.0.0.0
+    100950: Planet.Land|RoundTree.003|Dupli|43.0.0.0.0.0.0.0.0.0
+    100952: Planet.Land|RoundTree.003|Dupli|9.0.0.0.0.0.0.0.0.0
+    100954: Planet.Land|RoundTree.004|Dupli|10.0.0.0.0.0.0.0.0.0
+    100956: Planet.Land|RoundTree.004|Dupli|12.0.0.0.0.0.0.0.0.0
+    100958: Planet.Land|RoundTree.004|Dupli|31.0.0.0.0.0.0.0.0.0
+    100960: Planet.Land|RoundTree.004|Dupli|47.0.0.0.0.0.0.0.0.0
+    100962: Planet.Land|RoundTree.004|Dupli|48.0.0.0.0.0.0.0.0.0
+    100964: Planet.Land|RoundTree.004|Dupli|49.0.0.0.0.0.0.0.0.0
+    100966: Planet.Land|RoundTreeGroup.000|Dupli|19.0.0.0.0.0.0.0.0.0
+    100968: Planet.Land|RoundTreeGroup.000|Dupli|24.0.0.0.0.0.0.0.0.0
+    100970: Planet.Land|RoundTreeGroup.000|Dupli|5.0.0.0.0.0.0.0.0.0
+    100972: Planet.Land|RoundTreeGroup.000|Dupli|6.0.0.0.0.0.0.0.0.0
+    100974: Planet.ShaderTest
+    100976: Planet.Water
+    100978: Planet.Water.001
+    100980: Planet.Water.002
+    100982: PlantGroupSurface
+    100984: PlantGroupSurface|PineTree.000|Dupli|0.0.0.0.0.0.0.0.0.0
+    100986: PlantGroupSurface|PineTree.000|Dupli|6.0.0.0.0.0.0.0.0.0
+    100988: PlantGroupSurface|PineTree.000|Dupli|9.0.0.0.0.0.0.0.0.0
+    100990: PlantGroupSurface|PineTree.001|Dupli|1.0.0.0.0.0.0.0.0.0
+    100992: PlantGroupSurface|PineTree.001|Dupli|2.0.0.0.0.0.0.0.0.0
+    100994: PlantGroupSurface|PineTree.001|Dupli|3.0.0.0.0.0.0.0.0.0
+    100996: PlantGroupSurface|PineTree.001|Dupli|8.0.0.0.0.0.0.0.0.0
+    100998: PlantGroupSurface|PineTree.002|Dupli|4.0.0.0.0.0.0.0.0.0
+    101000: PlantGroupSurface|PineTree.002|Dupli|5.0.0.0.0.0.0.0.0.0
+    101002: PlantGroupSurface|PineTree.002|Dupli|7.0.0.0.0.0.0.0.0.0
+    101004: RoundTree.000
+    101006: RoundTree.001
+    101008: RoundTree.002
+    101010: RoundTree.003
+    101012: RoundTree.004
+    101014: RoundTreeGroup.000
+    101016: Shockwave
+    101018: ShockwaveFlat.002
+    101020: ShockwaveSpike.000
+    101022: Sky.000
+    101024: SpikeShockwave
+    101026: Water-crap
+    101028: Water.001
+    400000: AllTreesGroup.000
+    400002: Asteroid_001
+    400004: Asteroid_002
+    400006: Asteroid_003
+    400008: Cube_1_18
+    400010: Cube_2_8
+    400012: Cube_3_4
+    400014: Cube_4_4
+    400016: Cube_5
+    400018: DustShockwave.001
+    400020: Icosphere
+    400022: Icosphere.001
+    400024: Icosphere.002
+    400026: Icosphere.003
+    400028: Icosphere.004
+    400030: Icosphere.005
+    400032: Icosphere.006
+    400034: Icosphere.007
+    400036: Icosphere.008
+    400038: Icosphere.009
+    400040: Icosphere.010
+    400042: MeshDustShockwave
+    400044: MeshShockwave
+    400046: Mine.000
+    400048: //RootNode
+    400050: Mine_Cap1
+    400052: Mine_Ring
+    400054: Panet.Clouds
+    400056: PineTree.000
+    400058: PineTree.001
+    400060: PineTree.002
+    400062: PineTree.003
+    400064: Planet.000
+    400066: Planet.Clouds.000
+    400068: Planet.Clouds.001
+    400070: Planet.Land
+    400072: Planet.Land.000
+    400074: Planet.Land.001
+    400076: Planet.Land.001|PineTree.000|Dupli|104.0.0.0.0.0.0.0.0.0
+    400078: Planet.Land.001|PineTree.000|Dupli|104.0.0.0.0.0.0.0.0.0 1
+    400080: Planet.Land.001|PineTree.000|Dupli|107.0.0.0.0.0.0.0.0.0
+    400082: Planet.Land.001|PineTree.000|Dupli|107.0.0.0.0.0.0.0.0.0 1
+    400084: Planet.Land.001|PineTree.000|Dupli|108.0.0.0.0.0.0.0.0.0
+    400086: Planet.Land.001|PineTree.000|Dupli|108.0.0.0.0.0.0.0.0.0 1
+    400088: Planet.Land.001|PineTree.000|Dupli|11.0.0.0.0.0.0.0.0.0
+    400090: Planet.Land.001|PineTree.000|Dupli|11.0.0.0.0.0.0.0.0.0 1
+    400092: Planet.Land.001|PineTree.000|Dupli|112.0.0.0.0.0.0.0.0.0
+    400094: Planet.Land.001|PineTree.000|Dupli|112.0.0.0.0.0.0.0.0.0 1
+    400096: Planet.Land.001|PineTree.000|Dupli|12.0.0.0.0.0.0.0.0.0
+    400098: Planet.Land.001|PineTree.000|Dupli|12.0.0.0.0.0.0.0.0.0 1
+    400100: Planet.Land.001|PineTree.000|Dupli|120.0.0.0.0.0.0.0.0.0
+    400102: Planet.Land.001|PineTree.000|Dupli|120.0.0.0.0.0.0.0.0.0 1
+    400104: Planet.Land.001|PineTree.000|Dupli|131.0.0.0.0.0.0.0.0.0
+    400106: Planet.Land.001|PineTree.000|Dupli|131.0.0.0.0.0.0.0.0.0 1
+    400108: Planet.Land.001|PineTree.000|Dupli|132.0.0.0.0.0.0.0.0.0
+    400110: Planet.Land.001|PineTree.000|Dupli|132.0.0.0.0.0.0.0.0.0 1
+    400112: Planet.Land.001|PineTree.000|Dupli|133.0.0.0.0.0.0.0.0.0
+    400114: Planet.Land.001|PineTree.000|Dupli|133.0.0.0.0.0.0.0.0.0 1
+    400116: Planet.Land.001|PineTree.000|Dupli|137.0.0.0.0.0.0.0.0.0
+    400118: Planet.Land.001|PineTree.000|Dupli|137.0.0.0.0.0.0.0.0.0 1
+    400120: Planet.Land.001|PineTree.000|Dupli|141.0.0.0.0.0.0.0.0.0
+    400122: Planet.Land.001|PineTree.000|Dupli|141.0.0.0.0.0.0.0.0.0 1
+    400124: Planet.Land.001|PineTree.000|Dupli|145.0.0.0.0.0.0.0.0.0
+    400126: Planet.Land.001|PineTree.000|Dupli|145.0.0.0.0.0.0.0.0.0 1
+    400128: Planet.Land.001|PineTree.000|Dupli|150.0.0.0.0.0.0.0.0.0
+    400130: Planet.Land.001|PineTree.000|Dupli|150.0.0.0.0.0.0.0.0.0 1
+    400132: Planet.Land.001|PineTree.000|Dupli|155.0.0.0.0.0.0.0.0.0
+    400134: Planet.Land.001|PineTree.000|Dupli|155.0.0.0.0.0.0.0.0.0 1
+    400136: Planet.Land.001|PineTree.000|Dupli|156.0.0.0.0.0.0.0.0.0
+    400138: Planet.Land.001|PineTree.000|Dupli|156.0.0.0.0.0.0.0.0.0 1
+    400140: Planet.Land.001|PineTree.000|Dupli|16.0.0.0.0.0.0.0.0.0
+    400142: Planet.Land.001|PineTree.000|Dupli|16.0.0.0.0.0.0.0.0.0 1
+    400144: Planet.Land.001|PineTree.000|Dupli|169.0.0.0.0.0.0.0.0.0
+    400146: Planet.Land.001|PineTree.000|Dupli|169.0.0.0.0.0.0.0.0.0 1
+    400148: Planet.Land.001|PineTree.000|Dupli|171.0.0.0.0.0.0.0.0.0
+    400150: Planet.Land.001|PineTree.000|Dupli|171.0.0.0.0.0.0.0.0.0 1
+    400152: Planet.Land.001|PineTree.000|Dupli|180.0.0.0.0.0.0.0.0.0
+    400154: Planet.Land.001|PineTree.000|Dupli|180.0.0.0.0.0.0.0.0.0 1
+    400156: Planet.Land.001|PineTree.000|Dupli|182.0.0.0.0.0.0.0.0.0
+    400158: Planet.Land.001|PineTree.000|Dupli|182.0.0.0.0.0.0.0.0.0 1
+    400160: Planet.Land.001|PineTree.000|Dupli|184.0.0.0.0.0.0.0.0.0
+    400162: Planet.Land.001|PineTree.000|Dupli|184.0.0.0.0.0.0.0.0.0 1
+    400164: Planet.Land.001|PineTree.000|Dupli|187.0.0.0.0.0.0.0.0.0
+    400166: Planet.Land.001|PineTree.000|Dupli|187.0.0.0.0.0.0.0.0.0 1
+    400168: Planet.Land.001|PineTree.000|Dupli|190.0.0.0.0.0.0.0.0.0
+    400170: Planet.Land.001|PineTree.000|Dupli|192.0.0.0.0.0.0.0.0.0
+    400172: Planet.Land.001|PineTree.000|Dupli|192.0.0.0.0.0.0.0.0.0 1
+    400174: Planet.Land.001|PineTree.000|Dupli|193.0.0.0.0.0.0.0.0.0
+    400176: Planet.Land.001|PineTree.000|Dupli|193.0.0.0.0.0.0.0.0.0 1
+    400178: Planet.Land.001|PineTree.000|Dupli|194.0.0.0.0.0.0.0.0.0
+    400180: Planet.Land.001|PineTree.000|Dupli|194.0.0.0.0.0.0.0.0.0 1
+    400182: Planet.Land.001|PineTree.000|Dupli|197.0.0.0.0.0.0.0.0.0
+    400184: Planet.Land.001|PineTree.000|Dupli|197.0.0.0.0.0.0.0.0.0 1
+    400186: Planet.Land.001|PineTree.000|Dupli|199.0.0.0.0.0.0.0.0.0
+    400188: Planet.Land.001|PineTree.000|Dupli|199.0.0.0.0.0.0.0.0.0 1
+    400190: Planet.Land.001|PineTree.000|Dupli|28.0.0.0.0.0.0.0.0.0
+    400192: Planet.Land.001|PineTree.000|Dupli|28.0.0.0.0.0.0.0.0.0 1
+    400194: Planet.Land.001|PineTree.000|Dupli|30.0.0.0.0.0.0.0.0.0
+    400196: Planet.Land.001|PineTree.000|Dupli|30.0.0.0.0.0.0.0.0.0 1
+    400198: Planet.Land.001|PineTree.000|Dupli|32.0.0.0.0.0.0.0.0.0
+    400200: Planet.Land.001|PineTree.000|Dupli|32.0.0.0.0.0.0.0.0.0 1
+    400202: Planet.Land.001|PineTree.000|Dupli|36.0.0.0.0.0.0.0.0.0
+    400204: Planet.Land.001|PineTree.000|Dupli|36.0.0.0.0.0.0.0.0.0 1
+    400206: Planet.Land.001|PineTree.000|Dupli|40.0.0.0.0.0.0.0.0.0
+    400208: Planet.Land.001|PineTree.000|Dupli|40.0.0.0.0.0.0.0.0.0 1
+    400210: Planet.Land.001|PineTree.000|Dupli|48.0.0.0.0.0.0.0.0.0
+    400212: Planet.Land.001|PineTree.000|Dupli|48.0.0.0.0.0.0.0.0.0 1
+    400214: Planet.Land.001|PineTree.000|Dupli|49.0.0.0.0.0.0.0.0.0
+    400216: Planet.Land.001|PineTree.000|Dupli|49.0.0.0.0.0.0.0.0.0 1
+    400218: Planet.Land.001|PineTree.000|Dupli|59.0.0.0.0.0.0.0.0.0
+    400220: Planet.Land.001|PineTree.000|Dupli|59.0.0.0.0.0.0.0.0.0 1
+    400222: Planet.Land.001|PineTree.000|Dupli|61.0.0.0.0.0.0.0.0.0
+    400224: Planet.Land.001|PineTree.000|Dupli|61.0.0.0.0.0.0.0.0.0 1
+    400226: Planet.Land.001|PineTree.000|Dupli|66.0.0.0.0.0.0.0.0.0
+    400228: Planet.Land.001|PineTree.000|Dupli|66.0.0.0.0.0.0.0.0.0 1
+    400230: Planet.Land.001|PineTree.000|Dupli|70.0.0.0.0.0.0.0.0.0
+    400232: Planet.Land.001|PineTree.000|Dupli|70.0.0.0.0.0.0.0.0.0 1
+    400234: Planet.Land.001|PineTree.000|Dupli|71.0.0.0.0.0.0.0.0.0
+    400236: Planet.Land.001|PineTree.000|Dupli|71.0.0.0.0.0.0.0.0.0 1
+    400238: Planet.Land.001|PineTree.000|Dupli|73.0.0.0.0.0.0.0.0.0
+    400240: Planet.Land.001|PineTree.000|Dupli|73.0.0.0.0.0.0.0.0.0 1
+    400242: Planet.Land.001|PineTree.000|Dupli|74.0.0.0.0.0.0.0.0.0
+    400244: Planet.Land.001|PineTree.000|Dupli|74.0.0.0.0.0.0.0.0.0 1
+    400246: Planet.Land.001|PineTree.000|Dupli|93.0.0.0.0.0.0.0.0.0
+    400248: Planet.Land.001|PineTree.000|Dupli|93.0.0.0.0.0.0.0.0.0 1
+    400250: Planet.Land.001|PineTree.000|Dupli|95.0.0.0.0.0.0.0.0.0
+    400252: Planet.Land.001|PineTree.000|Dupli|95.0.0.0.0.0.0.0.0.0 1
+    400254: Planet.Land.001|PineTree.000|Dupli|97.0.0.0.0.0.0.0.0.0
+    400256: Planet.Land.001|PineTree.000|Dupli|97.0.0.0.0.0.0.0.0.0 1
+    400258: Planet.Land.001|PineTree.001|Dupli|1.0.0.0.0.0.0.0.0.0
+    400260: Planet.Land.001|PineTree.001|Dupli|1.0.0.0.0.0.0.0.0.0 1
+    400262: Planet.Land.001|PineTree.001|Dupli|10.0.0.0.0.0.0.0.0.0
+    400264: Planet.Land.001|PineTree.001|Dupli|10.0.0.0.0.0.0.0.0.0 1
+    400266: Planet.Land.001|PineTree.001|Dupli|111.0.0.0.0.0.0.0.0.0
+    400268: Planet.Land.001|PineTree.001|Dupli|111.0.0.0.0.0.0.0.0.0 1
+    400270: Planet.Land.001|PineTree.001|Dupli|118.0.0.0.0.0.0.0.0.0
+    400272: Planet.Land.001|PineTree.001|Dupli|118.0.0.0.0.0.0.0.0.0 1
+    400274: Planet.Land.001|PineTree.001|Dupli|123.0.0.0.0.0.0.0.0.0
+    400276: Planet.Land.001|PineTree.001|Dupli|123.0.0.0.0.0.0.0.0.0 1
+    400278: Planet.Land.001|PineTree.001|Dupli|125.0.0.0.0.0.0.0.0.0
+    400280: Planet.Land.001|PineTree.001|Dupli|125.0.0.0.0.0.0.0.0.0 1
+    400282: Planet.Land.001|PineTree.001|Dupli|127.0.0.0.0.0.0.0.0.0
+    400284: Planet.Land.001|PineTree.001|Dupli|127.0.0.0.0.0.0.0.0.0 1
+    400286: Planet.Land.001|PineTree.001|Dupli|13.0.0.0.0.0.0.0.0.0
+    400288: Planet.Land.001|PineTree.001|Dupli|13.0.0.0.0.0.0.0.0.0 1
+    400290: Planet.Land.001|PineTree.001|Dupli|135.0.0.0.0.0.0.0.0.0
+    400292: Planet.Land.001|PineTree.001|Dupli|135.0.0.0.0.0.0.0.0.0 1
+    400294: Planet.Land.001|PineTree.001|Dupli|138.0.0.0.0.0.0.0.0.0
+    400296: Planet.Land.001|PineTree.001|Dupli|138.0.0.0.0.0.0.0.0.0 1
+    400298: Planet.Land.001|PineTree.001|Dupli|139.0.0.0.0.0.0.0.0.0
+    400300: Planet.Land.001|PineTree.001|Dupli|139.0.0.0.0.0.0.0.0.0 1
+    400302: Planet.Land.001|PineTree.001|Dupli|140.0.0.0.0.0.0.0.0.0
+    400304: Planet.Land.001|PineTree.001|Dupli|140.0.0.0.0.0.0.0.0.0 1
+    400306: Planet.Land.001|PineTree.001|Dupli|142.0.0.0.0.0.0.0.0.0
+    400308: Planet.Land.001|PineTree.001|Dupli|142.0.0.0.0.0.0.0.0.0 1
+    400310: Planet.Land.001|PineTree.001|Dupli|144.0.0.0.0.0.0.0.0.0
+    400312: Planet.Land.001|PineTree.001|Dupli|144.0.0.0.0.0.0.0.0.0 1
+    400314: Planet.Land.001|PineTree.001|Dupli|147.0.0.0.0.0.0.0.0.0
+    400316: Planet.Land.001|PineTree.001|Dupli|147.0.0.0.0.0.0.0.0.0 1
+    400318: Planet.Land.001|PineTree.001|Dupli|151.0.0.0.0.0.0.0.0.0
+    400320: Planet.Land.001|PineTree.001|Dupli|151.0.0.0.0.0.0.0.0.0 1
+    400322: Planet.Land.001|PineTree.001|Dupli|153.0.0.0.0.0.0.0.0.0
+    400324: Planet.Land.001|PineTree.001|Dupli|153.0.0.0.0.0.0.0.0.0 1
+    400326: Planet.Land.001|PineTree.001|Dupli|160.0.0.0.0.0.0.0.0.0
+    400328: Planet.Land.001|PineTree.001|Dupli|160.0.0.0.0.0.0.0.0.0 1
+    400330: Planet.Land.001|PineTree.001|Dupli|162.0.0.0.0.0.0.0.0.0
+    400332: Planet.Land.001|PineTree.001|Dupli|162.0.0.0.0.0.0.0.0.0 1
+    400334: Planet.Land.001|PineTree.001|Dupli|163.0.0.0.0.0.0.0.0.0
+    400336: Planet.Land.001|PineTree.001|Dupli|163.0.0.0.0.0.0.0.0.0 1
+    400338: Planet.Land.001|PineTree.001|Dupli|165.0.0.0.0.0.0.0.0.0
+    400340: Planet.Land.001|PineTree.001|Dupli|165.0.0.0.0.0.0.0.0.0 1
+    400342: Planet.Land.001|PineTree.001|Dupli|166.0.0.0.0.0.0.0.0.0
+    400344: Planet.Land.001|PineTree.001|Dupli|166.0.0.0.0.0.0.0.0.0 1
+    400346: Planet.Land.001|PineTree.001|Dupli|167.0.0.0.0.0.0.0.0.0
+    400348: Planet.Land.001|PineTree.001|Dupli|167.0.0.0.0.0.0.0.0.0 1
+    400350: Planet.Land.001|PineTree.001|Dupli|168.0.0.0.0.0.0.0.0.0
+    400352: Planet.Land.001|PineTree.001|Dupli|168.0.0.0.0.0.0.0.0.0 1
+    400354: Planet.Land.001|PineTree.001|Dupli|170.0.0.0.0.0.0.0.0.0
+    400356: Planet.Land.001|PineTree.001|Dupli|170.0.0.0.0.0.0.0.0.0 1
+    400358: Planet.Land.001|PineTree.001|Dupli|173.0.0.0.0.0.0.0.0.0
+    400360: Planet.Land.001|PineTree.001|Dupli|173.0.0.0.0.0.0.0.0.0 1
+    400362: Planet.Land.001|PineTree.001|Dupli|176.0.0.0.0.0.0.0.0.0
+    400364: Planet.Land.001|PineTree.001|Dupli|176.0.0.0.0.0.0.0.0.0 1
+    400366: Planet.Land.001|PineTree.001|Dupli|18.0.0.0.0.0.0.0.0.0
+    400368: Planet.Land.001|PineTree.001|Dupli|18.0.0.0.0.0.0.0.0.0 1
+    400370: Planet.Land.001|PineTree.001|Dupli|181.0.0.0.0.0.0.0.0.0
+    400372: Planet.Land.001|PineTree.001|Dupli|181.0.0.0.0.0.0.0.0.0 1
+    400374: Planet.Land.001|PineTree.001|Dupli|183.0.0.0.0.0.0.0.0.0
+    400376: Planet.Land.001|PineTree.001|Dupli|183.0.0.0.0.0.0.0.0.0 1
+    400378: Planet.Land.001|PineTree.001|Dupli|185.0.0.0.0.0.0.0.0.0
+    400380: Planet.Land.001|PineTree.001|Dupli|185.0.0.0.0.0.0.0.0.0 1
+    400382: Planet.Land.001|PineTree.001|Dupli|27.0.0.0.0.0.0.0.0.0
+    400384: Planet.Land.001|PineTree.001|Dupli|27.0.0.0.0.0.0.0.0.0 1
+    400386: Planet.Land.001|PineTree.001|Dupli|33.0.0.0.0.0.0.0.0.0
+    400388: Planet.Land.001|PineTree.001|Dupli|33.0.0.0.0.0.0.0.0.0 1
+    400390: Planet.Land.001|PineTree.001|Dupli|35.0.0.0.0.0.0.0.0.0
+    400392: Planet.Land.001|PineTree.001|Dupli|35.0.0.0.0.0.0.0.0.0 1
+    400394: Planet.Land.001|PineTree.001|Dupli|38.0.0.0.0.0.0.0.0.0
+    400396: Planet.Land.001|PineTree.001|Dupli|38.0.0.0.0.0.0.0.0.0 1
+    400398: Planet.Land.001|PineTree.001|Dupli|39.0.0.0.0.0.0.0.0.0
+    400400: Planet.Land.001|PineTree.001|Dupli|39.0.0.0.0.0.0.0.0.0 1
+    400402: Planet.Land.001|PineTree.001|Dupli|4.0.0.0.0.0.0.0.0.0
+    400404: Planet.Land.001|PineTree.001|Dupli|4.0.0.0.0.0.0.0.0.0 1
+    400406: Planet.Land.001|PineTree.001|Dupli|41.0.0.0.0.0.0.0.0.0
+    400408: Planet.Land.001|PineTree.001|Dupli|41.0.0.0.0.0.0.0.0.0 1
+    400410: Planet.Land.001|PineTree.001|Dupli|52.0.0.0.0.0.0.0.0.0
+    400412: Planet.Land.001|PineTree.001|Dupli|52.0.0.0.0.0.0.0.0.0 1
+    400414: Planet.Land.001|PineTree.001|Dupli|56.0.0.0.0.0.0.0.0.0
+    400416: Planet.Land.001|PineTree.001|Dupli|56.0.0.0.0.0.0.0.0.0 1
+    400418: Planet.Land.001|PineTree.001|Dupli|57.0.0.0.0.0.0.0.0.0
+    400420: Planet.Land.001|PineTree.001|Dupli|57.0.0.0.0.0.0.0.0.0 1
+    400422: Planet.Land.001|PineTree.001|Dupli|60.0.0.0.0.0.0.0.0.0
+    400424: Planet.Land.001|PineTree.001|Dupli|60.0.0.0.0.0.0.0.0.0 1
+    400426: Planet.Land.001|PineTree.001|Dupli|82.0.0.0.0.0.0.0.0.0
+    400428: Planet.Land.001|PineTree.001|Dupli|82.0.0.0.0.0.0.0.0.0 1
+    400430: Planet.Land.001|PineTree.001|Dupli|83.0.0.0.0.0.0.0.0.0
+    400432: Planet.Land.001|PineTree.001|Dupli|83.0.0.0.0.0.0.0.0.0 1
+    400434: Planet.Land.001|PineTree.001|Dupli|84.0.0.0.0.0.0.0.0.0
+    400436: Planet.Land.001|PineTree.001|Dupli|84.0.0.0.0.0.0.0.0.0 1
+    400438: Planet.Land.001|PineTree.001|Dupli|85.0.0.0.0.0.0.0.0.0
+    400440: Planet.Land.001|PineTree.001|Dupli|85.0.0.0.0.0.0.0.0.0 1
+    400442: Planet.Land.001|PineTree.001|Dupli|86.0.0.0.0.0.0.0.0.0
+    400444: Planet.Land.001|PineTree.001|Dupli|86.0.0.0.0.0.0.0.0.0 1
+    400446: Planet.Land.001|PineTree.001|Dupli|9.0.0.0.0.0.0.0.0.0
+    400448: Planet.Land.001|PineTree.001|Dupli|9.0.0.0.0.0.0.0.0.0 1
+    400450: Planet.Land.001|PineTree.001|Dupli|92.0.0.0.0.0.0.0.0.0
+    400452: Planet.Land.001|PineTree.001|Dupli|92.0.0.0.0.0.0.0.0.0 1
+    400454: Planet.Land.001|PineTree.001|Dupli|94.0.0.0.0.0.0.0.0.0
+    400456: Planet.Land.001|PineTree.001|Dupli|94.0.0.0.0.0.0.0.0.0 1
+    400458: Planet.Land.001|PineTree.001|Dupli|99.0.0.0.0.0.0.0.0.0
+    400460: Planet.Land.001|PineTree.001|Dupli|99.0.0.0.0.0.0.0.0.0 1
+    400462: Planet.Land.001|PineTree.002|Dupli|0.0.0.0.0.0.0.0.0.0
+    400464: Planet.Land.001|PineTree.002|Dupli|0.0.0.0.0.0.0.0.0.0 1
+    400466: Planet.Land.001|PineTree.002|Dupli|102.0.0.0.0.0.0.0.0.0
+    400468: Planet.Land.001|PineTree.002|Dupli|102.0.0.0.0.0.0.0.0.0 1
+    400470: Planet.Land.001|PineTree.002|Dupli|106.0.0.0.0.0.0.0.0.0
+    400472: Planet.Land.001|PineTree.002|Dupli|106.0.0.0.0.0.0.0.0.0 1
+    400474: Planet.Land.001|PineTree.002|Dupli|109.0.0.0.0.0.0.0.0.0
+    400476: Planet.Land.001|PineTree.002|Dupli|109.0.0.0.0.0.0.0.0.0 1
+    400478: Planet.Land.001|PineTree.002|Dupli|110.0.0.0.0.0.0.0.0.0
+    400480: Planet.Land.001|PineTree.002|Dupli|110.0.0.0.0.0.0.0.0.0 1
+    400482: Planet.Land.001|PineTree.002|Dupli|115.0.0.0.0.0.0.0.0.0
+    400484: Planet.Land.001|PineTree.002|Dupli|115.0.0.0.0.0.0.0.0.0 1
+    400486: Planet.Land.001|PineTree.002|Dupli|116.0.0.0.0.0.0.0.0.0
+    400488: Planet.Land.001|PineTree.002|Dupli|116.0.0.0.0.0.0.0.0.0 1
+    400490: Planet.Land.001|PineTree.002|Dupli|117.0.0.0.0.0.0.0.0.0
+    400492: Planet.Land.001|PineTree.002|Dupli|117.0.0.0.0.0.0.0.0.0 1
+    400494: Planet.Land.001|PineTree.002|Dupli|121.0.0.0.0.0.0.0.0.0
+    400496: Planet.Land.001|PineTree.002|Dupli|121.0.0.0.0.0.0.0.0.0 1
+    400498: Planet.Land.001|PineTree.002|Dupli|124.0.0.0.0.0.0.0.0.0
+    400500: Planet.Land.001|PineTree.002|Dupli|124.0.0.0.0.0.0.0.0.0 1
+    400502: Planet.Land.001|PineTree.002|Dupli|128.0.0.0.0.0.0.0.0.0
+    400504: Planet.Land.001|PineTree.002|Dupli|128.0.0.0.0.0.0.0.0.0 1
+    400506: Planet.Land.001|PineTree.002|Dupli|130.0.0.0.0.0.0.0.0.0
+    400508: Planet.Land.001|PineTree.002|Dupli|130.0.0.0.0.0.0.0.0.0 1
+    400510: Planet.Land.001|PineTree.002|Dupli|136.0.0.0.0.0.0.0.0.0
+    400512: Planet.Land.001|PineTree.002|Dupli|136.0.0.0.0.0.0.0.0.0 1
+    400514: Planet.Land.001|PineTree.002|Dupli|14.0.0.0.0.0.0.0.0.0
+    400516: Planet.Land.001|PineTree.002|Dupli|14.0.0.0.0.0.0.0.0.0 1
+    400518: Planet.Land.001|PineTree.002|Dupli|148.0.0.0.0.0.0.0.0.0
+    400520: Planet.Land.001|PineTree.002|Dupli|148.0.0.0.0.0.0.0.0.0 1
+    400522: Planet.Land.001|PineTree.002|Dupli|15.0.0.0.0.0.0.0.0.0
+    400524: Planet.Land.001|PineTree.002|Dupli|15.0.0.0.0.0.0.0.0.0 1
+    400526: Planet.Land.001|PineTree.002|Dupli|157.0.0.0.0.0.0.0.0.0
+    400528: Planet.Land.001|PineTree.002|Dupli|157.0.0.0.0.0.0.0.0.0 1
+    400530: Planet.Land.001|PineTree.002|Dupli|159.0.0.0.0.0.0.0.0.0
+    400532: Planet.Land.001|PineTree.002|Dupli|159.0.0.0.0.0.0.0.0.0 1
+    400534: Planet.Land.001|PineTree.002|Dupli|172.0.0.0.0.0.0.0.0.0
+    400536: Planet.Land.001|PineTree.002|Dupli|172.0.0.0.0.0.0.0.0.0 1
+    400538: Planet.Land.001|PineTree.002|Dupli|174.0.0.0.0.0.0.0.0.0
+    400540: Planet.Land.001|PineTree.002|Dupli|174.0.0.0.0.0.0.0.0.0 1
+    400542: Planet.Land.001|PineTree.002|Dupli|177.0.0.0.0.0.0.0.0.0
+    400544: Planet.Land.001|PineTree.002|Dupli|177.0.0.0.0.0.0.0.0.0 1
+    400546: Planet.Land.001|PineTree.002|Dupli|186.0.0.0.0.0.0.0.0.0
+    400548: Planet.Land.001|PineTree.002|Dupli|186.0.0.0.0.0.0.0.0.0 1
+    400550: Planet.Land.001|PineTree.002|Dupli|188.0.0.0.0.0.0.0.0.0
+    400552: Planet.Land.001|PineTree.002|Dupli|188.0.0.0.0.0.0.0.0.0 1
+    400554: Planet.Land.001|PineTree.002|Dupli|189.0.0.0.0.0.0.0.0.0
+    400556: Planet.Land.001|PineTree.002|Dupli|189.0.0.0.0.0.0.0.0.0 1
+    400558: Planet.Land.001|PineTree.002|Dupli|195.0.0.0.0.0.0.0.0.0
+    400560: Planet.Land.001|PineTree.002|Dupli|195.0.0.0.0.0.0.0.0.0 1
+    400562: Planet.Land.001|PineTree.002|Dupli|196.0.0.0.0.0.0.0.0.0
+    400564: Planet.Land.001|PineTree.002|Dupli|196.0.0.0.0.0.0.0.0.0 1
+    400566: Planet.Land.001|PineTree.002|Dupli|198.0.0.0.0.0.0.0.0.0
+    400568: Planet.Land.001|PineTree.002|Dupli|198.0.0.0.0.0.0.0.0.0 1
+    400570: Planet.Land.001|PineTree.002|Dupli|2.0.0.0.0.0.0.0.0.0
+    400572: Planet.Land.001|PineTree.002|Dupli|2.0.0.0.0.0.0.0.0.0 1
+    400574: Planet.Land.001|PineTree.002|Dupli|20.0.0.0.0.0.0.0.0.0
+    400576: Planet.Land.001|PineTree.002|Dupli|20.0.0.0.0.0.0.0.0.0 1
+    400578: Planet.Land.001|PineTree.002|Dupli|24.0.0.0.0.0.0.0.0.0
+    400580: Planet.Land.001|PineTree.002|Dupli|24.0.0.0.0.0.0.0.0.0 1
+    400582: Planet.Land.001|PineTree.002|Dupli|26.0.0.0.0.0.0.0.0.0
+    400584: Planet.Land.001|PineTree.002|Dupli|26.0.0.0.0.0.0.0.0.0 1
+    400586: Planet.Land.001|PineTree.002|Dupli|31.0.0.0.0.0.0.0.0.0
+    400588: Planet.Land.001|PineTree.002|Dupli|31.0.0.0.0.0.0.0.0.0 1
+    400590: Planet.Land.001|PineTree.002|Dupli|34.0.0.0.0.0.0.0.0.0
+    400592: Planet.Land.001|PineTree.002|Dupli|34.0.0.0.0.0.0.0.0.0 1
+    400594: Planet.Land.001|PineTree.002|Dupli|42.0.0.0.0.0.0.0.0.0
+    400596: Planet.Land.001|PineTree.002|Dupli|42.0.0.0.0.0.0.0.0.0 1
+    400598: Planet.Land.001|PineTree.002|Dupli|44.0.0.0.0.0.0.0.0.0
+    400600: Planet.Land.001|PineTree.002|Dupli|44.0.0.0.0.0.0.0.0.0 1
+    400602: Planet.Land.001|PineTree.002|Dupli|45.0.0.0.0.0.0.0.0.0
+    400604: Planet.Land.001|PineTree.002|Dupli|45.0.0.0.0.0.0.0.0.0 1
+    400606: Planet.Land.001|PineTree.002|Dupli|47.0.0.0.0.0.0.0.0.0
+    400608: Planet.Land.001|PineTree.002|Dupli|47.0.0.0.0.0.0.0.0.0 1
+    400610: Planet.Land.001|PineTree.002|Dupli|5.0.0.0.0.0.0.0.0.0
+    400612: Planet.Land.001|PineTree.002|Dupli|5.0.0.0.0.0.0.0.0.0 1
+    400614: Planet.Land.001|PineTree.002|Dupli|50.0.0.0.0.0.0.0.0.0
+    400616: Planet.Land.001|PineTree.002|Dupli|50.0.0.0.0.0.0.0.0.0 1
+    400618: Planet.Land.001|PineTree.002|Dupli|53.0.0.0.0.0.0.0.0.0
+    400620: Planet.Land.001|PineTree.002|Dupli|53.0.0.0.0.0.0.0.0.0 1
+    400622: Planet.Land.001|PineTree.002|Dupli|54.0.0.0.0.0.0.0.0.0
+    400624: Planet.Land.001|PineTree.002|Dupli|54.0.0.0.0.0.0.0.0.0 1
+    400626: Planet.Land.001|PineTree.002|Dupli|55.0.0.0.0.0.0.0.0.0
+    400628: Planet.Land.001|PineTree.002|Dupli|55.0.0.0.0.0.0.0.0.0 1
+    400630: Planet.Land.001|PineTree.002|Dupli|62.0.0.0.0.0.0.0.0.0
+    400632: Planet.Land.001|PineTree.002|Dupli|62.0.0.0.0.0.0.0.0.0 1
+    400634: Planet.Land.001|PineTree.002|Dupli|63.0.0.0.0.0.0.0.0.0
+    400636: Planet.Land.001|PineTree.002|Dupli|63.0.0.0.0.0.0.0.0.0 1
+    400638: Planet.Land.001|PineTree.002|Dupli|64.0.0.0.0.0.0.0.0.0
+    400640: Planet.Land.001|PineTree.002|Dupli|64.0.0.0.0.0.0.0.0.0 1
+    400642: Planet.Land.001|PineTree.002|Dupli|65.0.0.0.0.0.0.0.0.0
+    400644: Planet.Land.001|PineTree.002|Dupli|65.0.0.0.0.0.0.0.0.0 1
+    400646: Planet.Land.001|PineTree.002|Dupli|68.0.0.0.0.0.0.0.0.0
+    400648: Planet.Land.001|PineTree.002|Dupli|69.0.0.0.0.0.0.0.0.0
+    400650: Planet.Land.001|PineTree.002|Dupli|69.0.0.0.0.0.0.0.0.0 1
+    400652: Planet.Land.001|PineTree.002|Dupli|7.0.0.0.0.0.0.0.0.0
+    400654: Planet.Land.001|PineTree.002|Dupli|7.0.0.0.0.0.0.0.0.0 1
+    400656: Planet.Land.001|PineTree.002|Dupli|72.0.0.0.0.0.0.0.0.0
+    400658: Planet.Land.001|PineTree.002|Dupli|72.0.0.0.0.0.0.0.0.0 1
+    400660: Planet.Land.001|PineTree.002|Dupli|76.0.0.0.0.0.0.0.0.0
+    400662: Planet.Land.001|PineTree.002|Dupli|76.0.0.0.0.0.0.0.0.0 1
+    400664: Planet.Land.001|PineTree.002|Dupli|79.0.0.0.0.0.0.0.0.0
+    400666: Planet.Land.001|PineTree.002|Dupli|79.0.0.0.0.0.0.0.0.0 1
+    400668: Planet.Land.001|PineTree.002|Dupli|8.0.0.0.0.0.0.0.0.0
+    400670: Planet.Land.001|PineTree.002|Dupli|8.0.0.0.0.0.0.0.0.0 1
+    400672: Planet.Land.001|PineTree.002|Dupli|81.0.0.0.0.0.0.0.0.0
+    400674: Planet.Land.001|PineTree.002|Dupli|81.0.0.0.0.0.0.0.0.0 1
+    400676: Planet.Land.001|PineTree.002|Dupli|98.0.0.0.0.0.0.0.0.0
+    400678: Planet.Land.001|PineTree.002|Dupli|98.0.0.0.0.0.0.0.0.0 1
+    400680: Planet.Land.001|PineTree.003|Dupli|100.0.0.0.0.0.0.0.0.0
+    400682: Planet.Land.001|PineTree.003|Dupli|100.0.0.0.0.0.0.0.0.0 1
+    400684: Planet.Land.001|PineTree.003|Dupli|101.0.0.0.0.0.0.0.0.0
+    400686: Planet.Land.001|PineTree.003|Dupli|101.0.0.0.0.0.0.0.0.0 1
+    400688: Planet.Land.001|PineTree.003|Dupli|103.0.0.0.0.0.0.0.0.0
+    400690: Planet.Land.001|PineTree.003|Dupli|103.0.0.0.0.0.0.0.0.0 1
+    400692: Planet.Land.001|PineTree.003|Dupli|105.0.0.0.0.0.0.0.0.0
+    400694: Planet.Land.001|PineTree.003|Dupli|105.0.0.0.0.0.0.0.0.0 1
+    400696: Planet.Land.001|PineTree.003|Dupli|113.0.0.0.0.0.0.0.0.0
+    400698: Planet.Land.001|PineTree.003|Dupli|113.0.0.0.0.0.0.0.0.0 1
+    400700: Planet.Land.001|PineTree.003|Dupli|114.0.0.0.0.0.0.0.0.0
+    400702: Planet.Land.001|PineTree.003|Dupli|114.0.0.0.0.0.0.0.0.0 1
+    400704: Planet.Land.001|PineTree.003|Dupli|119.0.0.0.0.0.0.0.0.0
+    400706: Planet.Land.001|PineTree.003|Dupli|119.0.0.0.0.0.0.0.0.0 1
+    400708: Planet.Land.001|PineTree.003|Dupli|122.0.0.0.0.0.0.0.0.0
+    400710: Planet.Land.001|PineTree.003|Dupli|122.0.0.0.0.0.0.0.0.0 1
+    400712: Planet.Land.001|PineTree.003|Dupli|126.0.0.0.0.0.0.0.0.0
+    400714: Planet.Land.001|PineTree.003|Dupli|126.0.0.0.0.0.0.0.0.0 1
+    400716: Planet.Land.001|PineTree.003|Dupli|129.0.0.0.0.0.0.0.0.0
+    400718: Planet.Land.001|PineTree.003|Dupli|129.0.0.0.0.0.0.0.0.0 1
+    400720: Planet.Land.001|PineTree.003|Dupli|134.0.0.0.0.0.0.0.0.0
+    400722: Planet.Land.001|PineTree.003|Dupli|134.0.0.0.0.0.0.0.0.0 1
+    400724: Planet.Land.001|PineTree.003|Dupli|143.0.0.0.0.0.0.0.0.0
+    400726: Planet.Land.001|PineTree.003|Dupli|143.0.0.0.0.0.0.0.0.0 1
+    400728: Planet.Land.001|PineTree.003|Dupli|146.0.0.0.0.0.0.0.0.0
+    400730: Planet.Land.001|PineTree.003|Dupli|146.0.0.0.0.0.0.0.0.0 1
+    400732: Planet.Land.001|PineTree.003|Dupli|149.0.0.0.0.0.0.0.0.0
+    400734: Planet.Land.001|PineTree.003|Dupli|149.0.0.0.0.0.0.0.0.0 1
+    400736: Planet.Land.001|PineTree.003|Dupli|152.0.0.0.0.0.0.0.0.0
+    400738: Planet.Land.001|PineTree.003|Dupli|152.0.0.0.0.0.0.0.0.0 1
+    400740: Planet.Land.001|PineTree.003|Dupli|154.0.0.0.0.0.0.0.0.0
+    400742: Planet.Land.001|PineTree.003|Dupli|154.0.0.0.0.0.0.0.0.0 1
+    400744: Planet.Land.001|PineTree.003|Dupli|158.0.0.0.0.0.0.0.0.0
+    400746: Planet.Land.001|PineTree.003|Dupli|158.0.0.0.0.0.0.0.0.0 1
+    400748: Planet.Land.001|PineTree.003|Dupli|161.0.0.0.0.0.0.0.0.0
+    400750: Planet.Land.001|PineTree.003|Dupli|161.0.0.0.0.0.0.0.0.0 1
+    400752: Planet.Land.001|PineTree.003|Dupli|164.0.0.0.0.0.0.0.0.0
+    400754: Planet.Land.001|PineTree.003|Dupli|164.0.0.0.0.0.0.0.0.0 1
+    400756: Planet.Land.001|PineTree.003|Dupli|17.0.0.0.0.0.0.0.0.0
+    400758: Planet.Land.001|PineTree.003|Dupli|17.0.0.0.0.0.0.0.0.0 1
+    400760: Planet.Land.001|PineTree.003|Dupli|175.0.0.0.0.0.0.0.0.0
+    400762: Planet.Land.001|PineTree.003|Dupli|175.0.0.0.0.0.0.0.0.0 1
+    400764: Planet.Land.001|PineTree.003|Dupli|178.0.0.0.0.0.0.0.0.0
+    400766: Planet.Land.001|PineTree.003|Dupli|178.0.0.0.0.0.0.0.0.0 1
+    400768: Planet.Land.001|PineTree.003|Dupli|179.0.0.0.0.0.0.0.0.0
+    400770: Planet.Land.001|PineTree.003|Dupli|179.0.0.0.0.0.0.0.0.0 1
+    400772: Planet.Land.001|PineTree.003|Dupli|19.0.0.0.0.0.0.0.0.0
+    400774: Planet.Land.001|PineTree.003|Dupli|19.0.0.0.0.0.0.0.0.0 1
+    400776: Planet.Land.001|PineTree.003|Dupli|191.0.0.0.0.0.0.0.0.0
+    400778: Planet.Land.001|PineTree.003|Dupli|191.0.0.0.0.0.0.0.0.0 1
+    400780: Planet.Land.001|PineTree.003|Dupli|21.0.0.0.0.0.0.0.0.0
+    400782: Planet.Land.001|PineTree.003|Dupli|21.0.0.0.0.0.0.0.0.0 1
+    400784: Planet.Land.001|PineTree.003|Dupli|22.0.0.0.0.0.0.0.0.0
+    400786: Planet.Land.001|PineTree.003|Dupli|22.0.0.0.0.0.0.0.0.0 1
+    400788: Planet.Land.001|PineTree.003|Dupli|23.0.0.0.0.0.0.0.0.0
+    400790: Planet.Land.001|PineTree.003|Dupli|23.0.0.0.0.0.0.0.0.0 1
+    400792: Planet.Land.001|PineTree.003|Dupli|25.0.0.0.0.0.0.0.0.0
+    400794: Planet.Land.001|PineTree.003|Dupli|25.0.0.0.0.0.0.0.0.0 1
+    400796: Planet.Land.001|PineTree.003|Dupli|29.0.0.0.0.0.0.0.0.0
+    400798: Planet.Land.001|PineTree.003|Dupli|29.0.0.0.0.0.0.0.0.0 1
+    400800: Planet.Land.001|PineTree.003|Dupli|3.0.0.0.0.0.0.0.0.0
+    400802: Planet.Land.001|PineTree.003|Dupli|3.0.0.0.0.0.0.0.0.0 1
+    400804: Planet.Land.001|PineTree.003|Dupli|37.0.0.0.0.0.0.0.0.0
+    400806: Planet.Land.001|PineTree.003|Dupli|37.0.0.0.0.0.0.0.0.0 1
+    400808: Planet.Land.001|PineTree.003|Dupli|43.0.0.0.0.0.0.0.0.0
+    400810: Planet.Land.001|PineTree.003|Dupli|43.0.0.0.0.0.0.0.0.0 1
+    400812: Planet.Land.001|PineTree.003|Dupli|46.0.0.0.0.0.0.0.0.0
+    400814: Planet.Land.001|PineTree.003|Dupli|46.0.0.0.0.0.0.0.0.0 1
+    400816: Planet.Land.001|PineTree.003|Dupli|51.0.0.0.0.0.0.0.0.0
+    400818: Planet.Land.001|PineTree.003|Dupli|51.0.0.0.0.0.0.0.0.0 1
+    400820: Planet.Land.001|PineTree.003|Dupli|58.0.0.0.0.0.0.0.0.0
+    400822: Planet.Land.001|PineTree.003|Dupli|58.0.0.0.0.0.0.0.0.0 1
+    400824: Planet.Land.001|PineTree.003|Dupli|6.0.0.0.0.0.0.0.0.0
+    400826: Planet.Land.001|PineTree.003|Dupli|6.0.0.0.0.0.0.0.0.0 1
+    400828: Planet.Land.001|PineTree.003|Dupli|67.0.0.0.0.0.0.0.0.0
+    400830: Planet.Land.001|PineTree.003|Dupli|67.0.0.0.0.0.0.0.0.0 1
+    400832: Planet.Land.001|PineTree.003|Dupli|75.0.0.0.0.0.0.0.0.0
+    400834: Planet.Land.001|PineTree.003|Dupli|75.0.0.0.0.0.0.0.0.0 1
+    400836: Planet.Land.001|PineTree.003|Dupli|77.0.0.0.0.0.0.0.0.0
+    400838: Planet.Land.001|PineTree.003|Dupli|77.0.0.0.0.0.0.0.0.0 1
+    400840: Planet.Land.001|PineTree.003|Dupli|78.0.0.0.0.0.0.0.0.0
+    400842: Planet.Land.001|PineTree.003|Dupli|78.0.0.0.0.0.0.0.0.0 1
+    400844: Planet.Land.001|PineTree.003|Dupli|80.0.0.0.0.0.0.0.0.0
+    400846: Planet.Land.001|PineTree.003|Dupli|80.0.0.0.0.0.0.0.0.0 1
+    400848: Planet.Land.001|PineTree.003|Dupli|87.0.0.0.0.0.0.0.0.0
+    400850: Planet.Land.001|PineTree.003|Dupli|87.0.0.0.0.0.0.0.0.0 1
+    400852: Planet.Land.001|PineTree.003|Dupli|88.0.0.0.0.0.0.0.0.0
+    400854: Planet.Land.001|PineTree.003|Dupli|88.0.0.0.0.0.0.0.0.0 1
+    400856: Planet.Land.001|PineTree.003|Dupli|89.0.0.0.0.0.0.0.0.0
+    400858: Planet.Land.001|PineTree.003|Dupli|89.0.0.0.0.0.0.0.0.0 1
+    400860: Planet.Land.001|PineTree.003|Dupli|90.0.0.0.0.0.0.0.0.0
+    400862: Planet.Land.001|PineTree.003|Dupli|90.0.0.0.0.0.0.0.0.0 1
+    400864: Planet.Land.001|PineTree.003|Dupli|91.0.0.0.0.0.0.0.0.0
+    400866: Planet.Land.001|PineTree.003|Dupli|91.0.0.0.0.0.0.0.0.0 1
+    400868: Planet.Land.001|PineTree.003|Dupli|96.0.0.0.0.0.0.0.0.0
+    400870: Planet.Land.001|PineTree.003|Dupli|96.0.0.0.0.0.0.0.0.0 1
+    400872: Planet.Land.002
+    400874: Planet.Land|AllTreesGroup.000|Dupli|13.0.0.0.0.0.0.0.0.0
+    400876: Planet.Land|AllTreesGroup.000|Dupli|17.0.0.0.0.0.0.0.0.0
+    400878: Planet.Land|AllTreesGroup.000|Dupli|21.0.0.0.0.0.0.0.0.0
+    400880: Planet.Land|AllTreesGroup.000|Dupli|26.0.0.0.0.0.0.0.0.0
+    400882: Planet.Land|AllTreesGroup.000|Dupli|38.0.0.0.0.0.0.0.0.0
+    400884: Planet.Land|AllTreesGroup.000|Dupli|45.0.0.0.0.0.0.0.0.0
+    400886: Planet.Land|PineTree.000|Dupli|28.0.0.0.0.0.0.0.0.0
+    400888: Planet.Land|PineTree.000|Dupli|29.0.0.0.0.0.0.0.0.0
+    400890: Planet.Land|PineTree.000|Dupli|34.0.0.0.0.0.0.0.0.0
+    400892: Planet.Land|PineTree.000|Dupli|35.0.0.0.0.0.0.0.0.0
+    400894: Planet.Land|PineTree.001|Dupli|0.0.0.0.0.0.0.0.0.0
+    400896: Planet.Land|PineTree.001|Dupli|1.0.0.0.0.0.0.0.0.0
+    400898: Planet.Land|PineTree.001|Dupli|15.0.0.0.0.0.0.0.0.0
+    400900: Planet.Land|PineTree.001|Dupli|8.0.0.0.0.0.0.0.0.0
+    400902: Planet.Land|PineTree.002|Dupli|16.0.0.0.0.0.0.0.0.0
+    400904: Planet.Land|PineTree.002|Dupli|18.0.0.0.0.0.0.0.0.0
+    400906: Planet.Land|PineTree.002|Dupli|23.0.0.0.0.0.0.0.0.0
+    400908: Planet.Land|PineTree.002|Dupli|3.0.0.0.0.0.0.0.0.0
+    400910: Planet.Land|PineTree.002|Dupli|40.0.0.0.0.0.0.0.0.0
+    400912: Planet.Land|PineTree.002|Dupli|44.0.0.0.0.0.0.0.0.0
+    400914: Planet.Land|PineTree.003|Dupli|30.0.0.0.0.0.0.0.0.0
+    400916: Planet.Land|PineTree.003|Dupli|4.0.0.0.0.0.0.0.0.0
+    400918: Planet.Land|RoundTree.000|Dupli|39.0.0.0.0.0.0.0.0.0
+    400920: Planet.Land|RoundTree.001|Dupli|14.0.0.0.0.0.0.0.0.0
+    400922: Planet.Land|RoundTree.001|Dupli|20.0.0.0.0.0.0.0.0.0
+    400924: Planet.Land|RoundTree.001|Dupli|22.0.0.0.0.0.0.0.0.0
+    400926: Planet.Land|RoundTree.001|Dupli|32.0.0.0.0.0.0.0.0.0
+    400928: Planet.Land|RoundTree.001|Dupli|41.0.0.0.0.0.0.0.0.0
+    400930: Planet.Land|RoundTree.001|Dupli|46.0.0.0.0.0.0.0.0.0
+    400932: Planet.Land|RoundTree.001|Dupli|7.0.0.0.0.0.0.0.0.0
+    400934: Planet.Land|RoundTree.002|Dupli|11.0.0.0.0.0.0.0.0.0
+    400936: Planet.Land|RoundTree.002|Dupli|33.0.0.0.0.0.0.0.0.0
+    400938: Planet.Land|RoundTree.002|Dupli|37.0.0.0.0.0.0.0.0.0
+    400940: Planet.Land|RoundTree.002|Dupli|42.0.0.0.0.0.0.0.0.0
+    400942: Planet.Land|RoundTree.003|Dupli|2.0.0.0.0.0.0.0.0.0
+    400944: Planet.Land|RoundTree.003|Dupli|25.0.0.0.0.0.0.0.0.0
+    400946: Planet.Land|RoundTree.003|Dupli|27.0.0.0.0.0.0.0.0.0
+    400948: Planet.Land|RoundTree.003|Dupli|36.0.0.0.0.0.0.0.0.0
+    400950: Planet.Land|RoundTree.003|Dupli|43.0.0.0.0.0.0.0.0.0
+    400952: Planet.Land|RoundTree.003|Dupli|9.0.0.0.0.0.0.0.0.0
+    400954: Planet.Land|RoundTree.004|Dupli|10.0.0.0.0.0.0.0.0.0
+    400956: Planet.Land|RoundTree.004|Dupli|12.0.0.0.0.0.0.0.0.0
+    400958: Planet.Land|RoundTree.004|Dupli|31.0.0.0.0.0.0.0.0.0
+    400960: Planet.Land|RoundTree.004|Dupli|47.0.0.0.0.0.0.0.0.0
+    400962: Planet.Land|RoundTree.004|Dupli|48.0.0.0.0.0.0.0.0.0
+    400964: Planet.Land|RoundTree.004|Dupli|49.0.0.0.0.0.0.0.0.0
+    400966: Planet.Land|RoundTreeGroup.000|Dupli|19.0.0.0.0.0.0.0.0.0
+    400968: Planet.Land|RoundTreeGroup.000|Dupli|24.0.0.0.0.0.0.0.0.0
+    400970: Planet.Land|RoundTreeGroup.000|Dupli|5.0.0.0.0.0.0.0.0.0
+    400972: Planet.Land|RoundTreeGroup.000|Dupli|6.0.0.0.0.0.0.0.0.0
+    400974: Planet.ShaderTest
+    400976: Planet.Water
+    400978: Planet.Water.001
+    400980: Planet.Water.002
+    400982: PlantGroupSurface
+    400984: PlantGroupSurface|PineTree.000|Dupli|0.0.0.0.0.0.0.0.0.0
+    400986: PlantGroupSurface|PineTree.000|Dupli|6.0.0.0.0.0.0.0.0.0
+    400988: PlantGroupSurface|PineTree.000|Dupli|9.0.0.0.0.0.0.0.0.0
+    400990: PlantGroupSurface|PineTree.001|Dupli|1.0.0.0.0.0.0.0.0.0
+    400992: PlantGroupSurface|PineTree.001|Dupli|2.0.0.0.0.0.0.0.0.0
+    400994: PlantGroupSurface|PineTree.001|Dupli|3.0.0.0.0.0.0.0.0.0
+    400996: PlantGroupSurface|PineTree.001|Dupli|8.0.0.0.0.0.0.0.0.0
+    400998: PlantGroupSurface|PineTree.002|Dupli|4.0.0.0.0.0.0.0.0.0
+    401000: PlantGroupSurface|PineTree.002|Dupli|5.0.0.0.0.0.0.0.0.0
+    401002: PlantGroupSurface|PineTree.002|Dupli|7.0.0.0.0.0.0.0.0.0
+    401004: RoundTree.000
+    401006: RoundTree.001
+    401008: RoundTree.002
+    401010: RoundTree.003
+    401012: RoundTree.004
+    401014: RoundTreeGroup.000
+    401016: Shockwave
+    401018: ShockwaveFlat.002
+    401020: ShockwaveSpike.000
+    401022: Sky.000
+    401024: SpikeShockwave
+    401026: Water-crap
+    401028: Water.001
+    2300000: AllTreesGroup.000
+    2300002: Asteroid_001
+    2300004: Asteroid_002
+    2300006: Asteroid_003
+    2300008: Cube_1_18
+    2300010: Cube_2_8
+    2300012: Cube_3_4
+    2300014: Cube_4_4
+    2300016: Cube_5
+    2300018: DustShockwave.001
+    2300020: Icosphere
+    2300022: Icosphere.001
+    2300024: Icosphere.002
+    2300026: Icosphere.003
+    2300028: Icosphere.004
+    2300030: Icosphere.005
+    2300032: Icosphere.006
+    2300034: Icosphere.007
+    2300036: Icosphere.008
+    2300038: Icosphere.009
+    2300040: Icosphere.010
+    2300042: MeshDustShockwave
+    2300044: MeshShockwave
+    2300046: Mine.000
+    2300048: Mine_Cap1
+    2300050: Mine_Ring
+    2300052: Panet.Clouds
+    2300054: PineTree.000
+    2300056: PineTree.001
+    2300058: PineTree.002
+    2300060: PineTree.003
+    2300062: Planet.000
+    2300064: Planet.Clouds.000
+    2300066: Planet.Clouds.001
+    2300068: Planet.Land
+    2300070: Planet.Land.000
+    2300072: Planet.Land.001
+    2300074: Planet.Land.001|PineTree.000|Dupli|104.0.0.0.0.0.0.0.0.0
+    2300076: Planet.Land.001|PineTree.000|Dupli|104.0.0.0.0.0.0.0.0.0 1
+    2300078: Planet.Land.001|PineTree.000|Dupli|107.0.0.0.0.0.0.0.0.0
+    2300080: Planet.Land.001|PineTree.000|Dupli|107.0.0.0.0.0.0.0.0.0 1
+    2300082: Planet.Land.001|PineTree.000|Dupli|108.0.0.0.0.0.0.0.0.0
+    2300084: Planet.Land.001|PineTree.000|Dupli|108.0.0.0.0.0.0.0.0.0 1
+    2300086: Planet.Land.001|PineTree.000|Dupli|11.0.0.0.0.0.0.0.0.0
+    2300088: Planet.Land.001|PineTree.000|Dupli|11.0.0.0.0.0.0.0.0.0 1
+    2300090: Planet.Land.001|PineTree.000|Dupli|112.0.0.0.0.0.0.0.0.0
+    2300092: Planet.Land.001|PineTree.000|Dupli|112.0.0.0.0.0.0.0.0.0 1
+    2300094: Planet.Land.001|PineTree.000|Dupli|12.0.0.0.0.0.0.0.0.0
+    2300096: Planet.Land.001|PineTree.000|Dupli|12.0.0.0.0.0.0.0.0.0 1
+    2300098: Planet.Land.001|PineTree.000|Dupli|120.0.0.0.0.0.0.0.0.0
+    2300100: Planet.Land.001|PineTree.000|Dupli|120.0.0.0.0.0.0.0.0.0 1
+    2300102: Planet.Land.001|PineTree.000|Dupli|131.0.0.0.0.0.0.0.0.0
+    2300104: Planet.Land.001|PineTree.000|Dupli|131.0.0.0.0.0.0.0.0.0 1
+    2300106: Planet.Land.001|PineTree.000|Dupli|132.0.0.0.0.0.0.0.0.0
+    2300108: Planet.Land.001|PineTree.000|Dupli|132.0.0.0.0.0.0.0.0.0 1
+    2300110: Planet.Land.001|PineTree.000|Dupli|133.0.0.0.0.0.0.0.0.0
+    2300112: Planet.Land.001|PineTree.000|Dupli|133.0.0.0.0.0.0.0.0.0 1
+    2300114: Planet.Land.001|PineTree.000|Dupli|137.0.0.0.0.0.0.0.0.0
+    2300116: Planet.Land.001|PineTree.000|Dupli|137.0.0.0.0.0.0.0.0.0 1
+    2300118: Planet.Land.001|PineTree.000|Dupli|141.0.0.0.0.0.0.0.0.0
+    2300120: Planet.Land.001|PineTree.000|Dupli|141.0.0.0.0.0.0.0.0.0 1
+    2300122: Planet.Land.001|PineTree.000|Dupli|145.0.0.0.0.0.0.0.0.0
+    2300124: Planet.Land.001|PineTree.000|Dupli|145.0.0.0.0.0.0.0.0.0 1
+    2300126: Planet.Land.001|PineTree.000|Dupli|150.0.0.0.0.0.0.0.0.0
+    2300128: Planet.Land.001|PineTree.000|Dupli|150.0.0.0.0.0.0.0.0.0 1
+    2300130: Planet.Land.001|PineTree.000|Dupli|155.0.0.0.0.0.0.0.0.0
+    2300132: Planet.Land.001|PineTree.000|Dupli|155.0.0.0.0.0.0.0.0.0 1
+    2300134: Planet.Land.001|PineTree.000|Dupli|156.0.0.0.0.0.0.0.0.0
+    2300136: Planet.Land.001|PineTree.000|Dupli|156.0.0.0.0.0.0.0.0.0 1
+    2300138: Planet.Land.001|PineTree.000|Dupli|16.0.0.0.0.0.0.0.0.0
+    2300140: Planet.Land.001|PineTree.000|Dupli|16.0.0.0.0.0.0.0.0.0 1
+    2300142: Planet.Land.001|PineTree.000|Dupli|169.0.0.0.0.0.0.0.0.0
+    2300144: Planet.Land.001|PineTree.000|Dupli|169.0.0.0.0.0.0.0.0.0 1
+    2300146: Planet.Land.001|PineTree.000|Dupli|171.0.0.0.0.0.0.0.0.0
+    2300148: Planet.Land.001|PineTree.000|Dupli|171.0.0.0.0.0.0.0.0.0 1
+    2300150: Planet.Land.001|PineTree.000|Dupli|180.0.0.0.0.0.0.0.0.0
+    2300152: Planet.Land.001|PineTree.000|Dupli|180.0.0.0.0.0.0.0.0.0 1
+    2300154: Planet.Land.001|PineTree.000|Dupli|182.0.0.0.0.0.0.0.0.0
+    2300156: Planet.Land.001|PineTree.000|Dupli|182.0.0.0.0.0.0.0.0.0 1
+    2300158: Planet.Land.001|PineTree.000|Dupli|184.0.0.0.0.0.0.0.0.0
+    2300160: Planet.Land.001|PineTree.000|Dupli|184.0.0.0.0.0.0.0.0.0 1
+    2300162: Planet.Land.001|PineTree.000|Dupli|187.0.0.0.0.0.0.0.0.0
+    2300164: Planet.Land.001|PineTree.000|Dupli|187.0.0.0.0.0.0.0.0.0 1
+    2300166: Planet.Land.001|PineTree.000|Dupli|190.0.0.0.0.0.0.0.0.0
+    2300168: Planet.Land.001|PineTree.000|Dupli|192.0.0.0.0.0.0.0.0.0
+    2300170: Planet.Land.001|PineTree.000|Dupli|192.0.0.0.0.0.0.0.0.0 1
+    2300172: Planet.Land.001|PineTree.000|Dupli|193.0.0.0.0.0.0.0.0.0
+    2300174: Planet.Land.001|PineTree.000|Dupli|193.0.0.0.0.0.0.0.0.0 1
+    2300176: Planet.Land.001|PineTree.000|Dupli|194.0.0.0.0.0.0.0.0.0
+    2300178: Planet.Land.001|PineTree.000|Dupli|194.0.0.0.0.0.0.0.0.0 1
+    2300180: Planet.Land.001|PineTree.000|Dupli|197.0.0.0.0.0.0.0.0.0
+    2300182: Planet.Land.001|PineTree.000|Dupli|197.0.0.0.0.0.0.0.0.0 1
+    2300184: Planet.Land.001|PineTree.000|Dupli|199.0.0.0.0.0.0.0.0.0
+    2300186: Planet.Land.001|PineTree.000|Dupli|199.0.0.0.0.0.0.0.0.0 1
+    2300188: Planet.Land.001|PineTree.000|Dupli|28.0.0.0.0.0.0.0.0.0
+    2300190: Planet.Land.001|PineTree.000|Dupli|28.0.0.0.0.0.0.0.0.0 1
+    2300192: Planet.Land.001|PineTree.000|Dupli|30.0.0.0.0.0.0.0.0.0
+    2300194: Planet.Land.001|PineTree.000|Dupli|30.0.0.0.0.0.0.0.0.0 1
+    2300196: Planet.Land.001|PineTree.000|Dupli|32.0.0.0.0.0.0.0.0.0
+    2300198: Planet.Land.001|PineTree.000|Dupli|32.0.0.0.0.0.0.0.0.0 1
+    2300200: Planet.Land.001|PineTree.000|Dupli|36.0.0.0.0.0.0.0.0.0
+    2300202: Planet.Land.001|PineTree.000|Dupli|36.0.0.0.0.0.0.0.0.0 1
+    2300204: Planet.Land.001|PineTree.000|Dupli|40.0.0.0.0.0.0.0.0.0
+    2300206: Planet.Land.001|PineTree.000|Dupli|40.0.0.0.0.0.0.0.0.0 1
+    2300208: Planet.Land.001|PineTree.000|Dupli|48.0.0.0.0.0.0.0.0.0
+    2300210: Planet.Land.001|PineTree.000|Dupli|48.0.0.0.0.0.0.0.0.0 1
+    2300212: Planet.Land.001|PineTree.000|Dupli|49.0.0.0.0.0.0.0.0.0
+    2300214: Planet.Land.001|PineTree.000|Dupli|49.0.0.0.0.0.0.0.0.0 1
+    2300216: Planet.Land.001|PineTree.000|Dupli|59.0.0.0.0.0.0.0.0.0
+    2300218: Planet.Land.001|PineTree.000|Dupli|59.0.0.0.0.0.0.0.0.0 1
+    2300220: Planet.Land.001|PineTree.000|Dupli|61.0.0.0.0.0.0.0.0.0
+    2300222: Planet.Land.001|PineTree.000|Dupli|61.0.0.0.0.0.0.0.0.0 1
+    2300224: Planet.Land.001|PineTree.000|Dupli|66.0.0.0.0.0.0.0.0.0
+    2300226: Planet.Land.001|PineTree.000|Dupli|66.0.0.0.0.0.0.0.0.0 1
+    2300228: Planet.Land.001|PineTree.000|Dupli|70.0.0.0.0.0.0.0.0.0
+    2300230: Planet.Land.001|PineTree.000|Dupli|70.0.0.0.0.0.0.0.0.0 1
+    2300232: Planet.Land.001|PineTree.000|Dupli|71.0.0.0.0.0.0.0.0.0
+    2300234: Planet.Land.001|PineTree.000|Dupli|71.0.0.0.0.0.0.0.0.0 1
+    2300236: Planet.Land.001|PineTree.000|Dupli|73.0.0.0.0.0.0.0.0.0
+    2300238: Planet.Land.001|PineTree.000|Dupli|73.0.0.0.0.0.0.0.0.0 1
+    2300240: Planet.Land.001|PineTree.000|Dupli|74.0.0.0.0.0.0.0.0.0
+    2300242: Planet.Land.001|PineTree.000|Dupli|74.0.0.0.0.0.0.0.0.0 1
+    2300244: Planet.Land.001|PineTree.000|Dupli|93.0.0.0.0.0.0.0.0.0
+    2300246: Planet.Land.001|PineTree.000|Dupli|93.0.0.0.0.0.0.0.0.0 1
+    2300248: Planet.Land.001|PineTree.000|Dupli|95.0.0.0.0.0.0.0.0.0
+    2300250: Planet.Land.001|PineTree.000|Dupli|95.0.0.0.0.0.0.0.0.0 1
+    2300252: Planet.Land.001|PineTree.000|Dupli|97.0.0.0.0.0.0.0.0.0
+    2300254: Planet.Land.001|PineTree.000|Dupli|97.0.0.0.0.0.0.0.0.0 1
+    2300256: Planet.Land.001|PineTree.001|Dupli|1.0.0.0.0.0.0.0.0.0
+    2300258: Planet.Land.001|PineTree.001|Dupli|1.0.0.0.0.0.0.0.0.0 1
+    2300260: Planet.Land.001|PineTree.001|Dupli|10.0.0.0.0.0.0.0.0.0
+    2300262: Planet.Land.001|PineTree.001|Dupli|10.0.0.0.0.0.0.0.0.0 1
+    2300264: Planet.Land.001|PineTree.001|Dupli|111.0.0.0.0.0.0.0.0.0
+    2300266: Planet.Land.001|PineTree.001|Dupli|111.0.0.0.0.0.0.0.0.0 1
+    2300268: Planet.Land.001|PineTree.001|Dupli|118.0.0.0.0.0.0.0.0.0
+    2300270: Planet.Land.001|PineTree.001|Dupli|118.0.0.0.0.0.0.0.0.0 1
+    2300272: Planet.Land.001|PineTree.001|Dupli|123.0.0.0.0.0.0.0.0.0
+    2300274: Planet.Land.001|PineTree.001|Dupli|123.0.0.0.0.0.0.0.0.0 1
+    2300276: Planet.Land.001|PineTree.001|Dupli|125.0.0.0.0.0.0.0.0.0
+    2300278: Planet.Land.001|PineTree.001|Dupli|125.0.0.0.0.0.0.0.0.0 1
+    2300280: Planet.Land.001|PineTree.001|Dupli|127.0.0.0.0.0.0.0.0.0
+    2300282: Planet.Land.001|PineTree.001|Dupli|127.0.0.0.0.0.0.0.0.0 1
+    2300284: Planet.Land.001|PineTree.001|Dupli|13.0.0.0.0.0.0.0.0.0
+    2300286: Planet.Land.001|PineTree.001|Dupli|13.0.0.0.0.0.0.0.0.0 1
+    2300288: Planet.Land.001|PineTree.001|Dupli|135.0.0.0.0.0.0.0.0.0
+    2300290: Planet.Land.001|PineTree.001|Dupli|135.0.0.0.0.0.0.0.0.0 1
+    2300292: Planet.Land.001|PineTree.001|Dupli|138.0.0.0.0.0.0.0.0.0
+    2300294: Planet.Land.001|PineTree.001|Dupli|138.0.0.0.0.0.0.0.0.0 1
+    2300296: Planet.Land.001|PineTree.001|Dupli|139.0.0.0.0.0.0.0.0.0
+    2300298: Planet.Land.001|PineTree.001|Dupli|139.0.0.0.0.0.0.0.0.0 1
+    2300300: Planet.Land.001|PineTree.001|Dupli|140.0.0.0.0.0.0.0.0.0
+    2300302: Planet.Land.001|PineTree.001|Dupli|140.0.0.0.0.0.0.0.0.0 1
+    2300304: Planet.Land.001|PineTree.001|Dupli|142.0.0.0.0.0.0.0.0.0
+    2300306: Planet.Land.001|PineTree.001|Dupli|142.0.0.0.0.0.0.0.0.0 1
+    2300308: Planet.Land.001|PineTree.001|Dupli|144.0.0.0.0.0.0.0.0.0
+    2300310: Planet.Land.001|PineTree.001|Dupli|144.0.0.0.0.0.0.0.0.0 1
+    2300312: Planet.Land.001|PineTree.001|Dupli|147.0.0.0.0.0.0.0.0.0
+    2300314: Planet.Land.001|PineTree.001|Dupli|147.0.0.0.0.0.0.0.0.0 1
+    2300316: Planet.Land.001|PineTree.001|Dupli|151.0.0.0.0.0.0.0.0.0
+    2300318: Planet.Land.001|PineTree.001|Dupli|151.0.0.0.0.0.0.0.0.0 1
+    2300320: Planet.Land.001|PineTree.001|Dupli|153.0.0.0.0.0.0.0.0.0
+    2300322: Planet.Land.001|PineTree.001|Dupli|153.0.0.0.0.0.0.0.0.0 1
+    2300324: Planet.Land.001|PineTree.001|Dupli|160.0.0.0.0.0.0.0.0.0
+    2300326: Planet.Land.001|PineTree.001|Dupli|160.0.0.0.0.0.0.0.0.0 1
+    2300328: Planet.Land.001|PineTree.001|Dupli|162.0.0.0.0.0.0.0.0.0
+    2300330: Planet.Land.001|PineTree.001|Dupli|162.0.0.0.0.0.0.0.0.0 1
+    2300332: Planet.Land.001|PineTree.001|Dupli|163.0.0.0.0.0.0.0.0.0
+    2300334: Planet.Land.001|PineTree.001|Dupli|163.0.0.0.0.0.0.0.0.0 1
+    2300336: Planet.Land.001|PineTree.001|Dupli|165.0.0.0.0.0.0.0.0.0
+    2300338: Planet.Land.001|PineTree.001|Dupli|165.0.0.0.0.0.0.0.0.0 1
+    2300340: Planet.Land.001|PineTree.001|Dupli|166.0.0.0.0.0.0.0.0.0
+    2300342: Planet.Land.001|PineTree.001|Dupli|166.0.0.0.0.0.0.0.0.0 1
+    2300344: Planet.Land.001|PineTree.001|Dupli|167.0.0.0.0.0.0.0.0.0
+    2300346: Planet.Land.001|PineTree.001|Dupli|167.0.0.0.0.0.0.0.0.0 1
+    2300348: Planet.Land.001|PineTree.001|Dupli|168.0.0.0.0.0.0.0.0.0
+    2300350: Planet.Land.001|PineTree.001|Dupli|168.0.0.0.0.0.0.0.0.0 1
+    2300352: Planet.Land.001|PineTree.001|Dupli|170.0.0.0.0.0.0.0.0.0
+    2300354: Planet.Land.001|PineTree.001|Dupli|170.0.0.0.0.0.0.0.0.0 1
+    2300356: Planet.Land.001|PineTree.001|Dupli|173.0.0.0.0.0.0.0.0.0
+    2300358: Planet.Land.001|PineTree.001|Dupli|173.0.0.0.0.0.0.0.0.0 1
+    2300360: Planet.Land.001|PineTree.001|Dupli|176.0.0.0.0.0.0.0.0.0
+    2300362: Planet.Land.001|PineTree.001|Dupli|176.0.0.0.0.0.0.0.0.0 1
+    2300364: Planet.Land.001|PineTree.001|Dupli|18.0.0.0.0.0.0.0.0.0
+    2300366: Planet.Land.001|PineTree.001|Dupli|18.0.0.0.0.0.0.0.0.0 1
+    2300368: Planet.Land.001|PineTree.001|Dupli|181.0.0.0.0.0.0.0.0.0
+    2300370: Planet.Land.001|PineTree.001|Dupli|181.0.0.0.0.0.0.0.0.0 1
+    2300372: Planet.Land.001|PineTree.001|Dupli|183.0.0.0.0.0.0.0.0.0
+    2300374: Planet.Land.001|PineTree.001|Dupli|183.0.0.0.0.0.0.0.0.0 1
+    2300376: Planet.Land.001|PineTree.001|Dupli|185.0.0.0.0.0.0.0.0.0
+    2300378: Planet.Land.001|PineTree.001|Dupli|185.0.0.0.0.0.0.0.0.0 1
+    2300380: Planet.Land.001|PineTree.001|Dupli|27.0.0.0.0.0.0.0.0.0
+    2300382: Planet.Land.001|PineTree.001|Dupli|27.0.0.0.0.0.0.0.0.0 1
+    2300384: Planet.Land.001|PineTree.001|Dupli|33.0.0.0.0.0.0.0.0.0
+    2300386: Planet.Land.001|PineTree.001|Dupli|33.0.0.0.0.0.0.0.0.0 1
+    2300388: Planet.Land.001|PineTree.001|Dupli|35.0.0.0.0.0.0.0.0.0
+    2300390: Planet.Land.001|PineTree.001|Dupli|35.0.0.0.0.0.0.0.0.0 1
+    2300392: Planet.Land.001|PineTree.001|Dupli|38.0.0.0.0.0.0.0.0.0
+    2300394: Planet.Land.001|PineTree.001|Dupli|38.0.0.0.0.0.0.0.0.0 1
+    2300396: Planet.Land.001|PineTree.001|Dupli|39.0.0.0.0.0.0.0.0.0
+    2300398: Planet.Land.001|PineTree.001|Dupli|39.0.0.0.0.0.0.0.0.0 1
+    2300400: Planet.Land.001|PineTree.001|Dupli|4.0.0.0.0.0.0.0.0.0
+    2300402: Planet.Land.001|PineTree.001|Dupli|4.0.0.0.0.0.0.0.0.0 1
+    2300404: Planet.Land.001|PineTree.001|Dupli|41.0.0.0.0.0.0.0.0.0
+    2300406: Planet.Land.001|PineTree.001|Dupli|41.0.0.0.0.0.0.0.0.0 1
+    2300408: Planet.Land.001|PineTree.001|Dupli|52.0.0.0.0.0.0.0.0.0
+    2300410: Planet.Land.001|PineTree.001|Dupli|52.0.0.0.0.0.0.0.0.0 1
+    2300412: Planet.Land.001|PineTree.001|Dupli|56.0.0.0.0.0.0.0.0.0
+    2300414: Planet.Land.001|PineTree.001|Dupli|56.0.0.0.0.0.0.0.0.0 1
+    2300416: Planet.Land.001|PineTree.001|Dupli|57.0.0.0.0.0.0.0.0.0
+    2300418: Planet.Land.001|PineTree.001|Dupli|57.0.0.0.0.0.0.0.0.0 1
+    2300420: Planet.Land.001|PineTree.001|Dupli|60.0.0.0.0.0.0.0.0.0
+    2300422: Planet.Land.001|PineTree.001|Dupli|60.0.0.0.0.0.0.0.0.0 1
+    2300424: Planet.Land.001|PineTree.001|Dupli|82.0.0.0.0.0.0.0.0.0
+    2300426: Planet.Land.001|PineTree.001|Dupli|82.0.0.0.0.0.0.0.0.0 1
+    2300428: Planet.Land.001|PineTree.001|Dupli|83.0.0.0.0.0.0.0.0.0
+    2300430: Planet.Land.001|PineTree.001|Dupli|83.0.0.0.0.0.0.0.0.0 1
+    2300432: Planet.Land.001|PineTree.001|Dupli|84.0.0.0.0.0.0.0.0.0
+    2300434: Planet.Land.001|PineTree.001|Dupli|84.0.0.0.0.0.0.0.0.0 1
+    2300436: Planet.Land.001|PineTree.001|Dupli|85.0.0.0.0.0.0.0.0.0
+    2300438: Planet.Land.001|PineTree.001|Dupli|85.0.0.0.0.0.0.0.0.0 1
+    2300440: Planet.Land.001|PineTree.001|Dupli|86.0.0.0.0.0.0.0.0.0
+    2300442: Planet.Land.001|PineTree.001|Dupli|86.0.0.0.0.0.0.0.0.0 1
+    2300444: Planet.Land.001|PineTree.001|Dupli|9.0.0.0.0.0.0.0.0.0
+    2300446: Planet.Land.001|PineTree.001|Dupli|9.0.0.0.0.0.0.0.0.0 1
+    2300448: Planet.Land.001|PineTree.001|Dupli|92.0.0.0.0.0.0.0.0.0
+    2300450: Planet.Land.001|PineTree.001|Dupli|92.0.0.0.0.0.0.0.0.0 1
+    2300452: Planet.Land.001|PineTree.001|Dupli|94.0.0.0.0.0.0.0.0.0
+    2300454: Planet.Land.001|PineTree.001|Dupli|94.0.0.0.0.0.0.0.0.0 1
+    2300456: Planet.Land.001|PineTree.001|Dupli|99.0.0.0.0.0.0.0.0.0
+    2300458: Planet.Land.001|PineTree.001|Dupli|99.0.0.0.0.0.0.0.0.0 1
+    2300460: Planet.Land.001|PineTree.002|Dupli|0.0.0.0.0.0.0.0.0.0
+    2300462: Planet.Land.001|PineTree.002|Dupli|0.0.0.0.0.0.0.0.0.0 1
+    2300464: Planet.Land.001|PineTree.002|Dupli|102.0.0.0.0.0.0.0.0.0
+    2300466: Planet.Land.001|PineTree.002|Dupli|102.0.0.0.0.0.0.0.0.0 1
+    2300468: Planet.Land.001|PineTree.002|Dupli|106.0.0.0.0.0.0.0.0.0
+    2300470: Planet.Land.001|PineTree.002|Dupli|106.0.0.0.0.0.0.0.0.0 1
+    2300472: Planet.Land.001|PineTree.002|Dupli|109.0.0.0.0.0.0.0.0.0
+    2300474: Planet.Land.001|PineTree.002|Dupli|109.0.0.0.0.0.0.0.0.0 1
+    2300476: Planet.Land.001|PineTree.002|Dupli|110.0.0.0.0.0.0.0.0.0
+    2300478: Planet.Land.001|PineTree.002|Dupli|110.0.0.0.0.0.0.0.0.0 1
+    2300480: Planet.Land.001|PineTree.002|Dupli|115.0.0.0.0.0.0.0.0.0
+    2300482: Planet.Land.001|PineTree.002|Dupli|115.0.0.0.0.0.0.0.0.0 1
+    2300484: Planet.Land.001|PineTree.002|Dupli|116.0.0.0.0.0.0.0.0.0
+    2300486: Planet.Land.001|PineTree.002|Dupli|116.0.0.0.0.0.0.0.0.0 1
+    2300488: Planet.Land.001|PineTree.002|Dupli|117.0.0.0.0.0.0.0.0.0
+    2300490: Planet.Land.001|PineTree.002|Dupli|117.0.0.0.0.0.0.0.0.0 1
+    2300492: Planet.Land.001|PineTree.002|Dupli|121.0.0.0.0.0.0.0.0.0
+    2300494: Planet.Land.001|PineTree.002|Dupli|121.0.0.0.0.0.0.0.0.0 1
+    2300496: Planet.Land.001|PineTree.002|Dupli|124.0.0.0.0.0.0.0.0.0
+    2300498: Planet.Land.001|PineTree.002|Dupli|124.0.0.0.0.0.0.0.0.0 1
+    2300500: Planet.Land.001|PineTree.002|Dupli|128.0.0.0.0.0.0.0.0.0
+    2300502: Planet.Land.001|PineTree.002|Dupli|128.0.0.0.0.0.0.0.0.0 1
+    2300504: Planet.Land.001|PineTree.002|Dupli|130.0.0.0.0.0.0.0.0.0
+    2300506: Planet.Land.001|PineTree.002|Dupli|130.0.0.0.0.0.0.0.0.0 1
+    2300508: Planet.Land.001|PineTree.002|Dupli|136.0.0.0.0.0.0.0.0.0
+    2300510: Planet.Land.001|PineTree.002|Dupli|136.0.0.0.0.0.0.0.0.0 1
+    2300512: Planet.Land.001|PineTree.002|Dupli|14.0.0.0.0.0.0.0.0.0
+    2300514: Planet.Land.001|PineTree.002|Dupli|14.0.0.0.0.0.0.0.0.0 1
+    2300516: Planet.Land.001|PineTree.002|Dupli|148.0.0.0.0.0.0.0.0.0
+    2300518: Planet.Land.001|PineTree.002|Dupli|148.0.0.0.0.0.0.0.0.0 1
+    2300520: Planet.Land.001|PineTree.002|Dupli|15.0.0.0.0.0.0.0.0.0
+    2300522: Planet.Land.001|PineTree.002|Dupli|15.0.0.0.0.0.0.0.0.0 1
+    2300524: Planet.Land.001|PineTree.002|Dupli|157.0.0.0.0.0.0.0.0.0
+    2300526: Planet.Land.001|PineTree.002|Dupli|157.0.0.0.0.0.0.0.0.0 1
+    2300528: Planet.Land.001|PineTree.002|Dupli|159.0.0.0.0.0.0.0.0.0
+    2300530: Planet.Land.001|PineTree.002|Dupli|159.0.0.0.0.0.0.0.0.0 1
+    2300532: Planet.Land.001|PineTree.002|Dupli|172.0.0.0.0.0.0.0.0.0
+    2300534: Planet.Land.001|PineTree.002|Dupli|172.0.0.0.0.0.0.0.0.0 1
+    2300536: Planet.Land.001|PineTree.002|Dupli|174.0.0.0.0.0.0.0.0.0
+    2300538: Planet.Land.001|PineTree.002|Dupli|174.0.0.0.0.0.0.0.0.0 1
+    2300540: Planet.Land.001|PineTree.002|Dupli|177.0.0.0.0.0.0.0.0.0
+    2300542: Planet.Land.001|PineTree.002|Dupli|177.0.0.0.0.0.0.0.0.0 1
+    2300544: Planet.Land.001|PineTree.002|Dupli|186.0.0.0.0.0.0.0.0.0
+    2300546: Planet.Land.001|PineTree.002|Dupli|186.0.0.0.0.0.0.0.0.0 1
+    2300548: Planet.Land.001|PineTree.002|Dupli|188.0.0.0.0.0.0.0.0.0
+    2300550: Planet.Land.001|PineTree.002|Dupli|188.0.0.0.0.0.0.0.0.0 1
+    2300552: Planet.Land.001|PineTree.002|Dupli|189.0.0.0.0.0.0.0.0.0
+    2300554: Planet.Land.001|PineTree.002|Dupli|189.0.0.0.0.0.0.0.0.0 1
+    2300556: Planet.Land.001|PineTree.002|Dupli|195.0.0.0.0.0.0.0.0.0
+    2300558: Planet.Land.001|PineTree.002|Dupli|195.0.0.0.0.0.0.0.0.0 1
+    2300560: Planet.Land.001|PineTree.002|Dupli|196.0.0.0.0.0.0.0.0.0
+    2300562: Planet.Land.001|PineTree.002|Dupli|196.0.0.0.0.0.0.0.0.0 1
+    2300564: Planet.Land.001|PineTree.002|Dupli|198.0.0.0.0.0.0.0.0.0
+    2300566: Planet.Land.001|PineTree.002|Dupli|198.0.0.0.0.0.0.0.0.0 1
+    2300568: Planet.Land.001|PineTree.002|Dupli|2.0.0.0.0.0.0.0.0.0
+    2300570: Planet.Land.001|PineTree.002|Dupli|2.0.0.0.0.0.0.0.0.0 1
+    2300572: Planet.Land.001|PineTree.002|Dupli|20.0.0.0.0.0.0.0.0.0
+    2300574: Planet.Land.001|PineTree.002|Dupli|20.0.0.0.0.0.0.0.0.0 1
+    2300576: Planet.Land.001|PineTree.002|Dupli|24.0.0.0.0.0.0.0.0.0
+    2300578: Planet.Land.001|PineTree.002|Dupli|24.0.0.0.0.0.0.0.0.0 1
+    2300580: Planet.Land.001|PineTree.002|Dupli|26.0.0.0.0.0.0.0.0.0
+    2300582: Planet.Land.001|PineTree.002|Dupli|26.0.0.0.0.0.0.0.0.0 1
+    2300584: Planet.Land.001|PineTree.002|Dupli|31.0.0.0.0.0.0.0.0.0
+    2300586: Planet.Land.001|PineTree.002|Dupli|31.0.0.0.0.0.0.0.0.0 1
+    2300588: Planet.Land.001|PineTree.002|Dupli|34.0.0.0.0.0.0.0.0.0
+    2300590: Planet.Land.001|PineTree.002|Dupli|34.0.0.0.0.0.0.0.0.0 1
+    2300592: Planet.Land.001|PineTree.002|Dupli|42.0.0.0.0.0.0.0.0.0
+    2300594: Planet.Land.001|PineTree.002|Dupli|42.0.0.0.0.0.0.0.0.0 1
+    2300596: Planet.Land.001|PineTree.002|Dupli|44.0.0.0.0.0.0.0.0.0
+    2300598: Planet.Land.001|PineTree.002|Dupli|44.0.0.0.0.0.0.0.0.0 1
+    2300600: Planet.Land.001|PineTree.002|Dupli|45.0.0.0.0.0.0.0.0.0
+    2300602: Planet.Land.001|PineTree.002|Dupli|45.0.0.0.0.0.0.0.0.0 1
+    2300604: Planet.Land.001|PineTree.002|Dupli|47.0.0.0.0.0.0.0.0.0
+    2300606: Planet.Land.001|PineTree.002|Dupli|47.0.0.0.0.0.0.0.0.0 1
+    2300608: Planet.Land.001|PineTree.002|Dupli|5.0.0.0.0.0.0.0.0.0
+    2300610: Planet.Land.001|PineTree.002|Dupli|5.0.0.0.0.0.0.0.0.0 1
+    2300612: Planet.Land.001|PineTree.002|Dupli|50.0.0.0.0.0.0.0.0.0
+    2300614: Planet.Land.001|PineTree.002|Dupli|50.0.0.0.0.0.0.0.0.0 1
+    2300616: Planet.Land.001|PineTree.002|Dupli|53.0.0.0.0.0.0.0.0.0
+    2300618: Planet.Land.001|PineTree.002|Dupli|53.0.0.0.0.0.0.0.0.0 1
+    2300620: Planet.Land.001|PineTree.002|Dupli|54.0.0.0.0.0.0.0.0.0
+    2300622: Planet.Land.001|PineTree.002|Dupli|54.0.0.0.0.0.0.0.0.0 1
+    2300624: Planet.Land.001|PineTree.002|Dupli|55.0.0.0.0.0.0.0.0.0
+    2300626: Planet.Land.001|PineTree.002|Dupli|55.0.0.0.0.0.0.0.0.0 1
+    2300628: Planet.Land.001|PineTree.002|Dupli|62.0.0.0.0.0.0.0.0.0
+    2300630: Planet.Land.001|PineTree.002|Dupli|62.0.0.0.0.0.0.0.0.0 1
+    2300632: Planet.Land.001|PineTree.002|Dupli|63.0.0.0.0.0.0.0.0.0
+    2300634: Planet.Land.001|PineTree.002|Dupli|63.0.0.0.0.0.0.0.0.0 1
+    2300636: Planet.Land.001|PineTree.002|Dupli|64.0.0.0.0.0.0.0.0.0
+    2300638: Planet.Land.001|PineTree.002|Dupli|64.0.0.0.0.0.0.0.0.0 1
+    2300640: Planet.Land.001|PineTree.002|Dupli|65.0.0.0.0.0.0.0.0.0
+    2300642: Planet.Land.001|PineTree.002|Dupli|65.0.0.0.0.0.0.0.0.0 1
+    2300644: Planet.Land.001|PineTree.002|Dupli|68.0.0.0.0.0.0.0.0.0
+    2300646: Planet.Land.001|PineTree.002|Dupli|69.0.0.0.0.0.0.0.0.0
+    2300648: Planet.Land.001|PineTree.002|Dupli|69.0.0.0.0.0.0.0.0.0 1
+    2300650: Planet.Land.001|PineTree.002|Dupli|7.0.0.0.0.0.0.0.0.0
+    2300652: Planet.Land.001|PineTree.002|Dupli|7.0.0.0.0.0.0.0.0.0 1
+    2300654: Planet.Land.001|PineTree.002|Dupli|72.0.0.0.0.0.0.0.0.0
+    2300656: Planet.Land.001|PineTree.002|Dupli|72.0.0.0.0.0.0.0.0.0 1
+    2300658: Planet.Land.001|PineTree.002|Dupli|76.0.0.0.0.0.0.0.0.0
+    2300660: Planet.Land.001|PineTree.002|Dupli|76.0.0.0.0.0.0.0.0.0 1
+    2300662: Planet.Land.001|PineTree.002|Dupli|79.0.0.0.0.0.0.0.0.0
+    2300664: Planet.Land.001|PineTree.002|Dupli|79.0.0.0.0.0.0.0.0.0 1
+    2300666: Planet.Land.001|PineTree.002|Dupli|8.0.0.0.0.0.0.0.0.0
+    2300668: Planet.Land.001|PineTree.002|Dupli|8.0.0.0.0.0.0.0.0.0 1
+    2300670: Planet.Land.001|PineTree.002|Dupli|81.0.0.0.0.0.0.0.0.0
+    2300672: Planet.Land.001|PineTree.002|Dupli|81.0.0.0.0.0.0.0.0.0 1
+    2300674: Planet.Land.001|PineTree.002|Dupli|98.0.0.0.0.0.0.0.0.0
+    2300676: Planet.Land.001|PineTree.002|Dupli|98.0.0.0.0.0.0.0.0.0 1
+    2300678: Planet.Land.001|PineTree.003|Dupli|100.0.0.0.0.0.0.0.0.0
+    2300680: Planet.Land.001|PineTree.003|Dupli|100.0.0.0.0.0.0.0.0.0 1
+    2300682: Planet.Land.001|PineTree.003|Dupli|101.0.0.0.0.0.0.0.0.0
+    2300684: Planet.Land.001|PineTree.003|Dupli|101.0.0.0.0.0.0.0.0.0 1
+    2300686: Planet.Land.001|PineTree.003|Dupli|103.0.0.0.0.0.0.0.0.0
+    2300688: Planet.Land.001|PineTree.003|Dupli|103.0.0.0.0.0.0.0.0.0 1
+    2300690: Planet.Land.001|PineTree.003|Dupli|105.0.0.0.0.0.0.0.0.0
+    2300692: Planet.Land.001|PineTree.003|Dupli|105.0.0.0.0.0.0.0.0.0 1
+    2300694: Planet.Land.001|PineTree.003|Dupli|113.0.0.0.0.0.0.0.0.0
+    2300696: Planet.Land.001|PineTree.003|Dupli|113.0.0.0.0.0.0.0.0.0 1
+    2300698: Planet.Land.001|PineTree.003|Dupli|114.0.0.0.0.0.0.0.0.0
+    2300700: Planet.Land.001|PineTree.003|Dupli|114.0.0.0.0.0.0.0.0.0 1
+    2300702: Planet.Land.001|PineTree.003|Dupli|119.0.0.0.0.0.0.0.0.0
+    2300704: Planet.Land.001|PineTree.003|Dupli|119.0.0.0.0.0.0.0.0.0 1
+    2300706: Planet.Land.001|PineTree.003|Dupli|122.0.0.0.0.0.0.0.0.0
+    2300708: Planet.Land.001|PineTree.003|Dupli|122.0.0.0.0.0.0.0.0.0 1
+    2300710: Planet.Land.001|PineTree.003|Dupli|126.0.0.0.0.0.0.0.0.0
+    2300712: Planet.Land.001|PineTree.003|Dupli|126.0.0.0.0.0.0.0.0.0 1
+    2300714: Planet.Land.001|PineTree.003|Dupli|129.0.0.0.0.0.0.0.0.0
+    2300716: Planet.Land.001|PineTree.003|Dupli|129.0.0.0.0.0.0.0.0.0 1
+    2300718: Planet.Land.001|PineTree.003|Dupli|134.0.0.0.0.0.0.0.0.0
+    2300720: Planet.Land.001|PineTree.003|Dupli|134.0.0.0.0.0.0.0.0.0 1
+    2300722: Planet.Land.001|PineTree.003|Dupli|143.0.0.0.0.0.0.0.0.0
+    2300724: Planet.Land.001|PineTree.003|Dupli|143.0.0.0.0.0.0.0.0.0 1
+    2300726: Planet.Land.001|PineTree.003|Dupli|146.0.0.0.0.0.0.0.0.0
+    2300728: Planet.Land.001|PineTree.003|Dupli|146.0.0.0.0.0.0.0.0.0 1
+    2300730: Planet.Land.001|PineTree.003|Dupli|149.0.0.0.0.0.0.0.0.0
+    2300732: Planet.Land.001|PineTree.003|Dupli|149.0.0.0.0.0.0.0.0.0 1
+    2300734: Planet.Land.001|PineTree.003|Dupli|152.0.0.0.0.0.0.0.0.0
+    2300736: Planet.Land.001|PineTree.003|Dupli|152.0.0.0.0.0.0.0.0.0 1
+    2300738: Planet.Land.001|PineTree.003|Dupli|154.0.0.0.0.0.0.0.0.0
+    2300740: Planet.Land.001|PineTree.003|Dupli|154.0.0.0.0.0.0.0.0.0 1
+    2300742: Planet.Land.001|PineTree.003|Dupli|158.0.0.0.0.0.0.0.0.0
+    2300744: Planet.Land.001|PineTree.003|Dupli|158.0.0.0.0.0.0.0.0.0 1
+    2300746: Planet.Land.001|PineTree.003|Dupli|161.0.0.0.0.0.0.0.0.0
+    2300748: Planet.Land.001|PineTree.003|Dupli|161.0.0.0.0.0.0.0.0.0 1
+    2300750: Planet.Land.001|PineTree.003|Dupli|164.0.0.0.0.0.0.0.0.0
+    2300752: Planet.Land.001|PineTree.003|Dupli|164.0.0.0.0.0.0.0.0.0 1
+    2300754: Planet.Land.001|PineTree.003|Dupli|17.0.0.0.0.0.0.0.0.0
+    2300756: Planet.Land.001|PineTree.003|Dupli|17.0.0.0.0.0.0.0.0.0 1
+    2300758: Planet.Land.001|PineTree.003|Dupli|175.0.0.0.0.0.0.0.0.0
+    2300760: Planet.Land.001|PineTree.003|Dupli|175.0.0.0.0.0.0.0.0.0 1
+    2300762: Planet.Land.001|PineTree.003|Dupli|178.0.0.0.0.0.0.0.0.0
+    2300764: Planet.Land.001|PineTree.003|Dupli|178.0.0.0.0.0.0.0.0.0 1
+    2300766: Planet.Land.001|PineTree.003|Dupli|179.0.0.0.0.0.0.0.0.0
+    2300768: Planet.Land.001|PineTree.003|Dupli|179.0.0.0.0.0.0.0.0.0 1
+    2300770: Planet.Land.001|PineTree.003|Dupli|19.0.0.0.0.0.0.0.0.0
+    2300772: Planet.Land.001|PineTree.003|Dupli|19.0.0.0.0.0.0.0.0.0 1
+    2300774: Planet.Land.001|PineTree.003|Dupli|191.0.0.0.0.0.0.0.0.0
+    2300776: Planet.Land.001|PineTree.003|Dupli|191.0.0.0.0.0.0.0.0.0 1
+    2300778: Planet.Land.001|PineTree.003|Dupli|21.0.0.0.0.0.0.0.0.0
+    2300780: Planet.Land.001|PineTree.003|Dupli|21.0.0.0.0.0.0.0.0.0 1
+    2300782: Planet.Land.001|PineTree.003|Dupli|22.0.0.0.0.0.0.0.0.0
+    2300784: Planet.Land.001|PineTree.003|Dupli|22.0.0.0.0.0.0.0.0.0 1
+    2300786: Planet.Land.001|PineTree.003|Dupli|23.0.0.0.0.0.0.0.0.0
+    2300788: Planet.Land.001|PineTree.003|Dupli|23.0.0.0.0.0.0.0.0.0 1
+    2300790: Planet.Land.001|PineTree.003|Dupli|25.0.0.0.0.0.0.0.0.0
+    2300792: Planet.Land.001|PineTree.003|Dupli|25.0.0.0.0.0.0.0.0.0 1
+    2300794: Planet.Land.001|PineTree.003|Dupli|29.0.0.0.0.0.0.0.0.0
+    2300796: Planet.Land.001|PineTree.003|Dupli|29.0.0.0.0.0.0.0.0.0 1
+    2300798: Planet.Land.001|PineTree.003|Dupli|3.0.0.0.0.0.0.0.0.0
+    2300800: Planet.Land.001|PineTree.003|Dupli|3.0.0.0.0.0.0.0.0.0 1
+    2300802: Planet.Land.001|PineTree.003|Dupli|37.0.0.0.0.0.0.0.0.0
+    2300804: Planet.Land.001|PineTree.003|Dupli|37.0.0.0.0.0.0.0.0.0 1
+    2300806: Planet.Land.001|PineTree.003|Dupli|43.0.0.0.0.0.0.0.0.0
+    2300808: Planet.Land.001|PineTree.003|Dupli|43.0.0.0.0.0.0.0.0.0 1
+    2300810: Planet.Land.001|PineTree.003|Dupli|46.0.0.0.0.0.0.0.0.0
+    2300812: Planet.Land.001|PineTree.003|Dupli|46.0.0.0.0.0.0.0.0.0 1
+    2300814: Planet.Land.001|PineTree.003|Dupli|51.0.0.0.0.0.0.0.0.0
+    2300816: Planet.Land.001|PineTree.003|Dupli|51.0.0.0.0.0.0.0.0.0 1
+    2300818: Planet.Land.001|PineTree.003|Dupli|58.0.0.0.0.0.0.0.0.0
+    2300820: Planet.Land.001|PineTree.003|Dupli|58.0.0.0.0.0.0.0.0.0 1
+    2300822: Planet.Land.001|PineTree.003|Dupli|6.0.0.0.0.0.0.0.0.0
+    2300824: Planet.Land.001|PineTree.003|Dupli|6.0.0.0.0.0.0.0.0.0 1
+    2300826: Planet.Land.001|PineTree.003|Dupli|67.0.0.0.0.0.0.0.0.0
+    2300828: Planet.Land.001|PineTree.003|Dupli|67.0.0.0.0.0.0.0.0.0 1
+    2300830: Planet.Land.001|PineTree.003|Dupli|75.0.0.0.0.0.0.0.0.0
+    2300832: Planet.Land.001|PineTree.003|Dupli|75.0.0.0.0.0.0.0.0.0 1
+    2300834: Planet.Land.001|PineTree.003|Dupli|77.0.0.0.0.0.0.0.0.0
+    2300836: Planet.Land.001|PineTree.003|Dupli|77.0.0.0.0.0.0.0.0.0 1
+    2300838: Planet.Land.001|PineTree.003|Dupli|78.0.0.0.0.0.0.0.0.0
+    2300840: Planet.Land.001|PineTree.003|Dupli|78.0.0.0.0.0.0.0.0.0 1
+    2300842: Planet.Land.001|PineTree.003|Dupli|80.0.0.0.0.0.0.0.0.0
+    2300844: Planet.Land.001|PineTree.003|Dupli|80.0.0.0.0.0.0.0.0.0 1
+    2300846: Planet.Land.001|PineTree.003|Dupli|87.0.0.0.0.0.0.0.0.0
+    2300848: Planet.Land.001|PineTree.003|Dupli|87.0.0.0.0.0.0.0.0.0 1
+    2300850: Planet.Land.001|PineTree.003|Dupli|88.0.0.0.0.0.0.0.0.0
+    2300852: Planet.Land.001|PineTree.003|Dupli|88.0.0.0.0.0.0.0.0.0 1
+    2300854: Planet.Land.001|PineTree.003|Dupli|89.0.0.0.0.0.0.0.0.0
+    2300856: Planet.Land.001|PineTree.003|Dupli|89.0.0.0.0.0.0.0.0.0 1
+    2300858: Planet.Land.001|PineTree.003|Dupli|90.0.0.0.0.0.0.0.0.0
+    2300860: Planet.Land.001|PineTree.003|Dupli|90.0.0.0.0.0.0.0.0.0 1
+    2300862: Planet.Land.001|PineTree.003|Dupli|91.0.0.0.0.0.0.0.0.0
+    2300864: Planet.Land.001|PineTree.003|Dupli|91.0.0.0.0.0.0.0.0.0 1
+    2300866: Planet.Land.001|PineTree.003|Dupli|96.0.0.0.0.0.0.0.0.0
+    2300868: Planet.Land.001|PineTree.003|Dupli|96.0.0.0.0.0.0.0.0.0 1
+    2300870: Planet.Land.002
+    2300872: Planet.Land|AllTreesGroup.000|Dupli|13.0.0.0.0.0.0.0.0.0
+    2300874: Planet.Land|AllTreesGroup.000|Dupli|17.0.0.0.0.0.0.0.0.0
+    2300876: Planet.Land|AllTreesGroup.000|Dupli|21.0.0.0.0.0.0.0.0.0
+    2300878: Planet.Land|AllTreesGroup.000|Dupli|26.0.0.0.0.0.0.0.0.0
+    2300880: Planet.Land|AllTreesGroup.000|Dupli|38.0.0.0.0.0.0.0.0.0
+    2300882: Planet.Land|AllTreesGroup.000|Dupli|45.0.0.0.0.0.0.0.0.0
+    2300884: Planet.Land|PineTree.000|Dupli|28.0.0.0.0.0.0.0.0.0
+    2300886: Planet.Land|PineTree.000|Dupli|29.0.0.0.0.0.0.0.0.0
+    2300888: Planet.Land|PineTree.000|Dupli|34.0.0.0.0.0.0.0.0.0
+    2300890: Planet.Land|PineTree.000|Dupli|35.0.0.0.0.0.0.0.0.0
+    2300892: Planet.Land|PineTree.001|Dupli|0.0.0.0.0.0.0.0.0.0
+    2300894: Planet.Land|PineTree.001|Dupli|1.0.0.0.0.0.0.0.0.0
+    2300896: Planet.Land|PineTree.001|Dupli|15.0.0.0.0.0.0.0.0.0
+    2300898: Planet.Land|PineTree.001|Dupli|8.0.0.0.0.0.0.0.0.0
+    2300900: Planet.Land|PineTree.002|Dupli|16.0.0.0.0.0.0.0.0.0
+    2300902: Planet.Land|PineTree.002|Dupli|18.0.0.0.0.0.0.0.0.0
+    2300904: Planet.Land|PineTree.002|Dupli|23.0.0.0.0.0.0.0.0.0
+    2300906: Planet.Land|PineTree.002|Dupli|3.0.0.0.0.0.0.0.0.0
+    2300908: Planet.Land|PineTree.002|Dupli|40.0.0.0.0.0.0.0.0.0
+    2300910: Planet.Land|PineTree.002|Dupli|44.0.0.0.0.0.0.0.0.0
+    2300912: Planet.Land|PineTree.003|Dupli|30.0.0.0.0.0.0.0.0.0
+    2300914: Planet.Land|PineTree.003|Dupli|4.0.0.0.0.0.0.0.0.0
+    2300916: Planet.Land|RoundTree.000|Dupli|39.0.0.0.0.0.0.0.0.0
+    2300918: Planet.Land|RoundTree.001|Dupli|14.0.0.0.0.0.0.0.0.0
+    2300920: Planet.Land|RoundTree.001|Dupli|20.0.0.0.0.0.0.0.0.0
+    2300922: Planet.Land|RoundTree.001|Dupli|22.0.0.0.0.0.0.0.0.0
+    2300924: Planet.Land|RoundTree.001|Dupli|32.0.0.0.0.0.0.0.0.0
+    2300926: Planet.Land|RoundTree.001|Dupli|41.0.0.0.0.0.0.0.0.0
+    2300928: Planet.Land|RoundTree.001|Dupli|46.0.0.0.0.0.0.0.0.0
+    2300930: Planet.Land|RoundTree.001|Dupli|7.0.0.0.0.0.0.0.0.0
+    2300932: Planet.Land|RoundTree.002|Dupli|11.0.0.0.0.0.0.0.0.0
+    2300934: Planet.Land|RoundTree.002|Dupli|33.0.0.0.0.0.0.0.0.0
+    2300936: Planet.Land|RoundTree.002|Dupli|37.0.0.0.0.0.0.0.0.0
+    2300938: Planet.Land|RoundTree.002|Dupli|42.0.0.0.0.0.0.0.0.0
+    2300940: Planet.Land|RoundTree.003|Dupli|2.0.0.0.0.0.0.0.0.0
+    2300942: Planet.Land|RoundTree.003|Dupli|25.0.0.0.0.0.0.0.0.0
+    2300944: Planet.Land|RoundTree.003|Dupli|27.0.0.0.0.0.0.0.0.0
+    2300946: Planet.Land|RoundTree.003|Dupli|36.0.0.0.0.0.0.0.0.0
+    2300948: Planet.Land|RoundTree.003|Dupli|43.0.0.0.0.0.0.0.0.0
+    2300950: Planet.Land|RoundTree.003|Dupli|9.0.0.0.0.0.0.0.0.0
+    2300952: Planet.Land|RoundTree.004|Dupli|10.0.0.0.0.0.0.0.0.0
+    2300954: Planet.Land|RoundTree.004|Dupli|12.0.0.0.0.0.0.0.0.0
+    2300956: Planet.Land|RoundTree.004|Dupli|31.0.0.0.0.0.0.0.0.0
+    2300958: Planet.Land|RoundTree.004|Dupli|47.0.0.0.0.0.0.0.0.0
+    2300960: Planet.Land|RoundTree.004|Dupli|48.0.0.0.0.0.0.0.0.0
+    2300962: Planet.Land|RoundTree.004|Dupli|49.0.0.0.0.0.0.0.0.0
+    2300964: Planet.Land|RoundTreeGroup.000|Dupli|19.0.0.0.0.0.0.0.0.0
+    2300966: Planet.Land|RoundTreeGroup.000|Dupli|24.0.0.0.0.0.0.0.0.0
+    2300968: Planet.Land|RoundTreeGroup.000|Dupli|5.0.0.0.0.0.0.0.0.0
+    2300970: Planet.Land|RoundTreeGroup.000|Dupli|6.0.0.0.0.0.0.0.0.0
+    2300972: Planet.ShaderTest
+    2300974: Planet.Water
+    2300976: Planet.Water.001
+    2300978: Planet.Water.002
+    2300980: PlantGroupSurface
+    2300982: PlantGroupSurface|PineTree.000|Dupli|0.0.0.0.0.0.0.0.0.0
+    2300984: PlantGroupSurface|PineTree.000|Dupli|6.0.0.0.0.0.0.0.0.0
+    2300986: PlantGroupSurface|PineTree.000|Dupli|9.0.0.0.0.0.0.0.0.0
+    2300988: PlantGroupSurface|PineTree.001|Dupli|1.0.0.0.0.0.0.0.0.0
+    2300990: PlantGroupSurface|PineTree.001|Dupli|2.0.0.0.0.0.0.0.0.0
+    2300992: PlantGroupSurface|PineTree.001|Dupli|3.0.0.0.0.0.0.0.0.0
+    2300994: PlantGroupSurface|PineTree.001|Dupli|8.0.0.0.0.0.0.0.0.0
+    2300996: PlantGroupSurface|PineTree.002|Dupli|4.0.0.0.0.0.0.0.0.0
+    2300998: PlantGroupSurface|PineTree.002|Dupli|5.0.0.0.0.0.0.0.0.0
+    2301000: PlantGroupSurface|PineTree.002|Dupli|7.0.0.0.0.0.0.0.0.0
+    2301002: RoundTree.000
+    2301004: RoundTree.001
+    2301006: RoundTree.002
+    2301008: RoundTree.003
+    2301010: RoundTree.004
+    2301012: RoundTreeGroup.000
+    2301014: Shockwave
+    2301016: ShockwaveFlat.002
+    2301018: ShockwaveSpike.000
+    2301020: Sky.000
+    2301022: SpikeShockwave
+    2301024: Water-crap
+    2301026: Water.001
+    2301028: //RootNode
+    3300000: AllTreesGroup.000
+    3300002: Asteroid_001
+    3300004: Asteroid_002
+    3300006: Asteroid_003
+    3300008: Cube_1_18
+    3300010: Cube_2_8
+    3300012: Cube_3_4
+    3300014: Cube_4_4
+    3300016: Cube_5
+    3300018: DustShockwave.001
+    3300020: Icosphere
+    3300022: Icosphere.001
+    3300024: Icosphere.002
+    3300026: Icosphere.003
+    3300028: Icosphere.004
+    3300030: Icosphere.005
+    3300032: Icosphere.006
+    3300034: Icosphere.007
+    3300036: Icosphere.008
+    3300038: Icosphere.009
+    3300040: Icosphere.010
+    3300042: MeshDustShockwave
+    3300044: MeshShockwave
+    3300046: Mine.000
+    3300048: Mine_Cap1
+    3300050: Mine_Ring
+    3300052: Panet.Clouds
+    3300054: PineTree.000
+    3300056: PineTree.001
+    3300058: PineTree.002
+    3300060: PineTree.003
+    3300062: Planet.000
+    3300064: Planet.Clouds.000
+    3300066: Planet.Clouds.001
+    3300068: Planet.Land
+    3300070: Planet.Land.000
+    3300072: Planet.Land.001
+    3300074: Planet.Land.001|PineTree.000|Dupli|104.0.0.0.0.0.0.0.0.0
+    3300076: Planet.Land.001|PineTree.000|Dupli|104.0.0.0.0.0.0.0.0.0 1
+    3300078: Planet.Land.001|PineTree.000|Dupli|107.0.0.0.0.0.0.0.0.0
+    3300080: Planet.Land.001|PineTree.000|Dupli|107.0.0.0.0.0.0.0.0.0 1
+    3300082: Planet.Land.001|PineTree.000|Dupli|108.0.0.0.0.0.0.0.0.0
+    3300084: Planet.Land.001|PineTree.000|Dupli|108.0.0.0.0.0.0.0.0.0 1
+    3300086: Planet.Land.001|PineTree.000|Dupli|11.0.0.0.0.0.0.0.0.0
+    3300088: Planet.Land.001|PineTree.000|Dupli|11.0.0.0.0.0.0.0.0.0 1
+    3300090: Planet.Land.001|PineTree.000|Dupli|112.0.0.0.0.0.0.0.0.0
+    3300092: Planet.Land.001|PineTree.000|Dupli|112.0.0.0.0.0.0.0.0.0 1
+    3300094: Planet.Land.001|PineTree.000|Dupli|12.0.0.0.0.0.0.0.0.0
+    3300096: Planet.Land.001|PineTree.000|Dupli|12.0.0.0.0.0.0.0.0.0 1
+    3300098: Planet.Land.001|PineTree.000|Dupli|120.0.0.0.0.0.0.0.0.0
+    3300100: Planet.Land.001|PineTree.000|Dupli|120.0.0.0.0.0.0.0.0.0 1
+    3300102: Planet.Land.001|PineTree.000|Dupli|131.0.0.0.0.0.0.0.0.0
+    3300104: Planet.Land.001|PineTree.000|Dupli|131.0.0.0.0.0.0.0.0.0 1
+    3300106: Planet.Land.001|PineTree.000|Dupli|132.0.0.0.0.0.0.0.0.0
+    3300108: Planet.Land.001|PineTree.000|Dupli|132.0.0.0.0.0.0.0.0.0 1
+    3300110: Planet.Land.001|PineTree.000|Dupli|133.0.0.0.0.0.0.0.0.0
+    3300112: Planet.Land.001|PineTree.000|Dupli|133.0.0.0.0.0.0.0.0.0 1
+    3300114: Planet.Land.001|PineTree.000|Dupli|137.0.0.0.0.0.0.0.0.0
+    3300116: Planet.Land.001|PineTree.000|Dupli|137.0.0.0.0.0.0.0.0.0 1
+    3300118: Planet.Land.001|PineTree.000|Dupli|141.0.0.0.0.0.0.0.0.0
+    3300120: Planet.Land.001|PineTree.000|Dupli|141.0.0.0.0.0.0.0.0.0 1
+    3300122: Planet.Land.001|PineTree.000|Dupli|145.0.0.0.0.0.0.0.0.0
+    3300124: Planet.Land.001|PineTree.000|Dupli|145.0.0.0.0.0.0.0.0.0 1
+    3300126: Planet.Land.001|PineTree.000|Dupli|150.0.0.0.0.0.0.0.0.0
+    3300128: Planet.Land.001|PineTree.000|Dupli|150.0.0.0.0.0.0.0.0.0 1
+    3300130: Planet.Land.001|PineTree.000|Dupli|155.0.0.0.0.0.0.0.0.0
+    3300132: Planet.Land.001|PineTree.000|Dupli|155.0.0.0.0.0.0.0.0.0 1
+    3300134: Planet.Land.001|PineTree.000|Dupli|156.0.0.0.0.0.0.0.0.0
+    3300136: Planet.Land.001|PineTree.000|Dupli|156.0.0.0.0.0.0.0.0.0 1
+    3300138: Planet.Land.001|PineTree.000|Dupli|16.0.0.0.0.0.0.0.0.0
+    3300140: Planet.Land.001|PineTree.000|Dupli|16.0.0.0.0.0.0.0.0.0 1
+    3300142: Planet.Land.001|PineTree.000|Dupli|169.0.0.0.0.0.0.0.0.0
+    3300144: Planet.Land.001|PineTree.000|Dupli|169.0.0.0.0.0.0.0.0.0 1
+    3300146: Planet.Land.001|PineTree.000|Dupli|171.0.0.0.0.0.0.0.0.0
+    3300148: Planet.Land.001|PineTree.000|Dupli|171.0.0.0.0.0.0.0.0.0 1
+    3300150: Planet.Land.001|PineTree.000|Dupli|180.0.0.0.0.0.0.0.0.0
+    3300152: Planet.Land.001|PineTree.000|Dupli|180.0.0.0.0.0.0.0.0.0 1
+    3300154: Planet.Land.001|PineTree.000|Dupli|182.0.0.0.0.0.0.0.0.0
+    3300156: Planet.Land.001|PineTree.000|Dupli|182.0.0.0.0.0.0.0.0.0 1
+    3300158: Planet.Land.001|PineTree.000|Dupli|184.0.0.0.0.0.0.0.0.0
+    3300160: Planet.Land.001|PineTree.000|Dupli|184.0.0.0.0.0.0.0.0.0 1
+    3300162: Planet.Land.001|PineTree.000|Dupli|187.0.0.0.0.0.0.0.0.0
+    3300164: Planet.Land.001|PineTree.000|Dupli|187.0.0.0.0.0.0.0.0.0 1
+    3300166: Planet.Land.001|PineTree.000|Dupli|190.0.0.0.0.0.0.0.0.0
+    3300168: Planet.Land.001|PineTree.000|Dupli|192.0.0.0.0.0.0.0.0.0
+    3300170: Planet.Land.001|PineTree.000|Dupli|192.0.0.0.0.0.0.0.0.0 1
+    3300172: Planet.Land.001|PineTree.000|Dupli|193.0.0.0.0.0.0.0.0.0
+    3300174: Planet.Land.001|PineTree.000|Dupli|193.0.0.0.0.0.0.0.0.0 1
+    3300176: Planet.Land.001|PineTree.000|Dupli|194.0.0.0.0.0.0.0.0.0
+    3300178: Planet.Land.001|PineTree.000|Dupli|194.0.0.0.0.0.0.0.0.0 1
+    3300180: Planet.Land.001|PineTree.000|Dupli|197.0.0.0.0.0.0.0.0.0
+    3300182: Planet.Land.001|PineTree.000|Dupli|197.0.0.0.0.0.0.0.0.0 1
+    3300184: Planet.Land.001|PineTree.000|Dupli|199.0.0.0.0.0.0.0.0.0
+    3300186: Planet.Land.001|PineTree.000|Dupli|199.0.0.0.0.0.0.0.0.0 1
+    3300188: Planet.Land.001|PineTree.000|Dupli|28.0.0.0.0.0.0.0.0.0
+    3300190: Planet.Land.001|PineTree.000|Dupli|28.0.0.0.0.0.0.0.0.0 1
+    3300192: Planet.Land.001|PineTree.000|Dupli|30.0.0.0.0.0.0.0.0.0
+    3300194: Planet.Land.001|PineTree.000|Dupli|30.0.0.0.0.0.0.0.0.0 1
+    3300196: Planet.Land.001|PineTree.000|Dupli|32.0.0.0.0.0.0.0.0.0
+    3300198: Planet.Land.001|PineTree.000|Dupli|32.0.0.0.0.0.0.0.0.0 1
+    3300200: Planet.Land.001|PineTree.000|Dupli|36.0.0.0.0.0.0.0.0.0
+    3300202: Planet.Land.001|PineTree.000|Dupli|36.0.0.0.0.0.0.0.0.0 1
+    3300204: Planet.Land.001|PineTree.000|Dupli|40.0.0.0.0.0.0.0.0.0
+    3300206: Planet.Land.001|PineTree.000|Dupli|40.0.0.0.0.0.0.0.0.0 1
+    3300208: Planet.Land.001|PineTree.000|Dupli|48.0.0.0.0.0.0.0.0.0
+    3300210: Planet.Land.001|PineTree.000|Dupli|48.0.0.0.0.0.0.0.0.0 1
+    3300212: Planet.Land.001|PineTree.000|Dupli|49.0.0.0.0.0.0.0.0.0
+    3300214: Planet.Land.001|PineTree.000|Dupli|49.0.0.0.0.0.0.0.0.0 1
+    3300216: Planet.Land.001|PineTree.000|Dupli|59.0.0.0.0.0.0.0.0.0
+    3300218: Planet.Land.001|PineTree.000|Dupli|59.0.0.0.0.0.0.0.0.0 1
+    3300220: Planet.Land.001|PineTree.000|Dupli|61.0.0.0.0.0.0.0.0.0
+    3300222: Planet.Land.001|PineTree.000|Dupli|61.0.0.0.0.0.0.0.0.0 1
+    3300224: Planet.Land.001|PineTree.000|Dupli|66.0.0.0.0.0.0.0.0.0
+    3300226: Planet.Land.001|PineTree.000|Dupli|66.0.0.0.0.0.0.0.0.0 1
+    3300228: Planet.Land.001|PineTree.000|Dupli|70.0.0.0.0.0.0.0.0.0
+    3300230: Planet.Land.001|PineTree.000|Dupli|70.0.0.0.0.0.0.0.0.0 1
+    3300232: Planet.Land.001|PineTree.000|Dupli|71.0.0.0.0.0.0.0.0.0
+    3300234: Planet.Land.001|PineTree.000|Dupli|71.0.0.0.0.0.0.0.0.0 1
+    3300236: Planet.Land.001|PineTree.000|Dupli|73.0.0.0.0.0.0.0.0.0
+    3300238: Planet.Land.001|PineTree.000|Dupli|73.0.0.0.0.0.0.0.0.0 1
+    3300240: Planet.Land.001|PineTree.000|Dupli|74.0.0.0.0.0.0.0.0.0
+    3300242: Planet.Land.001|PineTree.000|Dupli|74.0.0.0.0.0.0.0.0.0 1
+    3300244: Planet.Land.001|PineTree.000|Dupli|93.0.0.0.0.0.0.0.0.0
+    3300246: Planet.Land.001|PineTree.000|Dupli|93.0.0.0.0.0.0.0.0.0 1
+    3300248: Planet.Land.001|PineTree.000|Dupli|95.0.0.0.0.0.0.0.0.0
+    3300250: Planet.Land.001|PineTree.000|Dupli|95.0.0.0.0.0.0.0.0.0 1
+    3300252: Planet.Land.001|PineTree.000|Dupli|97.0.0.0.0.0.0.0.0.0
+    3300254: Planet.Land.001|PineTree.000|Dupli|97.0.0.0.0.0.0.0.0.0 1
+    3300256: Planet.Land.001|PineTree.001|Dupli|1.0.0.0.0.0.0.0.0.0
+    3300258: Planet.Land.001|PineTree.001|Dupli|1.0.0.0.0.0.0.0.0.0 1
+    3300260: Planet.Land.001|PineTree.001|Dupli|10.0.0.0.0.0.0.0.0.0
+    3300262: Planet.Land.001|PineTree.001|Dupli|10.0.0.0.0.0.0.0.0.0 1
+    3300264: Planet.Land.001|PineTree.001|Dupli|111.0.0.0.0.0.0.0.0.0
+    3300266: Planet.Land.001|PineTree.001|Dupli|111.0.0.0.0.0.0.0.0.0 1
+    3300268: Planet.Land.001|PineTree.001|Dupli|118.0.0.0.0.0.0.0.0.0
+    3300270: Planet.Land.001|PineTree.001|Dupli|118.0.0.0.0.0.0.0.0.0 1
+    3300272: Planet.Land.001|PineTree.001|Dupli|123.0.0.0.0.0.0.0.0.0
+    3300274: Planet.Land.001|PineTree.001|Dupli|123.0.0.0.0.0.0.0.0.0 1
+    3300276: Planet.Land.001|PineTree.001|Dupli|125.0.0.0.0.0.0.0.0.0
+    3300278: Planet.Land.001|PineTree.001|Dupli|125.0.0.0.0.0.0.0.0.0 1
+    3300280: Planet.Land.001|PineTree.001|Dupli|127.0.0.0.0.0.0.0.0.0
+    3300282: Planet.Land.001|PineTree.001|Dupli|127.0.0.0.0.0.0.0.0.0 1
+    3300284: Planet.Land.001|PineTree.001|Dupli|13.0.0.0.0.0.0.0.0.0
+    3300286: Planet.Land.001|PineTree.001|Dupli|13.0.0.0.0.0.0.0.0.0 1
+    3300288: Planet.Land.001|PineTree.001|Dupli|135.0.0.0.0.0.0.0.0.0
+    3300290: Planet.Land.001|PineTree.001|Dupli|135.0.0.0.0.0.0.0.0.0 1
+    3300292: Planet.Land.001|PineTree.001|Dupli|138.0.0.0.0.0.0.0.0.0
+    3300294: Planet.Land.001|PineTree.001|Dupli|138.0.0.0.0.0.0.0.0.0 1
+    3300296: Planet.Land.001|PineTree.001|Dupli|139.0.0.0.0.0.0.0.0.0
+    3300298: Planet.Land.001|PineTree.001|Dupli|139.0.0.0.0.0.0.0.0.0 1
+    3300300: Planet.Land.001|PineTree.001|Dupli|140.0.0.0.0.0.0.0.0.0
+    3300302: Planet.Land.001|PineTree.001|Dupli|140.0.0.0.0.0.0.0.0.0 1
+    3300304: Planet.Land.001|PineTree.001|Dupli|142.0.0.0.0.0.0.0.0.0
+    3300306: Planet.Land.001|PineTree.001|Dupli|142.0.0.0.0.0.0.0.0.0 1
+    3300308: Planet.Land.001|PineTree.001|Dupli|144.0.0.0.0.0.0.0.0.0
+    3300310: Planet.Land.001|PineTree.001|Dupli|144.0.0.0.0.0.0.0.0.0 1
+    3300312: Planet.Land.001|PineTree.001|Dupli|147.0.0.0.0.0.0.0.0.0
+    3300314: Planet.Land.001|PineTree.001|Dupli|147.0.0.0.0.0.0.0.0.0 1
+    3300316: Planet.Land.001|PineTree.001|Dupli|151.0.0.0.0.0.0.0.0.0
+    3300318: Planet.Land.001|PineTree.001|Dupli|151.0.0.0.0.0.0.0.0.0 1
+    3300320: Planet.Land.001|PineTree.001|Dupli|153.0.0.0.0.0.0.0.0.0
+    3300322: Planet.Land.001|PineTree.001|Dupli|153.0.0.0.0.0.0.0.0.0 1
+    3300324: Planet.Land.001|PineTree.001|Dupli|160.0.0.0.0.0.0.0.0.0
+    3300326: Planet.Land.001|PineTree.001|Dupli|160.0.0.0.0.0.0.0.0.0 1
+    3300328: Planet.Land.001|PineTree.001|Dupli|162.0.0.0.0.0.0.0.0.0
+    3300330: Planet.Land.001|PineTree.001|Dupli|162.0.0.0.0.0.0.0.0.0 1
+    3300332: Planet.Land.001|PineTree.001|Dupli|163.0.0.0.0.0.0.0.0.0
+    3300334: Planet.Land.001|PineTree.001|Dupli|163.0.0.0.0.0.0.0.0.0 1
+    3300336: Planet.Land.001|PineTree.001|Dupli|165.0.0.0.0.0.0.0.0.0
+    3300338: Planet.Land.001|PineTree.001|Dupli|165.0.0.0.0.0.0.0.0.0 1
+    3300340: Planet.Land.001|PineTree.001|Dupli|166.0.0.0.0.0.0.0.0.0
+    3300342: Planet.Land.001|PineTree.001|Dupli|166.0.0.0.0.0.0.0.0.0 1
+    3300344: Planet.Land.001|PineTree.001|Dupli|167.0.0.0.0.0.0.0.0.0
+    3300346: Planet.Land.001|PineTree.001|Dupli|167.0.0.0.0.0.0.0.0.0 1
+    3300348: Planet.Land.001|PineTree.001|Dupli|168.0.0.0.0.0.0.0.0.0
+    3300350: Planet.Land.001|PineTree.001|Dupli|168.0.0.0.0.0.0.0.0.0 1
+    3300352: Planet.Land.001|PineTree.001|Dupli|170.0.0.0.0.0.0.0.0.0
+    3300354: Planet.Land.001|PineTree.001|Dupli|170.0.0.0.0.0.0.0.0.0 1
+    3300356: Planet.Land.001|PineTree.001|Dupli|173.0.0.0.0.0.0.0.0.0
+    3300358: Planet.Land.001|PineTree.001|Dupli|173.0.0.0.0.0.0.0.0.0 1
+    3300360: Planet.Land.001|PineTree.001|Dupli|176.0.0.0.0.0.0.0.0.0
+    3300362: Planet.Land.001|PineTree.001|Dupli|176.0.0.0.0.0.0.0.0.0 1
+    3300364: Planet.Land.001|PineTree.001|Dupli|18.0.0.0.0.0.0.0.0.0
+    3300366: Planet.Land.001|PineTree.001|Dupli|18.0.0.0.0.0.0.0.0.0 1
+    3300368: Planet.Land.001|PineTree.001|Dupli|181.0.0.0.0.0.0.0.0.0
+    3300370: Planet.Land.001|PineTree.001|Dupli|181.0.0.0.0.0.0.0.0.0 1
+    3300372: Planet.Land.001|PineTree.001|Dupli|183.0.0.0.0.0.0.0.0.0
+    3300374: Planet.Land.001|PineTree.001|Dupli|183.0.0.0.0.0.0.0.0.0 1
+    3300376: Planet.Land.001|PineTree.001|Dupli|185.0.0.0.0.0.0.0.0.0
+    3300378: Planet.Land.001|PineTree.001|Dupli|185.0.0.0.0.0.0.0.0.0 1
+    3300380: Planet.Land.001|PineTree.001|Dupli|27.0.0.0.0.0.0.0.0.0
+    3300382: Planet.Land.001|PineTree.001|Dupli|27.0.0.0.0.0.0.0.0.0 1
+    3300384: Planet.Land.001|PineTree.001|Dupli|33.0.0.0.0.0.0.0.0.0
+    3300386: Planet.Land.001|PineTree.001|Dupli|33.0.0.0.0.0.0.0.0.0 1
+    3300388: Planet.Land.001|PineTree.001|Dupli|35.0.0.0.0.0.0.0.0.0
+    3300390: Planet.Land.001|PineTree.001|Dupli|35.0.0.0.0.0.0.0.0.0 1
+    3300392: Planet.Land.001|PineTree.001|Dupli|38.0.0.0.0.0.0.0.0.0
+    3300394: Planet.Land.001|PineTree.001|Dupli|38.0.0.0.0.0.0.0.0.0 1
+    3300396: Planet.Land.001|PineTree.001|Dupli|39.0.0.0.0.0.0.0.0.0
+    3300398: Planet.Land.001|PineTree.001|Dupli|39.0.0.0.0.0.0.0.0.0 1
+    3300400: Planet.Land.001|PineTree.001|Dupli|4.0.0.0.0.0.0.0.0.0
+    3300402: Planet.Land.001|PineTree.001|Dupli|4.0.0.0.0.0.0.0.0.0 1
+    3300404: Planet.Land.001|PineTree.001|Dupli|41.0.0.0.0.0.0.0.0.0
+    3300406: Planet.Land.001|PineTree.001|Dupli|41.0.0.0.0.0.0.0.0.0 1
+    3300408: Planet.Land.001|PineTree.001|Dupli|52.0.0.0.0.0.0.0.0.0
+    3300410: Planet.Land.001|PineTree.001|Dupli|52.0.0.0.0.0.0.0.0.0 1
+    3300412: Planet.Land.001|PineTree.001|Dupli|56.0.0.0.0.0.0.0.0.0
+    3300414: Planet.Land.001|PineTree.001|Dupli|56.0.0.0.0.0.0.0.0.0 1
+    3300416: Planet.Land.001|PineTree.001|Dupli|57.0.0.0.0.0.0.0.0.0
+    3300418: Planet.Land.001|PineTree.001|Dupli|57.0.0.0.0.0.0.0.0.0 1
+    3300420: Planet.Land.001|PineTree.001|Dupli|60.0.0.0.0.0.0.0.0.0
+    3300422: Planet.Land.001|PineTree.001|Dupli|60.0.0.0.0.0.0.0.0.0 1
+    3300424: Planet.Land.001|PineTree.001|Dupli|82.0.0.0.0.0.0.0.0.0
+    3300426: Planet.Land.001|PineTree.001|Dupli|82.0.0.0.0.0.0.0.0.0 1
+    3300428: Planet.Land.001|PineTree.001|Dupli|83.0.0.0.0.0.0.0.0.0
+    3300430: Planet.Land.001|PineTree.001|Dupli|83.0.0.0.0.0.0.0.0.0 1
+    3300432: Planet.Land.001|PineTree.001|Dupli|84.0.0.0.0.0.0.0.0.0
+    3300434: Planet.Land.001|PineTree.001|Dupli|84.0.0.0.0.0.0.0.0.0 1
+    3300436: Planet.Land.001|PineTree.001|Dupli|85.0.0.0.0.0.0.0.0.0
+    3300438: Planet.Land.001|PineTree.001|Dupli|85.0.0.0.0.0.0.0.0.0 1
+    3300440: Planet.Land.001|PineTree.001|Dupli|86.0.0.0.0.0.0.0.0.0
+    3300442: Planet.Land.001|PineTree.001|Dupli|86.0.0.0.0.0.0.0.0.0 1
+    3300444: Planet.Land.001|PineTree.001|Dupli|9.0.0.0.0.0.0.0.0.0
+    3300446: Planet.Land.001|PineTree.001|Dupli|9.0.0.0.0.0.0.0.0.0 1
+    3300448: Planet.Land.001|PineTree.001|Dupli|92.0.0.0.0.0.0.0.0.0
+    3300450: Planet.Land.001|PineTree.001|Dupli|92.0.0.0.0.0.0.0.0.0 1
+    3300452: Planet.Land.001|PineTree.001|Dupli|94.0.0.0.0.0.0.0.0.0
+    3300454: Planet.Land.001|PineTree.001|Dupli|94.0.0.0.0.0.0.0.0.0 1
+    3300456: Planet.Land.001|PineTree.001|Dupli|99.0.0.0.0.0.0.0.0.0
+    3300458: Planet.Land.001|PineTree.001|Dupli|99.0.0.0.0.0.0.0.0.0 1
+    3300460: Planet.Land.001|PineTree.002|Dupli|0.0.0.0.0.0.0.0.0.0
+    3300462: Planet.Land.001|PineTree.002|Dupli|0.0.0.0.0.0.0.0.0.0 1
+    3300464: Planet.Land.001|PineTree.002|Dupli|102.0.0.0.0.0.0.0.0.0
+    3300466: Planet.Land.001|PineTree.002|Dupli|102.0.0.0.0.0.0.0.0.0 1
+    3300468: Planet.Land.001|PineTree.002|Dupli|106.0.0.0.0.0.0.0.0.0
+    3300470: Planet.Land.001|PineTree.002|Dupli|106.0.0.0.0.0.0.0.0.0 1
+    3300472: Planet.Land.001|PineTree.002|Dupli|109.0.0.0.0.0.0.0.0.0
+    3300474: Planet.Land.001|PineTree.002|Dupli|109.0.0.0.0.0.0.0.0.0 1
+    3300476: Planet.Land.001|PineTree.002|Dupli|110.0.0.0.0.0.0.0.0.0
+    3300478: Planet.Land.001|PineTree.002|Dupli|110.0.0.0.0.0.0.0.0.0 1
+    3300480: Planet.Land.001|PineTree.002|Dupli|115.0.0.0.0.0.0.0.0.0
+    3300482: Planet.Land.001|PineTree.002|Dupli|115.0.0.0.0.0.0.0.0.0 1
+    3300484: Planet.Land.001|PineTree.002|Dupli|116.0.0.0.0.0.0.0.0.0
+    3300486: Planet.Land.001|PineTree.002|Dupli|116.0.0.0.0.0.0.0.0.0 1
+    3300488: Planet.Land.001|PineTree.002|Dupli|117.0.0.0.0.0.0.0.0.0
+    3300490: Planet.Land.001|PineTree.002|Dupli|117.0.0.0.0.0.0.0.0.0 1
+    3300492: Planet.Land.001|PineTree.002|Dupli|121.0.0.0.0.0.0.0.0.0
+    3300494: Planet.Land.001|PineTree.002|Dupli|121.0.0.0.0.0.0.0.0.0 1
+    3300496: Planet.Land.001|PineTree.002|Dupli|124.0.0.0.0.0.0.0.0.0
+    3300498: Planet.Land.001|PineTree.002|Dupli|124.0.0.0.0.0.0.0.0.0 1
+    3300500: Planet.Land.001|PineTree.002|Dupli|128.0.0.0.0.0.0.0.0.0
+    3300502: Planet.Land.001|PineTree.002|Dupli|128.0.0.0.0.0.0.0.0.0 1
+    3300504: Planet.Land.001|PineTree.002|Dupli|130.0.0.0.0.0.0.0.0.0
+    3300506: Planet.Land.001|PineTree.002|Dupli|130.0.0.0.0.0.0.0.0.0 1
+    3300508: Planet.Land.001|PineTree.002|Dupli|136.0.0.0.0.0.0.0.0.0
+    3300510: Planet.Land.001|PineTree.002|Dupli|136.0.0.0.0.0.0.0.0.0 1
+    3300512: Planet.Land.001|PineTree.002|Dupli|14.0.0.0.0.0.0.0.0.0
+    3300514: Planet.Land.001|PineTree.002|Dupli|14.0.0.0.0.0.0.0.0.0 1
+    3300516: Planet.Land.001|PineTree.002|Dupli|148.0.0.0.0.0.0.0.0.0
+    3300518: Planet.Land.001|PineTree.002|Dupli|148.0.0.0.0.0.0.0.0.0 1
+    3300520: Planet.Land.001|PineTree.002|Dupli|15.0.0.0.0.0.0.0.0.0
+    3300522: Planet.Land.001|PineTree.002|Dupli|15.0.0.0.0.0.0.0.0.0 1
+    3300524: Planet.Land.001|PineTree.002|Dupli|157.0.0.0.0.0.0.0.0.0
+    3300526: Planet.Land.001|PineTree.002|Dupli|157.0.0.0.0.0.0.0.0.0 1
+    3300528: Planet.Land.001|PineTree.002|Dupli|159.0.0.0.0.0.0.0.0.0
+    3300530: Planet.Land.001|PineTree.002|Dupli|159.0.0.0.0.0.0.0.0.0 1
+    3300532: Planet.Land.001|PineTree.002|Dupli|172.0.0.0.0.0.0.0.0.0
+    3300534: Planet.Land.001|PineTree.002|Dupli|172.0.0.0.0.0.0.0.0.0 1
+    3300536: Planet.Land.001|PineTree.002|Dupli|174.0.0.0.0.0.0.0.0.0
+    3300538: Planet.Land.001|PineTree.002|Dupli|174.0.0.0.0.0.0.0.0.0 1
+    3300540: Planet.Land.001|PineTree.002|Dupli|177.0.0.0.0.0.0.0.0.0
+    3300542: Planet.Land.001|PineTree.002|Dupli|177.0.0.0.0.0.0.0.0.0 1
+    3300544: Planet.Land.001|PineTree.002|Dupli|186.0.0.0.0.0.0.0.0.0
+    3300546: Planet.Land.001|PineTree.002|Dupli|186.0.0.0.0.0.0.0.0.0 1
+    3300548: Planet.Land.001|PineTree.002|Dupli|188.0.0.0.0.0.0.0.0.0
+    3300550: Planet.Land.001|PineTree.002|Dupli|188.0.0.0.0.0.0.0.0.0 1
+    3300552: Planet.Land.001|PineTree.002|Dupli|189.0.0.0.0.0.0.0.0.0
+    3300554: Planet.Land.001|PineTree.002|Dupli|189.0.0.0.0.0.0.0.0.0 1
+    3300556: Planet.Land.001|PineTree.002|Dupli|195.0.0.0.0.0.0.0.0.0
+    3300558: Planet.Land.001|PineTree.002|Dupli|195.0.0.0.0.0.0.0.0.0 1
+    3300560: Planet.Land.001|PineTree.002|Dupli|196.0.0.0.0.0.0.0.0.0
+    3300562: Planet.Land.001|PineTree.002|Dupli|196.0.0.0.0.0.0.0.0.0 1
+    3300564: Planet.Land.001|PineTree.002|Dupli|198.0.0.0.0.0.0.0.0.0
+    3300566: Planet.Land.001|PineTree.002|Dupli|198.0.0.0.0.0.0.0.0.0 1
+    3300568: Planet.Land.001|PineTree.002|Dupli|2.0.0.0.0.0.0.0.0.0
+    3300570: Planet.Land.001|PineTree.002|Dupli|2.0.0.0.0.0.0.0.0.0 1
+    3300572: Planet.Land.001|PineTree.002|Dupli|20.0.0.0.0.0.0.0.0.0
+    3300574: Planet.Land.001|PineTree.002|Dupli|20.0.0.0.0.0.0.0.0.0 1
+    3300576: Planet.Land.001|PineTree.002|Dupli|24.0.0.0.0.0.0.0.0.0
+    3300578: Planet.Land.001|PineTree.002|Dupli|24.0.0.0.0.0.0.0.0.0 1
+    3300580: Planet.Land.001|PineTree.002|Dupli|26.0.0.0.0.0.0.0.0.0
+    3300582: Planet.Land.001|PineTree.002|Dupli|26.0.0.0.0.0.0.0.0.0 1
+    3300584: Planet.Land.001|PineTree.002|Dupli|31.0.0.0.0.0.0.0.0.0
+    3300586: Planet.Land.001|PineTree.002|Dupli|31.0.0.0.0.0.0.0.0.0 1
+    3300588: Planet.Land.001|PineTree.002|Dupli|34.0.0.0.0.0.0.0.0.0
+    3300590: Planet.Land.001|PineTree.002|Dupli|34.0.0.0.0.0.0.0.0.0 1
+    3300592: Planet.Land.001|PineTree.002|Dupli|42.0.0.0.0.0.0.0.0.0
+    3300594: Planet.Land.001|PineTree.002|Dupli|42.0.0.0.0.0.0.0.0.0 1
+    3300596: Planet.Land.001|PineTree.002|Dupli|44.0.0.0.0.0.0.0.0.0
+    3300598: Planet.Land.001|PineTree.002|Dupli|44.0.0.0.0.0.0.0.0.0 1
+    3300600: Planet.Land.001|PineTree.002|Dupli|45.0.0.0.0.0.0.0.0.0
+    3300602: Planet.Land.001|PineTree.002|Dupli|45.0.0.0.0.0.0.0.0.0 1
+    3300604: Planet.Land.001|PineTree.002|Dupli|47.0.0.0.0.0.0.0.0.0
+    3300606: Planet.Land.001|PineTree.002|Dupli|47.0.0.0.0.0.0.0.0.0 1
+    3300608: Planet.Land.001|PineTree.002|Dupli|5.0.0.0.0.0.0.0.0.0
+    3300610: Planet.Land.001|PineTree.002|Dupli|5.0.0.0.0.0.0.0.0.0 1
+    3300612: Planet.Land.001|PineTree.002|Dupli|50.0.0.0.0.0.0.0.0.0
+    3300614: Planet.Land.001|PineTree.002|Dupli|50.0.0.0.0.0.0.0.0.0 1
+    3300616: Planet.Land.001|PineTree.002|Dupli|53.0.0.0.0.0.0.0.0.0
+    3300618: Planet.Land.001|PineTree.002|Dupli|53.0.0.0.0.0.0.0.0.0 1
+    3300620: Planet.Land.001|PineTree.002|Dupli|54.0.0.0.0.0.0.0.0.0
+    3300622: Planet.Land.001|PineTree.002|Dupli|54.0.0.0.0.0.0.0.0.0 1
+    3300624: Planet.Land.001|PineTree.002|Dupli|55.0.0.0.0.0.0.0.0.0
+    3300626: Planet.Land.001|PineTree.002|Dupli|55.0.0.0.0.0.0.0.0.0 1
+    3300628: Planet.Land.001|PineTree.002|Dupli|62.0.0.0.0.0.0.0.0.0
+    3300630: Planet.Land.001|PineTree.002|Dupli|62.0.0.0.0.0.0.0.0.0 1
+    3300632: Planet.Land.001|PineTree.002|Dupli|63.0.0.0.0.0.0.0.0.0
+    3300634: Planet.Land.001|PineTree.002|Dupli|63.0.0.0.0.0.0.0.0.0 1
+    3300636: Planet.Land.001|PineTree.002|Dupli|64.0.0.0.0.0.0.0.0.0
+    3300638: Planet.Land.001|PineTree.002|Dupli|64.0.0.0.0.0.0.0.0.0 1
+    3300640: Planet.Land.001|PineTree.002|Dupli|65.0.0.0.0.0.0.0.0.0
+    3300642: Planet.Land.001|PineTree.002|Dupli|65.0.0.0.0.0.0.0.0.0 1
+    3300644: Planet.Land.001|PineTree.002|Dupli|68.0.0.0.0.0.0.0.0.0
+    3300646: Planet.Land.001|PineTree.002|Dupli|69.0.0.0.0.0.0.0.0.0
+    3300648: Planet.Land.001|PineTree.002|Dupli|69.0.0.0.0.0.0.0.0.0 1
+    3300650: Planet.Land.001|PineTree.002|Dupli|7.0.0.0.0.0.0.0.0.0
+    3300652: Planet.Land.001|PineTree.002|Dupli|7.0.0.0.0.0.0.0.0.0 1
+    3300654: Planet.Land.001|PineTree.002|Dupli|72.0.0.0.0.0.0.0.0.0
+    3300656: Planet.Land.001|PineTree.002|Dupli|72.0.0.0.0.0.0.0.0.0 1
+    3300658: Planet.Land.001|PineTree.002|Dupli|76.0.0.0.0.0.0.0.0.0
+    3300660: Planet.Land.001|PineTree.002|Dupli|76.0.0.0.0.0.0.0.0.0 1
+    3300662: Planet.Land.001|PineTree.002|Dupli|79.0.0.0.0.0.0.0.0.0
+    3300664: Planet.Land.001|PineTree.002|Dupli|79.0.0.0.0.0.0.0.0.0 1
+    3300666: Planet.Land.001|PineTree.002|Dupli|8.0.0.0.0.0.0.0.0.0
+    3300668: Planet.Land.001|PineTree.002|Dupli|8.0.0.0.0.0.0.0.0.0 1
+    3300670: Planet.Land.001|PineTree.002|Dupli|81.0.0.0.0.0.0.0.0.0
+    3300672: Planet.Land.001|PineTree.002|Dupli|81.0.0.0.0.0.0.0.0.0 1
+    3300674: Planet.Land.001|PineTree.002|Dupli|98.0.0.0.0.0.0.0.0.0
+    3300676: Planet.Land.001|PineTree.002|Dupli|98.0.0.0.0.0.0.0.0.0 1
+    3300678: Planet.Land.001|PineTree.003|Dupli|100.0.0.0.0.0.0.0.0.0
+    3300680: Planet.Land.001|PineTree.003|Dupli|100.0.0.0.0.0.0.0.0.0 1
+    3300682: Planet.Land.001|PineTree.003|Dupli|101.0.0.0.0.0.0.0.0.0
+    3300684: Planet.Land.001|PineTree.003|Dupli|101.0.0.0.0.0.0.0.0.0 1
+    3300686: Planet.Land.001|PineTree.003|Dupli|103.0.0.0.0.0.0.0.0.0
+    3300688: Planet.Land.001|PineTree.003|Dupli|103.0.0.0.0.0.0.0.0.0 1
+    3300690: Planet.Land.001|PineTree.003|Dupli|105.0.0.0.0.0.0.0.0.0
+    3300692: Planet.Land.001|PineTree.003|Dupli|105.0.0.0.0.0.0.0.0.0 1
+    3300694: Planet.Land.001|PineTree.003|Dupli|113.0.0.0.0.0.0.0.0.0
+    3300696: Planet.Land.001|PineTree.003|Dupli|113.0.0.0.0.0.0.0.0.0 1
+    3300698: Planet.Land.001|PineTree.003|Dupli|114.0.0.0.0.0.0.0.0.0
+    3300700: Planet.Land.001|PineTree.003|Dupli|114.0.0.0.0.0.0.0.0.0 1
+    3300702: Planet.Land.001|PineTree.003|Dupli|119.0.0.0.0.0.0.0.0.0
+    3300704: Planet.Land.001|PineTree.003|Dupli|119.0.0.0.0.0.0.0.0.0 1
+    3300706: Planet.Land.001|PineTree.003|Dupli|122.0.0.0.0.0.0.0.0.0
+    3300708: Planet.Land.001|PineTree.003|Dupli|122.0.0.0.0.0.0.0.0.0 1
+    3300710: Planet.Land.001|PineTree.003|Dupli|126.0.0.0.0.0.0.0.0.0
+    3300712: Planet.Land.001|PineTree.003|Dupli|126.0.0.0.0.0.0.0.0.0 1
+    3300714: Planet.Land.001|PineTree.003|Dupli|129.0.0.0.0.0.0.0.0.0
+    3300716: Planet.Land.001|PineTree.003|Dupli|129.0.0.0.0.0.0.0.0.0 1
+    3300718: Planet.Land.001|PineTree.003|Dupli|134.0.0.0.0.0.0.0.0.0
+    3300720: Planet.Land.001|PineTree.003|Dupli|134.0.0.0.0.0.0.0.0.0 1
+    3300722: Planet.Land.001|PineTree.003|Dupli|143.0.0.0.0.0.0.0.0.0
+    3300724: Planet.Land.001|PineTree.003|Dupli|143.0.0.0.0.0.0.0.0.0 1
+    3300726: Planet.Land.001|PineTree.003|Dupli|146.0.0.0.0.0.0.0.0.0
+    3300728: Planet.Land.001|PineTree.003|Dupli|146.0.0.0.0.0.0.0.0.0 1
+    3300730: Planet.Land.001|PineTree.003|Dupli|149.0.0.0.0.0.0.0.0.0
+    3300732: Planet.Land.001|PineTree.003|Dupli|149.0.0.0.0.0.0.0.0.0 1
+    3300734: Planet.Land.001|PineTree.003|Dupli|152.0.0.0.0.0.0.0.0.0
+    3300736: Planet.Land.001|PineTree.003|Dupli|152.0.0.0.0.0.0.0.0.0 1
+    3300738: Planet.Land.001|PineTree.003|Dupli|154.0.0.0.0.0.0.0.0.0
+    3300740: Planet.Land.001|PineTree.003|Dupli|154.0.0.0.0.0.0.0.0.0 1
+    3300742: Planet.Land.001|PineTree.003|Dupli|158.0.0.0.0.0.0.0.0.0
+    3300744: Planet.Land.001|PineTree.003|Dupli|158.0.0.0.0.0.0.0.0.0 1
+    3300746: Planet.Land.001|PineTree.003|Dupli|161.0.0.0.0.0.0.0.0.0
+    3300748: Planet.Land.001|PineTree.003|Dupli|161.0.0.0.0.0.0.0.0.0 1
+    3300750: Planet.Land.001|PineTree.003|Dupli|164.0.0.0.0.0.0.0.0.0
+    3300752: Planet.Land.001|PineTree.003|Dupli|164.0.0.0.0.0.0.0.0.0 1
+    3300754: Planet.Land.001|PineTree.003|Dupli|17.0.0.0.0.0.0.0.0.0
+    3300756: Planet.Land.001|PineTree.003|Dupli|17.0.0.0.0.0.0.0.0.0 1
+    3300758: Planet.Land.001|PineTree.003|Dupli|175.0.0.0.0.0.0.0.0.0
+    3300760: Planet.Land.001|PineTree.003|Dupli|175.0.0.0.0.0.0.0.0.0 1
+    3300762: Planet.Land.001|PineTree.003|Dupli|178.0.0.0.0.0.0.0.0.0
+    3300764: Planet.Land.001|PineTree.003|Dupli|178.0.0.0.0.0.0.0.0.0 1
+    3300766: Planet.Land.001|PineTree.003|Dupli|179.0.0.0.0.0.0.0.0.0
+    3300768: Planet.Land.001|PineTree.003|Dupli|179.0.0.0.0.0.0.0.0.0 1
+    3300770: Planet.Land.001|PineTree.003|Dupli|19.0.0.0.0.0.0.0.0.0
+    3300772: Planet.Land.001|PineTree.003|Dupli|19.0.0.0.0.0.0.0.0.0 1
+    3300774: Planet.Land.001|PineTree.003|Dupli|191.0.0.0.0.0.0.0.0.0
+    3300776: Planet.Land.001|PineTree.003|Dupli|191.0.0.0.0.0.0.0.0.0 1
+    3300778: Planet.Land.001|PineTree.003|Dupli|21.0.0.0.0.0.0.0.0.0
+    3300780: Planet.Land.001|PineTree.003|Dupli|21.0.0.0.0.0.0.0.0.0 1
+    3300782: Planet.Land.001|PineTree.003|Dupli|22.0.0.0.0.0.0.0.0.0
+    3300784: Planet.Land.001|PineTree.003|Dupli|22.0.0.0.0.0.0.0.0.0 1
+    3300786: Planet.Land.001|PineTree.003|Dupli|23.0.0.0.0.0.0.0.0.0
+    3300788: Planet.Land.001|PineTree.003|Dupli|23.0.0.0.0.0.0.0.0.0 1
+    3300790: Planet.Land.001|PineTree.003|Dupli|25.0.0.0.0.0.0.0.0.0
+    3300792: Planet.Land.001|PineTree.003|Dupli|25.0.0.0.0.0.0.0.0.0 1
+    3300794: Planet.Land.001|PineTree.003|Dupli|29.0.0.0.0.0.0.0.0.0
+    3300796: Planet.Land.001|PineTree.003|Dupli|29.0.0.0.0.0.0.0.0.0 1
+    3300798: Planet.Land.001|PineTree.003|Dupli|3.0.0.0.0.0.0.0.0.0
+    3300800: Planet.Land.001|PineTree.003|Dupli|3.0.0.0.0.0.0.0.0.0 1
+    3300802: Planet.Land.001|PineTree.003|Dupli|37.0.0.0.0.0.0.0.0.0
+    3300804: Planet.Land.001|PineTree.003|Dupli|37.0.0.0.0.0.0.0.0.0 1
+    3300806: Planet.Land.001|PineTree.003|Dupli|43.0.0.0.0.0.0.0.0.0
+    3300808: Planet.Land.001|PineTree.003|Dupli|43.0.0.0.0.0.0.0.0.0 1
+    3300810: Planet.Land.001|PineTree.003|Dupli|46.0.0.0.0.0.0.0.0.0
+    3300812: Planet.Land.001|PineTree.003|Dupli|46.0.0.0.0.0.0.0.0.0 1
+    3300814: Planet.Land.001|PineTree.003|Dupli|51.0.0.0.0.0.0.0.0.0
+    3300816: Planet.Land.001|PineTree.003|Dupli|51.0.0.0.0.0.0.0.0.0 1
+    3300818: Planet.Land.001|PineTree.003|Dupli|58.0.0.0.0.0.0.0.0.0
+    3300820: Planet.Land.001|PineTree.003|Dupli|58.0.0.0.0.0.0.0.0.0 1
+    3300822: Planet.Land.001|PineTree.003|Dupli|6.0.0.0.0.0.0.0.0.0
+    3300824: Planet.Land.001|PineTree.003|Dupli|6.0.0.0.0.0.0.0.0.0 1
+    3300826: Planet.Land.001|PineTree.003|Dupli|67.0.0.0.0.0.0.0.0.0
+    3300828: Planet.Land.001|PineTree.003|Dupli|67.0.0.0.0.0.0.0.0.0 1
+    3300830: Planet.Land.001|PineTree.003|Dupli|75.0.0.0.0.0.0.0.0.0
+    3300832: Planet.Land.001|PineTree.003|Dupli|75.0.0.0.0.0.0.0.0.0 1
+    3300834: Planet.Land.001|PineTree.003|Dupli|77.0.0.0.0.0.0.0.0.0
+    3300836: Planet.Land.001|PineTree.003|Dupli|77.0.0.0.0.0.0.0.0.0 1
+    3300838: Planet.Land.001|PineTree.003|Dupli|78.0.0.0.0.0.0.0.0.0
+    3300840: Planet.Land.001|PineTree.003|Dupli|78.0.0.0.0.0.0.0.0.0 1
+    3300842: Planet.Land.001|PineTree.003|Dupli|80.0.0.0.0.0.0.0.0.0
+    3300844: Planet.Land.001|PineTree.003|Dupli|80.0.0.0.0.0.0.0.0.0 1
+    3300846: Planet.Land.001|PineTree.003|Dupli|87.0.0.0.0.0.0.0.0.0
+    3300848: Planet.Land.001|PineTree.003|Dupli|87.0.0.0.0.0.0.0.0.0 1
+    3300850: Planet.Land.001|PineTree.003|Dupli|88.0.0.0.0.0.0.0.0.0
+    3300852: Planet.Land.001|PineTree.003|Dupli|88.0.0.0.0.0.0.0.0.0 1
+    3300854: Planet.Land.001|PineTree.003|Dupli|89.0.0.0.0.0.0.0.0.0
+    3300856: Planet.Land.001|PineTree.003|Dupli|89.0.0.0.0.0.0.0.0.0 1
+    3300858: Planet.Land.001|PineTree.003|Dupli|90.0.0.0.0.0.0.0.0.0
+    3300860: Planet.Land.001|PineTree.003|Dupli|90.0.0.0.0.0.0.0.0.0 1
+    3300862: Planet.Land.001|PineTree.003|Dupli|91.0.0.0.0.0.0.0.0.0
+    3300864: Planet.Land.001|PineTree.003|Dupli|91.0.0.0.0.0.0.0.0.0 1
+    3300866: Planet.Land.001|PineTree.003|Dupli|96.0.0.0.0.0.0.0.0.0
+    3300868: Planet.Land.001|PineTree.003|Dupli|96.0.0.0.0.0.0.0.0.0 1
+    3300870: Planet.Land.002
+    3300872: Planet.Land|AllTreesGroup.000|Dupli|13.0.0.0.0.0.0.0.0.0
+    3300874: Planet.Land|AllTreesGroup.000|Dupli|17.0.0.0.0.0.0.0.0.0
+    3300876: Planet.Land|AllTreesGroup.000|Dupli|21.0.0.0.0.0.0.0.0.0
+    3300878: Planet.Land|AllTreesGroup.000|Dupli|26.0.0.0.0.0.0.0.0.0
+    3300880: Planet.Land|AllTreesGroup.000|Dupli|38.0.0.0.0.0.0.0.0.0
+    3300882: Planet.Land|AllTreesGroup.000|Dupli|45.0.0.0.0.0.0.0.0.0
+    3300884: Planet.Land|PineTree.000|Dupli|28.0.0.0.0.0.0.0.0.0
+    3300886: Planet.Land|PineTree.000|Dupli|29.0.0.0.0.0.0.0.0.0
+    3300888: Planet.Land|PineTree.000|Dupli|34.0.0.0.0.0.0.0.0.0
+    3300890: Planet.Land|PineTree.000|Dupli|35.0.0.0.0.0.0.0.0.0
+    3300892: Planet.Land|PineTree.001|Dupli|0.0.0.0.0.0.0.0.0.0
+    3300894: Planet.Land|PineTree.001|Dupli|1.0.0.0.0.0.0.0.0.0
+    3300896: Planet.Land|PineTree.001|Dupli|15.0.0.0.0.0.0.0.0.0
+    3300898: Planet.Land|PineTree.001|Dupli|8.0.0.0.0.0.0.0.0.0
+    3300900: Planet.Land|PineTree.002|Dupli|16.0.0.0.0.0.0.0.0.0
+    3300902: Planet.Land|PineTree.002|Dupli|18.0.0.0.0.0.0.0.0.0
+    3300904: Planet.Land|PineTree.002|Dupli|23.0.0.0.0.0.0.0.0.0
+    3300906: Planet.Land|PineTree.002|Dupli|3.0.0.0.0.0.0.0.0.0
+    3300908: Planet.Land|PineTree.002|Dupli|40.0.0.0.0.0.0.0.0.0
+    3300910: Planet.Land|PineTree.002|Dupli|44.0.0.0.0.0.0.0.0.0
+    3300912: Planet.Land|PineTree.003|Dupli|30.0.0.0.0.0.0.0.0.0
+    3300914: Planet.Land|PineTree.003|Dupli|4.0.0.0.0.0.0.0.0.0
+    3300916: Planet.Land|RoundTree.000|Dupli|39.0.0.0.0.0.0.0.0.0
+    3300918: Planet.Land|RoundTree.001|Dupli|14.0.0.0.0.0.0.0.0.0
+    3300920: Planet.Land|RoundTree.001|Dupli|20.0.0.0.0.0.0.0.0.0
+    3300922: Planet.Land|RoundTree.001|Dupli|22.0.0.0.0.0.0.0.0.0
+    3300924: Planet.Land|RoundTree.001|Dupli|32.0.0.0.0.0.0.0.0.0
+    3300926: Planet.Land|RoundTree.001|Dupli|41.0.0.0.0.0.0.0.0.0
+    3300928: Planet.Land|RoundTree.001|Dupli|46.0.0.0.0.0.0.0.0.0
+    3300930: Planet.Land|RoundTree.001|Dupli|7.0.0.0.0.0.0.0.0.0
+    3300932: Planet.Land|RoundTree.002|Dupli|11.0.0.0.0.0.0.0.0.0
+    3300934: Planet.Land|RoundTree.002|Dupli|33.0.0.0.0.0.0.0.0.0
+    3300936: Planet.Land|RoundTree.002|Dupli|37.0.0.0.0.0.0.0.0.0
+    3300938: Planet.Land|RoundTree.002|Dupli|42.0.0.0.0.0.0.0.0.0
+    3300940: Planet.Land|RoundTree.003|Dupli|2.0.0.0.0.0.0.0.0.0
+    3300942: Planet.Land|RoundTree.003|Dupli|25.0.0.0.0.0.0.0.0.0
+    3300944: Planet.Land|RoundTree.003|Dupli|27.0.0.0.0.0.0.0.0.0
+    3300946: Planet.Land|RoundTree.003|Dupli|36.0.0.0.0.0.0.0.0.0
+    3300948: Planet.Land|RoundTree.003|Dupli|43.0.0.0.0.0.0.0.0.0
+    3300950: Planet.Land|RoundTree.003|Dupli|9.0.0.0.0.0.0.0.0.0
+    3300952: Planet.Land|RoundTree.004|Dupli|10.0.0.0.0.0.0.0.0.0
+    3300954: Planet.Land|RoundTree.004|Dupli|12.0.0.0.0.0.0.0.0.0
+    3300956: Planet.Land|RoundTree.004|Dupli|31.0.0.0.0.0.0.0.0.0
+    3300958: Planet.Land|RoundTree.004|Dupli|47.0.0.0.0.0.0.0.0.0
+    3300960: Planet.Land|RoundTree.004|Dupli|48.0.0.0.0.0.0.0.0.0
+    3300962: Planet.Land|RoundTree.004|Dupli|49.0.0.0.0.0.0.0.0.0
+    3300964: Planet.Land|RoundTreeGroup.000|Dupli|19.0.0.0.0.0.0.0.0.0
+    3300966: Planet.Land|RoundTreeGroup.000|Dupli|24.0.0.0.0.0.0.0.0.0
+    3300968: Planet.Land|RoundTreeGroup.000|Dupli|5.0.0.0.0.0.0.0.0.0
+    3300970: Planet.Land|RoundTreeGroup.000|Dupli|6.0.0.0.0.0.0.0.0.0
+    3300972: Planet.ShaderTest
+    3300974: Planet.Water
+    3300976: Planet.Water.001
+    3300978: Planet.Water.002
+    3300980: PlantGroupSurface
+    3300982: PlantGroupSurface|PineTree.000|Dupli|0.0.0.0.0.0.0.0.0.0
+    3300984: PlantGroupSurface|PineTree.000|Dupli|6.0.0.0.0.0.0.0.0.0
+    3300986: PlantGroupSurface|PineTree.000|Dupli|9.0.0.0.0.0.0.0.0.0
+    3300988: PlantGroupSurface|PineTree.001|Dupli|1.0.0.0.0.0.0.0.0.0
+    3300990: PlantGroupSurface|PineTree.001|Dupli|2.0.0.0.0.0.0.0.0.0
+    3300992: PlantGroupSurface|PineTree.001|Dupli|3.0.0.0.0.0.0.0.0.0
+    3300994: PlantGroupSurface|PineTree.001|Dupli|8.0.0.0.0.0.0.0.0.0
+    3300996: PlantGroupSurface|PineTree.002|Dupli|4.0.0.0.0.0.0.0.0.0
+    3300998: PlantGroupSurface|PineTree.002|Dupli|5.0.0.0.0.0.0.0.0.0
+    3301000: PlantGroupSurface|PineTree.002|Dupli|7.0.0.0.0.0.0.0.0.0
+    3301002: RoundTree.000
+    3301004: RoundTree.001
+    3301006: RoundTree.002
+    3301008: RoundTree.003
+    3301010: RoundTree.004
+    3301012: RoundTreeGroup.000
+    3301014: Shockwave
+    3301016: ShockwaveFlat.002
+    3301018: ShockwaveSpike.000
+    3301020: Sky.000
+    3301022: SpikeShockwave
+    3301024: Water-crap
+    3301026: Water.001
+    3301028: //RootNode
+    4300000: Mine.000
+    4300002: Mine_Cap1
+    4300004: Mine_Ring
+    4300006: Planet.Water.002
+    4300008: Planet.ShaderTest
+    4300010: MeshDustShockwave
+    4300012: MeshShockwave
+    4300014: Asteroid_001
+    4300016: Asteroid_002
+    4300018: Asteroid_003
+    4300020: DustShockwave.001
+    4300022: SpikeShockwave
+    4300024: ShockwaveFlat.002
+    4300026: ShockwaveSpike.000
+    4300028: Shockwave
+    4300030: Planet.000
+    4300032: Planet.Water.001
+    4300034: RoundTreeGroup.000
+    4300036: AllTreesGroup.000
+    4300038: RoundTree.004
+    4300040: RoundTree.003
+    4300042: Planet.Land.000
+    4300044: Planet.Land.001|PineTree.000|Dupli|199.0.0.0.0.0.0.0.0.0
+    4300046: Planet.Land.001|PineTree.002|Dupli|198.0.0.0.0.0.0.0.0.0
+    4300048: Planet.Land.001|PineTree.003|Dupli|191.0.0.0.0.0.0.0.0.0
+    4300050: Planet.Land.001|PineTree.001|Dupli|185.0.0.0.0.0.0.0.0.0
+    4300052: Planet.Clouds.001
+    4300054: Planet.Clouds.000
+    4300056: Icosphere.010
+    4300058: Icosphere.008
+    4300060: Icosphere.007
+    4300062: Icosphere.006
+    4300064: Icosphere.005
+    4300066: Icosphere.004
+    4300068: Icosphere.003
+    4300070: Icosphere.002
+    4300072: PineTree.002
+    4300074: PineTree.000
+    4300076: RoundTree.002
+    4300078: RoundTree.001
+    4300080: RoundTree.000
+    4300082: PineTree.001
+    4300084: Cube_5
+    4300086: Cube_1_18
+    4300088: Cube_3_4
+    4300090: Cube_4_4
+    4300092: Cube_2_8
+    4300094: PineTree.003
+    4300096: Planet.Land.002
+    4300098: Planet.Land
+    4300100: PlantGroupSurface
+    4300102: Planet.Land.001
+    4300104: Panet.Clouds
+    4300106: Planet.Water
+    4300108: Water.001
+    4300110: Water-crap
+    4300112: Icosphere
+    4300114: Sky.000
+    4300116: Icosphere.009
+    4300118: Icosphere.001
+    4300120: Mine.001
+    4300122: Cone.005
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -9,3 +9,6 @@
 *.user
 *.userprefs
 *.DS_store
+Assets/Resources/Prefabs/VFX/WIP/
+Assets/Kern_WIP/
+Builds/
