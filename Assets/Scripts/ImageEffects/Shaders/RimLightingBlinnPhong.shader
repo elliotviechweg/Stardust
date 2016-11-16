@@ -1,6 +1,6 @@
 ﻿Shader "LazyFish_Custom/Basic/RimLightingBlinnPhong" {
 	Properties {
-		_WavingTint ("Fade Color", Color) = (.7,.6,.5, 0)
+		_ColorTint("Tint", Color) = (1.0, 0.6, 0.6, 1.0)
 		_MainTex ("Base (RGB) Alpha (A)", 2D) = "white" {}
 		_SpecColor ("Specular Color", Color) = (0.5, 0.5, 0.5, 1)
 		_Glossiness ("Smoothness", Range (0.03, 1)) = 0.078125
@@ -25,7 +25,7 @@
 		ColorMask RGB
 		 
 		CGPROGRAM
-		#pragma surface surf BlinnPhong addshadow alphatest:_Cutoff2 //fullforwardshadows
+		#pragma surface surf BlinnPhong addshadow alphatest:_Cutoff2  //fullforwardshadows
 		#pragma exclude_renderers flash
 		#include "TerrainEngine.cginc"
 		 
@@ -43,11 +43,12 @@
 	        float2 uv_Emissive;
 		};
 
+		fixed4 _ColorTint;
 		float4 _RimColor;
 		float _RimPower; 	
 			 
 		void surf (Input IN, inout SurfaceOutput o) {
-			fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * IN.color;
+			fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * _ColorTint * IN.color;
 			fixed4 d = tex2D(_MainTex, IN.uv_MainTex);
 			o.Albedo = c.rgb;
 			o.Alpha = d.a;
@@ -62,45 +63,6 @@
 
 		}
 		ENDCG
-	}
- 
-	SubShader {
-		Tags {
-			"Queue" = "Geometry+200"
-			"IgnoreProjector"="True"
-			"RenderType"="Grass"
-		}
-		Cull Back
-		LOD 200
-		ColorMask RGB
-		 
-		Pass {
-			Tags { "LightMode" = "Vertex" }
-			Material {
-				Diffuse (1,1,1,1)
-				Ambient (1,1,1,1)
-                Specular [_SpecColor]
-			}
-			Lighting On
-			ColorMaterial AmbientAndDiffuse
-			AlphaTest Greater [_Cutoff]
-			SetTexture [_MainTex] { combine texture * primary DOUBLE, texture }
-		}
-		Pass {
-			Tags { "LightMode" = "VertexLMRGBM" }
-			AlphaTest Greater [_Cutoff]
-			BindChannels {
-				Bind "Vertex", vertex
-				Bind "texcoord1", texcoord0 // lightmap uses 2nd uv
-				Bind "texcoord", texcoord1 // main uses 1st uv
-			}
-			SetTexture [unity_Lightmap] {
-				matrix [unity_LightmapMatrix]
-				combine texture * texture alpha DOUBLE
-			}
-			SetTexture [_MainTex] { combine texture * previous QUAD, texture }
-		}
-	}
-	 
+	} 
 	Fallback Off
 }

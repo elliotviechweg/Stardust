@@ -5,7 +5,7 @@ public class updateVerts : MonoBehaviour {
 	public Color[] newColors;
 
 	void Update () {
-		Mesh mesh = GetComponent<MeshFilter> ().sharedMesh;
+		Mesh mesh = GetComponent<MeshFilter> ().mesh; //sharedMesh
 		//Vector3[] vertices = mesh.vertices;
 
 		// create new colors array where the colors will be created.
