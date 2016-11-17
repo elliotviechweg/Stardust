@@ -39,7 +39,7 @@
        float _RimPower;
  
        void surf (Input IN, inout SurfaceOutput o) {
-           fixed4 c = tex2D (_MainTex, IN.uv_MainTex) *  _Color;
+           fixed4 c = tex2D (_MainTex, IN.uv_MainTex) *  _Color * 2.0;
            o.Albedo = c.rgb;
            //o.Normal = UnpackNormal (tex2D (_BumpMap, IN.uv_BumpMap));
            half rim = 1.0 - saturate(dot (normalize(IN.viewDir), o.Normal));
