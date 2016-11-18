@@ -2128,7 +2128,7 @@ ModelImporter:
     4300120: Mine.001
     4300122: Cone.005
   materials:
-    importMaterials: 0
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
   animations:
