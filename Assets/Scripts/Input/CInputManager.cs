@@ -17,6 +17,46 @@ public class CInputManager : MonoBehaviour
 	// Internally used member variables
 	private RaycastHit m_tRaycastHit;
 
+	private void SendInputMessage(GameObject tReceiver, Touch tTouch)
+	{
+		if (tTouch.phase == TouchPhase.Began)
+		{
+			tReceiver.SendMessage("OnTouchDown", m_tRaycastHit.point, SendMessageOptions.DontRequireReceiver);
+		}
+		/* Not Used Yet
+		else if (tTouch.phase == TouchPhase.Ended)
+		{
+			tReceiver.SendMessage("OnTouchUp", m_tRaycastHit.point, SendMessageOptions.DontRequireReceiver);
+		}
+		else if (tTouch.phase == TouchPhase.Stationary || tTouch.phase == TouchPhase.Moved)
+		{
+			tReceiver.SendMessage("OnTouchStay", m_tRaycastHit.point, SendMessageOptions.DontRequireReceiver);
+		}
+		else if (tTouch.phase == TouchPhase.Canceled)
+		{
+			tReceiver.SendMessage("OnTouchExit", m_tRaycastHit.point, SendMessageOptions.DontRequireReceiver);
+		}
+		*/
+	}
+
+	private void SendInputMessageMouse(GameObject tReceiver)
+	{
+		if (Input.GetMouseButtonDown(0))
+		{
+			tReceiver.SendMessage("OnTouchDown", m_tRaycastHit.point, SendMessageOptions.DontRequireReceiver);
+		}
+		/* Not Used Yet
+		else if (Input.GetMouseButtonUp(0))
+		{
+			tReceiver.SendMessage("OnTouchUp", m_tRaycastHit.point, SendMessageOptions.DontRequireReceiver);
+		}
+		else if (Input.GetMouseButton(0))
+		{
+			tReceiver.SendMessage("OnTouchStay", m_tRaycastHit.point, SendMessageOptions.DontRequireReceiver);
+		}
+		*/
+	}
+
 	private void Update ()
 	{
 #if UNITY_EDITOR
@@ -29,20 +69,7 @@ public class CInputManager : MonoBehaviour
 			{
 				// Call appropriete method on gameobject
 				GameObject tObjectHit = m_tRaycastHit.transform.gameObject;
-				if (Input.GetMouseButtonDown(0))
-				{
-					tObjectHit.SendMessage("OnTouchDown", m_tRaycastHit.point, SendMessageOptions.DontRequireReceiver);
-				}
-				/* Not Used Yet
-				else if (Input.GetMouseButtonUp(0))
-				{
-					tObjectHit.SendMessage("OnTouchUp", m_tRaycastHit.point, SendMessageOptions.DontRequireReceiver);
-				}
-				else if (Input.GetMouseButton(0))
-				{
-					tObjectHit.SendMessage("OnTouchStay", m_tRaycastHit.point, SendMessageOptions.DontRequireReceiver);
-				}
-				*/
+				SendInputMessageMouse(tObjectHit);
 			}
 		}
 #else
@@ -57,24 +84,7 @@ public class CInputManager : MonoBehaviour
 				{
 					// Call appropriete method on gameobject
 					GameObject tObjectHit = m_tRaycastHit.transform.gameObject;
-					if (tTouch.phase == TouchPhase.Began)
-					{
-						tObjectHit.SendMessage("OnTouchDown", m_tRaycastHit.point, SendMessageOptions.DontRequireReceiver);
-					}
-					/* Not Used Yet
-					else if (tTouch.phase == TouchPhase.Ended)
-					{
-						tObjectHit.SendMessage("OnTouchUp", m_tRaycastHit.point, SendMessageOptions.DontRequireReceiver);
-					}
-					else if (tTouch.phase == TouchPhase.Stationary || tTouch.phase == TouchPhase.Moved)
-					{
-						tObjectHit.SendMessage("OnTouchStay", m_tRaycastHit.point, SendMessageOptions.DontRequireReceiver);
-					}
-					else if (tTouch.phase == TouchPhase.Canceled)
-					{
-						tObjectHit.SendMessage("OnTouchExit", m_tRaycastHit.point, SendMessageOptions.DontRequireReceiver);
-					}
-					*/
+					SendInputMessage(tObjectHit, tTouch);
 				}
 			}
 		}
